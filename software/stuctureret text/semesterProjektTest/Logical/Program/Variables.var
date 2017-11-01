@@ -1,9 +1,0 @@
-VAR
-	t : USINT;
-	x : UINT;
-	y : UINT;
-	z : UINT;
-	out : ARRAY[0..5] OF BOOL;
-	timer : TON;
-	i : UINT;
-END_VAR
