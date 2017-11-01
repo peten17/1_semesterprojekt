@@ -1,0 +1,8 @@
+VAR_CONFIG
+	::Program:out[0] AT %IX."X2".DigitalInput01;
+	::Program:out[1] AT %IX."X2".DigitalInput02;
+	::Program:out[2] AT %IX."X2".DigitalInput03;
+	::Program:out[3] AT %IX."X2".DigitalInput04;
+	::Program:out[4] AT %IX."X2".DigitalInput05;
+	::Program:out[5] AT %IX."X2".DigitalInput06;
+END_VAR

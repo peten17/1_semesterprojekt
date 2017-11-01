@@ -1,0 +1,8 @@
+VAR
+	x : UINT;
+	y : UINT;
+	z : UINT;
+	out : ARRAY[0..5] OF BOOL;
+	timer : TON;
+	i : UDINT;
+END_VAR
