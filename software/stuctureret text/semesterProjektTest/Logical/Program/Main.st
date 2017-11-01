@@ -1,7 +1,7 @@
 
 PROGRAM _INIT
-	input := ""
-	i := 0
+	input := 'XBN';
+	i := 0;
 	// X = højre af X aksen	
 	// A = venstre af X aksen	
 	// Y = højre af y aksen
@@ -16,27 +16,34 @@ END_PROGRAM
 PROGRAM _CYCLIC
 
 	timer.IN := TRUE;
-	timer.PT := T#1000ms;
+	timer.PT := T#100ms;
 	IF (MID(input, 1, i) = 'X') THEN
-		out[0] := TRUE;
-		
+		FOR t := 0 TO t < 2 BY t + 1 DO
+			out[0] := TRUE;
+			x := x+1;
+		END_FOR
 		
 	ELSIF (MID(input, 1, i) = 'A') THEN
 		out[1] := TRUE;
+		x := x-1;
 		
 	ELSIF (MID(input, 1, i) = 'Y') THEN
 		out[2] := TRUE;
+		y := y+1;
 		
 	ELSIF (MID(input, 1, i) = 'B') THEN
 		out[3] := TRUE;
+		y := y-1;
 		
 	ELSIF (MID(input, 1, i) = 'Z') THEN
 		out[4] := TRUE;
+		z := z+1;
 		
 	ELSIF (MID(input, 1, i) = 'C') THEN
 		out[5] := TRUE;
-	
-	ELSIF (MID(input, 1, i) = 'X') THEN
+		z := z-1;
+		
+	ELSIF (MID(input, 1, i) = 'N') THEN
 		
 	ELSE
 		
@@ -51,7 +58,7 @@ PROGRAM _CYCLIC
 		out[5] := FALSE;
 	END_IF
 		
-	i := i+1
+	i := i+1;
 	
 END_PROGRAM
 
