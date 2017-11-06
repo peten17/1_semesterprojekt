@@ -54,7 +54,6 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
@@ -62,25 +61,28 @@
 <wire x1="84.76" y1="0" x2="84.76" y2="80" width="0" layer="20"/>
 <wire x1="84.76" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<text x="78.74" y="76.2" size="1.778" layer="16" rot="MR0">24V out</text>
-<text x="62.23" y="2.54" size="1.016" layer="16" rot="MR0">Step-dir-en</text>
-<text x="45.72" y="2.54" size="1.016" layer="16" rot="MR0">Step-dir-en</text>
-<text x="30.48" y="2.54" size="1.016" layer="16" rot="MR0">Step-dir-en</text>
-<text x="83.82" y="41.91" size="1.016" layer="16" rot="MR270">Step-dir-en</text>
-<text x="49.53" y="67.31" size="1.016" layer="16" rot="MR180">Step-dir-en</text>
-<text x="38.1" y="68.58" size="1.016" layer="16" rot="MR0">En-dir-step</text>
-<text x="2.54" y="12.7" size="1.016" layer="16" rot="MR270">Switch start</text>
-<text x="2.54" y="24.13" size="1.016" layer="16" rot="MR270">Switch end</text>
-<text x="15.24" y="77.47" size="1.016" layer="16" rot="MR0">24V in</text>
-<text x="8.89" y="39.37" size="1.016" layer="16" rot="MR270">Sharp-6V</text>
-<text x="7.62" y="77.47" size="1.016" layer="16" rot="MR0">PLC-switch</text>
-<text x="76.708" y="46.609" size="1.016" layer="16" rot="MR0">24V in</text>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
+<package name="22-23-2041" library_version="1">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 <package name="22-23-2021" library_version="1">
 <description>.100" (2.54mm) Center Headers - 2 Pin</description>
 <wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.254" layer="21"/>
@@ -1267,49 +1269,6 @@ type 0204, grid 7.5 mm</description>
 </package3d>
 </packages3d>
 </library>
-<library name="diode" urn="urn:adsk.eagle:library:210">
-<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola : www.onsemi.com
-&lt;li&gt;Fairchild : www.fairchildsemi.com
-&lt;li&gt;Philips : www.semiconductors.com
-&lt;li&gt;Vishay : www.vishay.de
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DO41-10" urn="urn:adsk.eagle:footprint:43094/1" library_version="2">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="A" x="5.08" y="0" drill="1.1176"/>
-<pad name="C" x="-5.08" y="0" drill="1.1176"/>
-<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
-<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
-<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="DO41-10" urn="urn:adsk.eagle:package:43336/1" type="box" library_version="2">
-<description>DIODE
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1499,27 +1458,62 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
+<element name="DRIVERX" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2041" value="22-23-2041" x="27.94" y="6.35" rot="R180">
+<attribute name="MF" value="MOLEX" x="27.94" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="27.94" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="27.94" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="27.94" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="DRIVERY" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2041" value="22-23-2041" x="43.18" y="6.35" rot="R180">
+<attribute name="MF" value="MOLEX" x="43.18" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="43.18" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="43.18" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="43.18" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="24V-&gt;6V" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXS" package3d_urn="urn:adsk.eagle:package:30342/1" value="" x="8.89" y="50.8" rot="R270"/>
-<element name="PLC-SHARPENER-GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="20.32" y="72.39">
-<attribute name="MF" value="MOLEX" x="20.32" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="20.32" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="20.32" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="20.32" y="72.39" size="1.778" layer="27" display="off"/>
+<element name="PLC-DRIVERX" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2041" value="22-23-2041" x="33.02" y="66.04">
+<attribute name="MF" value="MOLEX" x="33.02" y="66.04" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="33.02" y="66.04" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="33.02" y="66.04" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="33.02" y="66.04" size="1.778" layer="27" display="off"/>
 </element>
-<element name="PLC-SWITCH" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="5.08" y="72.39">
-<attribute name="MF" value="MOLEX" x="5.08" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="5.08" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="5.08" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="5.08" y="72.39" size="1.778" layer="27" display="off"/>
+<element name="PLC-DRIVERY" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2041" value="22-23-2041" x="58.42" y="66.04">
+<attribute name="MF" value="MOLEX" x="58.42" y="66.04" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="58.42" y="66.04" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="58.42" y="66.04" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="58.42" y="66.04" size="1.778" layer="27" display="off"/>
 </element>
+<element name="PLC-DRIVERZ" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2041" value="22-23-2041" x="74.93" y="66.04" rot="R180">
+<attribute name="MF" value="MOLEX" x="74.93" y="66.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="74.93" y="66.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="74.93" y="66.04" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="74.93" y="66.04" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="PLC-SHARPENER-GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="15.24" y="72.39">
+<attribute name="MF" value="MOLEX" x="15.24" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="15.24" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="15.24" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="25C3832" x="15.24" y="72.39" size="1.778" layer="27" display="off"/>
+</element>
+<element name="PLC-SWITCH" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="6.35" y="72.39">
+<attribute name="MF" value="MOLEX" x="6.35" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="6.35" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="6.35" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="25C3832" x="6.35" y="72.39" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k" x="5.08" y="62.23" rot="R270"/>
 <element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="26.67" y="16.51" rot="R270"/>
 <element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="29.21" y="16.51" rot="R270"/>
+<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="31.75" y="16.51" rot="R270"/>
+<element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k" x="21.59" y="50.8" rot="R270"/>
 <element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k" x="27.94" y="50.8" rot="R270"/>
 <element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k" x="34.29" y="50.8" rot="R270"/>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k" x="40.64" y="50.8" rot="R270"/>
+<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k" x="53.34" y="49.53" rot="R270"/>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k" x="57.15" y="49.53" rot="R270"/>
 <element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k" x="60.96" y="49.53" rot="R270"/>
 <element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k" x="64.77" y="49.53" rot="R270"/>
+<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="46.99" y="16.51" rot="R270"/>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="44.45" y="16.51" rot="R270"/>
 <element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="41.91" y="16.51" rot="R270"/>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="39.37" y="16.51" rot="R270"/>
@@ -1539,84 +1533,54 @@ design rules under a new name.</description>
 <element name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457" x="66.04" y="25.4"/>
 <element name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457" x="60.96" y="19.05"/>
 <element name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457" x="19.05" y="17.78" rot="R270"/>
+<element name="T4" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457" x="53.34" y="31.75"/>
 <element name="T5" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457" x="22.86" y="31.75" rot="R270"/>
 <element name="T6" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457" x="27.94" y="31.75" rot="R270"/>
 <element name="T7" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457" x="33.02" y="31.75" rot="R270"/>
+<element name="T8" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457" x="38.1" y="31.75" rot="R270"/>
+<element name="T9" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:29893/2" value="2N3565" x="19.05" y="7.62" rot="R270"/>
+<element name="DRIVERZ" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2041" value="22-23-2041" x="74.93" y="6.35" rot="R180">
+<attribute name="MF" value="MOLEX" x="74.93" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="74.93" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="74.93" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="74.93" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="SHARPENER" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="7.62" y="30.48" rot="R90">
 <attribute name="MF" value="MOLEX" x="22.86" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="22.86" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1462926" x="22.86" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="25C3832" x="22.86" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="78.74" y="16.51" rot="R270"/>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="76.2" y="16.51" rot="R270"/>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="73.66" y="16.51" rot="R270"/>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k" x="71.12" y="16.51" rot="R270"/>
-<element name="24V-OUT" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="74.93" y="72.39">
-<attribute name="MF" value="MOLEX" x="74.93" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2031" x="74.93" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462950" x="74.93" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="30C0862" x="74.93" y="72.39" size="1.778" layer="27" display="off"/>
-</element>
-<element name="24V-IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="74.93" y="50.8" rot="R270">
-<attribute name="MF" value="MOLEX" x="74.93" y="50.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="74.93" y="50.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="74.93" y="50.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="74.93" y="50.8" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="PLC-Y" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="53.34" y="72.39">
-<attribute name="MF" value="MOLEX" x="53.34" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2031" x="53.34" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462950" x="53.34" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="30C0862" x="53.34" y="72.39" size="1.778" layer="27" display="off"/>
-</element>
-<element name="PLC-X" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="34.29" y="64.77" rot="R180">
-<attribute name="MF" value="MOLEX" x="34.29" y="64.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="22-23-2031" x="34.29" y="64.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1462950" x="34.29" y="64.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="30C0862" x="34.29" y="64.77" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="PLC-Z" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="78.74" y="38.1" rot="R270">
-<attribute name="MF" value="MOLEX" x="78.74" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="22-23-2031" x="78.74" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="1462950" x="78.74" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="30C0862" x="78.74" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="DRIVER-X" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="26.67" y="7.62" rot="R180">
-<attribute name="MF" value="MOLEX" x="26.67" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="22-23-2031" x="26.67" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1462950" x="26.67" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="30C0862" x="26.67" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="DRIVER-Y" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="41.91" y="7.62" rot="R180">
-<attribute name="MF" value="MOLEX" x="41.91" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="22-23-2031" x="41.91" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1462950" x="41.91" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="30C0862" x="41.91" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="DRIVER-Z" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="58.42" y="7.62" rot="R180">
-<attribute name="MF" value="MOLEX" x="58.42" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="22-23-2031" x="58.42" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1462950" x="58.42" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="30C0862" x="58.42" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="24V" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="12.7" y="72.39">
-<attribute name="MF" value="MOLEX" x="12.7" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="12.7" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="12.7" y="72.39" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="12.7" y="72.39" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4004" x="11.43" y="26.162" rot="R180"/>
 </elements>
 <signals>
+<signal name="N$16">
+<contactref element="T9" pad="1"/>
+<contactref element="SWITCH3+" pad="1"/>
+<contactref element="SWITCH3+" pad="2"/>
+<contactref element="SWITCH3+" pad="3"/>
+<wire x1="19.05" y1="6.35" x2="7.62" y2="6.35" width="0.8128" layer="16"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="8.89" width="0.8128" layer="16"/>
+<wire x1="7.62" y1="8.89" x2="7.62" y2="11.43" width="0.8128" layer="16"/>
+</signal>
 <signal name="GND">
+<contactref element="T9" pad="3"/>
 <contactref element="PLC-SHARPENER-GND" pad="2"/>
+<contactref element="T4" pad="3"/>
 <contactref element="T3" pad="3"/>
 <contactref element="T2" pad="3"/>
 <contactref element="T1" pad="3"/>
+<contactref element="T8" pad="3"/>
 <contactref element="T7" pad="3"/>
 <contactref element="T6" pad="3"/>
 <contactref element="T5" pad="3"/>
 <contactref element="24V-&gt;6V" pad="GND"/>
+<contactref element="SWITCH-GND" pad="1"/>
+<contactref element="SWITCH-GND" pad="3"/>
+<contactref element="SWITCH-GND" pad="2"/>
 <contactref element="SHARPENER" pad="2"/>
 <polygon width="0.8128" layer="1">
 <vertex x="-1.27" y="-1.27"/>
@@ -1625,27 +1589,30 @@ design rules under a new name.</description>
 <vertex x="86.36" y="81.28"/>
 <vertex x="86.36" y="-1.27"/>
 </polygon>
-<contactref element="24V-IN" pad="1"/>
-<contactref element="D1" pad="C"/>
 </signal>
 <signal name="N$13">
 <contactref element="PLC-SHARPENER-GND" pad="1"/>
 <contactref element="24V-&gt;6V" pad="IN"/>
-<wire x1="19.05" y1="72.39" x2="19.05" y2="73.66" width="0.8128" layer="16"/>
-<wire x1="19.05" y1="73.66" x2="16.51" y2="76.2" width="0.8128" layer="16"/>
-<wire x1="16.51" y1="76.2" x2="10.16" y2="76.2" width="0.8128" layer="16"/>
-<wire x1="10.16" y1="76.2" x2="8.89" y2="74.93" width="0.8128" layer="16"/>
-<wire x1="8.89" y1="74.93" x2="8.89" y2="55.88" width="0.8128" layer="16"/>
-<wire x1="8.89" y1="55.88" x2="6.35" y2="53.34" width="0.8128" layer="16"/>
+<wire x1="13.97" y1="72.39" x2="13.97" y2="68.58" width="1.27" layer="16"/>
+<wire x1="13.97" y1="68.58" x2="8.89" y2="63.5" width="1.27" layer="16"/>
+<wire x1="8.89" y1="63.5" x2="5.08" y2="63.5" width="1.27" layer="16"/>
+<wire x1="5.08" y1="63.5" x2="2.54" y2="60.96" width="1.27" layer="16"/>
+<wire x1="2.54" y1="60.96" x2="2.54" y2="57.15" width="1.27" layer="16"/>
+<wire x1="2.54" y1="57.15" x2="6.35" y2="53.34" width="1.27" layer="16"/>
+</signal>
+<signal name="N$9">
+<contactref element="T4" pad="2"/>
+<contactref element="R17" pad="2"/>
+<wire x1="53.34" y1="45.72" x2="53.34" y2="33.655" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="T3" pad="2"/>
 <contactref element="R18" pad="2"/>
 <wire x1="20.955" y1="17.78" x2="20.955" y2="27.94" width="0.8128" layer="16"/>
-<wire x1="20.955" y1="27.94" x2="17.018" y2="39.497" width="0.8128" layer="16"/>
-<wire x1="17.018" y1="39.497" x2="17.018" y2="60.198" width="0.8128" layer="16"/>
-<wire x1="17.018" y1="60.198" x2="29.21" y2="73.66" width="0.8128" layer="16"/>
-<wire x1="29.21" y1="73.66" x2="40.64" y2="73.66" width="0.8128" layer="16"/>
+<wire x1="20.955" y1="27.94" x2="13.208" y2="35.687" width="0.8128" layer="16"/>
+<wire x1="13.208" y1="35.687" x2="13.208" y2="60.198" width="0.8128" layer="16"/>
+<wire x1="13.208" y1="60.198" x2="26.67" y2="73.66" width="0.8128" layer="16"/>
+<wire x1="26.67" y1="73.66" x2="40.64" y2="73.66" width="0.8128" layer="16"/>
 <wire x1="40.64" y1="73.66" x2="46.99" y2="67.31" width="0.8128" layer="16"/>
 <wire x1="46.99" y1="67.31" x2="46.99" y2="50.8" width="0.8128" layer="16"/>
 <wire x1="46.99" y1="50.8" x2="48.26" y2="49.53" width="0.8128" layer="16"/>
@@ -1663,19 +1630,27 @@ design rules under a new name.</description>
 <wire x1="64.77" y1="45.72" x2="64.77" y2="28.575" width="0.8128" layer="16"/>
 <wire x1="64.77" y1="28.575" x2="66.04" y2="27.305" width="0.8128" layer="16"/>
 </signal>
+<signal name="N$17">
+<contactref element="T4" pad="1"/>
+<contactref element="R5" pad="1"/>
+<wire x1="46.99" y1="20.32" x2="54.61" y2="27.94" width="0.8128" layer="16"/>
+<wire x1="54.61" y1="27.94" x2="54.61" y2="31.75" width="0.8128" layer="16"/>
+</signal>
 <signal name="N$18">
 <contactref element="R8" pad="1"/>
 <contactref element="T1" pad="1"/>
 <wire x1="39.37" y1="20.32" x2="39.37" y2="16.51" width="0.8128" layer="16"/>
-<wire x1="40.64" y1="15.24" x2="39.37" y2="16.51" width="0.8128" layer="16"/>
-<wire x1="67.31" y1="25.4" x2="67.31" y2="16.51" width="0.8128" layer="16"/>
-<wire x1="67.31" y1="16.51" x2="66.04" y2="15.24" width="0.8128" layer="16"/>
-<wire x1="66.04" y1="15.24" x2="40.64" y2="15.24" width="0.8128" layer="16"/>
+<wire x1="39.37" y1="16.51" x2="40.64" y2="15.24" width="0.8128" layer="16"/>
+<wire x1="40.64" y1="15.24" x2="55.88" y2="15.24" width="0.8128" layer="16"/>
+<wire x1="55.88" y1="15.24" x2="60.96" y2="10.16" width="0.8128" layer="16"/>
+<wire x1="60.96" y1="10.16" x2="63.5" y2="10.16" width="0.8128" layer="16"/>
+<wire x1="63.5" y1="10.16" x2="67.31" y2="13.97" width="0.8128" layer="16"/>
+<wire x1="67.31" y1="13.97" x2="67.31" y2="25.4" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$19">
+<contactref element="DRIVERY" pad="4"/>
 <contactref element="R8" pad="2"/>
-<contactref element="DRIVER-Y" pad="3"/>
-<wire x1="39.37" y1="12.7" x2="39.37" y2="7.62" width="0.8128" layer="16"/>
+<wire x1="39.37" y1="12.7" x2="39.37" y2="6.35" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$20">
 <contactref element="T2" pad="1"/>
@@ -1689,9 +1664,9 @@ design rules under a new name.</description>
 <wire x1="41.91" y1="19.05" x2="41.91" y2="20.32" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$21">
+<contactref element="DRIVERY" pad="3"/>
 <contactref element="R7" pad="2"/>
-<contactref element="DRIVER-Y" pad="2"/>
-<wire x1="41.91" y1="7.62" x2="41.91" y2="12.7" width="0.8128" layer="16"/>
+<wire x1="41.91" y1="6.35" x2="41.91" y2="12.7" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$22">
 <contactref element="T3" pad="1"/>
@@ -1704,9 +1679,14 @@ design rules under a new name.</description>
 <wire x1="44.45" y1="21.59" x2="44.45" y2="20.32" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$23">
+<contactref element="DRIVERY" pad="2"/>
 <contactref element="R6" pad="2"/>
-<contactref element="DRIVER-Y" pad="1"/>
-<wire x1="44.45" y1="12.7" x2="44.45" y2="7.62" width="0.8128" layer="16"/>
+<wire x1="44.45" y1="6.35" x2="44.45" y2="12.7" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$24">
+<contactref element="DRIVERY" pad="1"/>
+<contactref element="R5" pad="2"/>
+<wire x1="46.99" y1="12.7" x2="46.99" y2="6.35" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="T7" pad="2"/>
@@ -1728,10 +1708,10 @@ design rules under a new name.</description>
 <contactref element="T5" pad="2"/>
 <contactref element="R16" pad="2"/>
 <wire x1="24.765" y1="31.75" x2="24.765" y2="36.195" width="0.8128" layer="16"/>
-<wire x1="24.765" y1="36.195" x2="19.05" y2="45.72" width="0.8128" layer="16"/>
-<wire x1="19.05" y1="45.72" x2="19.05" y2="58.42" width="0.8128" layer="16"/>
-<wire x1="19.05" y1="58.42" x2="30.48" y2="71.12" width="0.8128" layer="16"/>
-<wire x1="30.48" y1="71.12" x2="39.37" y2="71.12" width="0.8128" layer="16"/>
+<wire x1="24.765" y1="36.195" x2="15.24" y2="45.72" width="0.8128" layer="16"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="58.42" width="0.8128" layer="16"/>
+<wire x1="15.24" y1="58.42" x2="27.94" y2="71.12" width="0.8128" layer="16"/>
+<wire x1="27.94" y1="71.12" x2="39.37" y2="71.12" width="0.8128" layer="16"/>
 <wire x1="39.37" y1="71.12" x2="44.45" y2="66.04" width="0.8128" layer="16"/>
 <wire x1="44.45" y1="66.04" x2="44.45" y2="50.8" width="0.8128" layer="16"/>
 <wire x1="44.45" y1="50.8" x2="40.64" y2="46.99" width="0.8128" layer="16"/>
@@ -1755,26 +1735,83 @@ design rules under a new name.</description>
 <wire x1="29.21" y1="27.94" x2="31.75" y2="30.48" width="0.8128" layer="16"/>
 <wire x1="31.75" y1="30.48" x2="33.02" y2="30.48" width="0.8128" layer="16"/>
 </signal>
+<signal name="N$29">
+<contactref element="T8" pad="1"/>
+<contactref element="R12" pad="1"/>
+<wire x1="31.75" y1="20.32" x2="31.75" y2="26.67" width="0.8128" layer="16"/>
+<wire x1="31.75" y1="26.67" x2="34.29" y2="29.21" width="0.8128" layer="16"/>
+<wire x1="36.83" y1="29.21" x2="38.1" y2="30.48" width="0.8128" layer="16"/>
+<wire x1="34.29" y1="29.21" x2="36.83" y2="29.21" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$30">
+<contactref element="R12" pad="2"/>
+<contactref element="DRIVERX" pad="1"/>
+<wire x1="31.75" y1="6.35" x2="31.75" y2="12.7" width="0.8128" layer="16"/>
+</signal>
 <signal name="N$31">
 <contactref element="R11" pad="2"/>
-<contactref element="DRIVER-X" pad="1"/>
-<wire x1="29.21" y1="12.7" x2="29.21" y2="7.62" width="0.8128" layer="16"/>
+<contactref element="DRIVERX" pad="2"/>
+<wire x1="29.21" y1="6.35" x2="29.21" y2="12.7" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$26">
 <contactref element="R10" pad="2"/>
-<contactref element="DRIVER-X" pad="2"/>
-<wire x1="26.67" y1="12.7" x2="26.67" y2="7.62" width="0.8128" layer="16"/>
+<contactref element="DRIVERX" pad="3"/>
+<wire x1="26.67" y1="12.7" x2="26.67" y2="6.35" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$32">
 <contactref element="R9" pad="2"/>
-<contactref element="DRIVER-X" pad="3"/>
-<wire x1="24.13" y1="12.7" x2="24.13" y2="7.62" width="0.8128" layer="16"/>
+<contactref element="DRIVERX" pad="4"/>
+<wire x1="24.13" y1="6.35" x2="24.13" y2="12.7" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$5">
+<contactref element="R" pad="2"/>
+<contactref element="T9" pad="2"/>
+<wire x1="20.955" y1="7.62" x2="20.955" y2="10.795" width="0.8128" layer="16"/>
+<wire x1="20.955" y1="10.795" x2="19.05" y2="12.7" width="0.8128" layer="16"/>
+<wire x1="19.05" y1="12.7" x2="16.51" y2="12.7" width="0.8128" layer="16"/>
+<wire x1="16.51" y1="12.7" x2="11.43" y2="17.78" width="0.8128" layer="16"/>
+<wire x1="11.43" y1="17.78" x2="11.43" y2="55.88" width="0.8128" layer="16"/>
+<wire x1="11.43" y1="55.88" x2="8.89" y2="58.42" width="0.8128" layer="16"/>
+<wire x1="8.89" y1="58.42" x2="5.08" y2="58.42" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$15">
+<contactref element="R13" pad="2"/>
+<contactref element="T8" pad="2"/>
+<wire x1="21.59" y1="46.99" x2="21.59" y2="49.53" width="0.8128" layer="16"/>
+<wire x1="21.59" y1="49.53" x2="24.13" y2="52.07" width="0.8128" layer="16"/>
+<wire x1="24.13" y1="52.07" x2="35.56" y2="52.07" width="0.8128" layer="16"/>
+<wire x1="35.56" y1="52.07" x2="38.1" y2="49.53" width="0.8128" layer="16"/>
+<wire x1="38.1" y1="49.53" x2="38.1" y2="35.56" width="0.8128" layer="16"/>
+<wire x1="38.1" y1="35.56" x2="40.005" y2="33.655" width="0.8128" layer="16"/>
+<wire x1="40.005" y1="33.655" x2="40.005" y2="31.75" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$37">
 <contactref element="R14" pad="1"/>
-<wire x1="27.94" y1="54.61" x2="31.75" y2="58.42" width="0.8128" layer="16"/>
-<contactref element="PLC-X" pad="3"/>
-<wire x1="31.75" y1="58.42" x2="31.75" y2="64.77" width="0.8128" layer="16"/>
+<contactref element="PLC-DRIVERX" pad="2"/>
+<wire x1="31.75" y1="66.04" x2="31.75" y2="58.42" width="0.8128" layer="16"/>
+<wire x1="31.75" y1="58.42" x2="27.94" y2="54.61" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$38">
+<contactref element="R13" pad="1"/>
+<contactref element="PLC-DRIVERX" pad="1"/>
+<wire x1="29.21" y1="66.04" x2="29.21" y2="62.23" width="0.8128" layer="16"/>
+<wire x1="29.21" y1="62.23" x2="21.59" y2="54.61" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$39">
+<contactref element="R15" pad="1"/>
+<contactref element="PLC-DRIVERX" pad="3"/>
+<wire x1="34.29" y1="66.04" x2="34.29" y2="54.61" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$40">
+<contactref element="R16" pad="1"/>
+<contactref element="PLC-DRIVERX" pad="4"/>
+<wire x1="36.83" y1="66.04" x2="36.83" y2="58.42" width="0.8128" layer="16"/>
+<wire x1="36.83" y1="58.42" x2="40.64" y2="54.61" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$41">
+<contactref element="R" pad="1"/>
+<contactref element="PLC-SWITCH" pad="1"/>
+<wire x1="5.08" y1="72.39" x2="5.08" y2="66.04" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$14">
 <contactref element="SHARPENER" pad="1"/>
@@ -1785,120 +1822,68 @@ design rules under a new name.</description>
 <wire x1="3.81" y1="30.48" x2="5.08" y2="29.21" width="0.8128" layer="16"/>
 <wire x1="5.08" y1="29.21" x2="7.62" y2="29.21" width="0.8128" layer="16"/>
 </signal>
+<signal name="N$1">
+<contactref element="DRIVERZ" pad="1"/>
+<contactref element="R1" pad="2"/>
+<wire x1="78.74" y1="6.35" x2="78.74" y2="12.7" width="0.8128" layer="16"/>
+</signal>
 <signal name="N$2">
+<contactref element="DRIVERZ" pad="2"/>
 <contactref element="R2" pad="2"/>
-<contactref element="DRIVER-Z" pad="1"/>
-<wire x1="76.2" y1="12.7" x2="71.12" y2="7.62" width="0.8128" layer="16"/>
-<wire x1="71.12" y1="7.62" x2="60.96" y2="7.62" width="0.8128" layer="16"/>
+<wire x1="76.2" y1="6.35" x2="76.2" y2="12.7" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$3">
+<contactref element="DRIVERZ" pad="3"/>
 <contactref element="R3" pad="2"/>
-<contactref element="DRIVER-Z" pad="2"/>
-<wire x1="73.66" y1="12.7" x2="71.12" y2="10.16" width="0.8128" layer="16"/>
-<wire x1="59.69" y1="10.16" x2="58.42" y2="8.89" width="0.8128" layer="16"/>
-<wire x1="58.42" y1="8.89" x2="58.42" y2="7.62" width="0.8128" layer="16"/>
-<wire x1="71.12" y1="10.16" x2="59.69" y2="10.16" width="0.8128" layer="16"/>
+<wire x1="73.66" y1="6.35" x2="73.66" y2="12.7" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$4">
+<contactref element="DRIVERZ" pad="4"/>
 <contactref element="R4" pad="2"/>
-<contactref element="DRIVER-Z" pad="3"/>
-<wire x1="71.12" y1="12.7" x2="57.15" y2="12.7" width="0.8128" layer="16"/>
-<wire x1="57.15" y1="12.7" x2="55.88" y2="11.43" width="0.8128" layer="16"/>
-<wire x1="55.88" y1="11.43" x2="55.88" y2="7.62" width="0.8128" layer="16"/>
+<wire x1="71.12" y1="12.7" x2="71.12" y2="6.35" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$33">
 <contactref element="R4" pad="1"/>
-<contactref element="PLC-Z" pad="1"/>
-<wire x1="78.74" y1="40.64" x2="73.66" y2="40.64" width="0.8128" layer="16"/>
-<wire x1="73.66" y1="40.64" x2="71.12" y2="38.1" width="0.8128" layer="16"/>
-<wire x1="71.12" y1="38.1" x2="71.12" y2="20.32" width="0.8128" layer="16"/>
+<contactref element="PLC-DRIVERZ" pad="4"/>
+<wire x1="71.12" y1="66.04" x2="71.12" y2="20.32" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$34">
 <contactref element="R3" pad="1"/>
-<contactref element="PLC-Z" pad="2"/>
-<wire x1="78.74" y1="38.1" x2="74.93" y2="38.1" width="0.8128" layer="16"/>
-<wire x1="74.93" y1="38.1" x2="73.66" y2="36.83" width="0.8128" layer="16"/>
-<wire x1="73.66" y1="36.83" x2="73.66" y2="20.32" width="0.8128" layer="16"/>
+<contactref element="PLC-DRIVERZ" pad="3"/>
+<wire x1="73.66" y1="20.32" x2="73.66" y2="66.04" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$35">
 <contactref element="R2" pad="1"/>
-<contactref element="PLC-Z" pad="3"/>
-<wire x1="78.74" y1="35.56" x2="76.2" y2="33.02" width="0.8128" layer="16"/>
-<wire x1="76.2" y1="33.02" x2="76.2" y2="20.32" width="0.8128" layer="16"/>
-</signal>
-<signal name="N$1">
-<contactref element="24V-IN" pad="2"/>
-<contactref element="24V-OUT" pad="1"/>
-<contactref element="24V-OUT" pad="2"/>
-<contactref element="24V-OUT" pad="3"/>
-<wire x1="74.93" y1="72.39" x2="74.93" y2="58.42" width="0.8128" layer="16"/>
-<wire x1="74.93" y1="58.42" x2="80.01" y2="53.34" width="0.8128" layer="16"/>
-<wire x1="80.01" y1="53.34" x2="80.01" y2="50.8" width="0.8128" layer="16"/>
-<wire x1="80.01" y1="50.8" x2="78.74" y2="49.53" width="0.8128" layer="16"/>
-<wire x1="78.74" y1="49.53" x2="74.93" y2="49.53" width="0.8128" layer="16"/>
-<wire x1="77.47" y1="72.39" x2="74.93" y2="72.39" width="0.8128" layer="16"/>
-<wire x1="72.39" y1="72.39" x2="74.93" y2="72.39" width="0.8128" layer="16"/>
-</signal>
-<signal name="N$9">
-<contactref element="R15" pad="1"/>
-<contactref element="PLC-X" pad="2"/>
-<wire x1="34.29" y1="54.61" x2="34.29" y2="64.77" width="0.8128" layer="16"/>
-</signal>
-<signal name="N$15">
-<contactref element="R16" pad="1"/>
-<contactref element="PLC-X" pad="1"/>
-<wire x1="40.64" y1="54.61" x2="36.83" y2="58.42" width="0.8128" layer="16"/>
-<wire x1="36.83" y1="58.42" x2="36.83" y2="64.77" width="0.8128" layer="16"/>
-</signal>
-<signal name="N$17">
-<contactref element="R18" pad="1"/>
-<contactref element="PLC-Y" pad="3"/>
-<wire x1="57.15" y1="53.34" x2="57.15" y2="71.12" width="0.8128" layer="16"/>
-<wire x1="57.15" y1="71.12" x2="55.88" y2="72.39" width="0.8128" layer="16"/>
-</signal>
-<signal name="N$24">
-<contactref element="R19" pad="1"/>
-<contactref element="PLC-Y" pad="2"/>
-<wire x1="60.96" y1="53.34" x2="60.96" y2="73.66" width="0.8128" layer="16"/>
-<wire x1="60.96" y1="73.66" x2="59.69" y2="74.93" width="0.8128" layer="16"/>
-<wire x1="59.69" y1="74.93" x2="54.61" y2="74.93" width="0.8128" layer="16"/>
-<wire x1="54.61" y1="74.93" x2="53.34" y2="73.66" width="0.8128" layer="16"/>
-<wire x1="53.34" y1="73.66" x2="53.34" y2="72.39" width="0.8128" layer="16"/>
-</signal>
-<signal name="N$29">
-<contactref element="R20" pad="1"/>
-<contactref element="PLC-Y" pad="1"/>
-<wire x1="64.77" y1="53.34" x2="64.77" y2="72.39" width="0.8128" layer="16"/>
-<wire x1="64.77" y1="72.39" x2="60.96" y2="76.2" width="0.8128" layer="16"/>
-<wire x1="60.96" y1="76.2" x2="52.07" y2="76.2" width="0.8128" layer="16"/>
-<wire x1="52.07" y1="76.2" x2="50.8" y2="74.93" width="0.8128" layer="16"/>
-<wire x1="50.8" y1="74.93" x2="50.8" y2="72.39" width="0.8128" layer="16"/>
+<contactref element="PLC-DRIVERZ" pad="2"/>
+<wire x1="76.2" y1="66.04" x2="76.2" y2="20.32" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$36">
-<contactref element="24V" pad="1"/>
-<contactref element="SWITCH3+" pad="1"/>
-<contactref element="SWITCH3+" pad="2"/>
-<contactref element="SWITCH3+" pad="3"/>
-<wire x1="7.62" y1="6.35" x2="7.62" y2="8.89" width="0.8128" layer="16"/>
-<wire x1="7.62" y1="11.43" x2="7.62" y2="8.89" width="0.8128" layer="16"/>
-<wire x1="7.62" y1="11.43" x2="11.43" y2="15.24" width="0.8128" layer="16"/>
-<wire x1="11.43" y1="15.24" x2="11.43" y2="72.39" width="0.8128" layer="16"/>
+<contactref element="R1" pad="1"/>
+<contactref element="PLC-DRIVERZ" pad="1"/>
+<wire x1="78.74" y1="20.32" x2="78.74" y2="66.04" width="0.8128" layer="16"/>
 </signal>
-<signal name="N$5">
-<contactref element="SWITCH-GND" pad="1"/>
-<contactref element="SWITCH-GND" pad="3"/>
-<contactref element="SWITCH-GND" pad="2"/>
-<contactref element="PLC-SWITCH" pad="1"/>
-<contactref element="D1" pad="A"/>
-<wire x1="7.62" y1="22.86" x2="7.62" y2="24.892" width="0.8128" layer="16"/>
-<wire x1="7.62" y1="24.892" x2="6.35" y2="26.162" width="0.8128" layer="16"/>
-<wire x1="7.62" y1="17.78" x2="7.62" y2="20.32" width="0.8128" layer="16"/>
-<wire x1="7.62" y1="20.32" x2="7.62" y2="22.86" width="0.8128" layer="16"/>
-<wire x1="6.35" y1="26.162" x2="5.588" y2="26.162" width="0.8128" layer="16"/>
-<wire x1="1.27" y1="30.48" x2="5.588" y2="26.162" width="0.8128" layer="16"/>
-<wire x1="3.81" y1="72.39" x2="3.81" y2="60.96" width="0.8128" layer="16"/>
-<wire x1="3.81" y1="60.96" x2="1.27" y2="58.42" width="0.8128" layer="16"/>
-<wire x1="1.27" y1="58.42" x2="1.27" y2="30.48" width="0.8128" layer="16"/>
+<signal name="N$42">
+<contactref element="R19" pad="1"/>
+<contactref element="PLC-DRIVERY" pad="3"/>
+<wire x1="59.69" y1="66.04" x2="59.69" y2="54.61" width="0.8128" layer="16"/>
+<wire x1="59.69" y1="54.61" x2="60.96" y2="53.34" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$43">
+<contactref element="R20" pad="1"/>
+<contactref element="PLC-DRIVERY" pad="4"/>
+<wire x1="62.23" y1="66.04" x2="62.23" y2="55.88" width="0.8128" layer="16"/>
+<wire x1="62.23" y1="55.88" x2="64.77" y2="53.34" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$44">
+<contactref element="R18" pad="1"/>
+<contactref element="PLC-DRIVERY" pad="2"/>
+<wire x1="57.15" y1="53.34" x2="57.15" y2="66.04" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$45">
+<contactref element="R17" pad="1"/>
+<contactref element="PLC-DRIVERY" pad="1"/>
+<wire x1="54.61" y1="66.04" x2="54.61" y2="54.61" width="0.8128" layer="16"/>
+<wire x1="54.61" y1="54.61" x2="53.34" y2="53.34" width="0.8128" layer="16"/>
 </signal>
 </signals>
 </board>
