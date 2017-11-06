@@ -117,7 +117,7 @@ public class Picture {
             }
             original = original + 'N';
         }
+        original = original + 'Q';
         System.out.println(original);
     }
-
 }
