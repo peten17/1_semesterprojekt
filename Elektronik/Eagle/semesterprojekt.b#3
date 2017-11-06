@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -68,13 +68,13 @@
 <text x="30.48" y="2.54" size="1.016" layer="16" rot="MR0">Step-dir-en</text>
 <text x="83.82" y="41.91" size="1.016" layer="16" rot="MR270">Step-dir-en</text>
 <text x="49.53" y="67.31" size="1.016" layer="16" rot="MR180">Step-dir-en</text>
+<text x="20.32" y="57.15" size="1.016" layer="1">Step-dir-en</text>
 <text x="38.1" y="68.58" size="1.016" layer="16" rot="MR0">En-dir-step</text>
 <text x="2.54" y="12.7" size="1.016" layer="16" rot="MR270">Switch start</text>
 <text x="2.54" y="24.13" size="1.016" layer="16" rot="MR270">Switch end</text>
 <text x="15.24" y="77.47" size="1.016" layer="16" rot="MR0">24V in</text>
 <text x="8.89" y="39.37" size="1.016" layer="16" rot="MR270">Sharp-6V</text>
 <text x="7.62" y="77.47" size="1.016" layer="16" rot="MR0">PLC-switch</text>
-<text x="76.708" y="46.609" size="1.016" layer="16" rot="MR0">24V in</text>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
