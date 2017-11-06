@@ -5,7 +5,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Package.pkg"
     LogicalPath=""
     Type="Package"
-    LastWriteTime="131539345116986401" />
+    LastWriteTime="131544347643896205" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -16,7 +16,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="131540081857407191"
+    LastWriteTime="131544387536140243"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\Package.pkg"
@@ -142,12 +142,12 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\IEC.prg"
     LogicalPath="Program"
     Type="Program"
-    LastWriteTime="131539345116971362" />
+    LastWriteTime="131544371628795862" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Main.st"
     LogicalPath="Program.Main.st"
     Type="File"
-    LastWriteTime="131540083348464718"
+    LastWriteTime="131544370958987559"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Types.typ"
@@ -159,7 +159,30 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Variables.var"
     LogicalPath="Program.Variables.var"
     Type="File"
-    LastWriteTime="131540077311804949"
+    LastWriteTime="131540940978372879"
+    Private="true" />
+  <Object
+    Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\IEC.prg"
+    LogicalPath="reset"
+    Type="Program"
+    LastWriteTime="131544347412148946" />
+  <Object
+    Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Main.st"
+    LogicalPath="reset.Main.st"
+    Type="File"
+    LastWriteTime="131544429694143290"
+    Private="false" />
+  <Object
+    Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Types.typ"
+    LogicalPath="reset.Types.typ"
+    Type="File"
+    LastWriteTime="131544347412053704"
+    Private="true" />
+  <Object
+    Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Variables.var"
+    LogicalPath="reset.Variables.var"
+    Type="File"
+    LastWriteTime="131544347412113861"
     Private="true" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Config.pkg"
@@ -170,7 +193,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="131540064577116802"
+    LastWriteTime="131544372106785922"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.hwl"
@@ -187,7 +210,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Cpu.sw"
     LogicalPath="Config1.X20CP1382.Cpu.sw"
     Type="File"
-    LastWriteTime="131539347027250048"
+    LastWriteTime="131544391575026720"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Cpu.per"
@@ -199,7 +222,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\IoMap.iom"
     LogicalPath="Config1.X20CP1382.IoMap.iom"
     Type="File"
-    LastWriteTime="131539379273221575"
+    LastWriteTime="131544370464383780"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\PvMap.vvm"

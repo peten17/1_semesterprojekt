@@ -175,27 +175,21 @@
 </LN>
 <LN ID="%IX.X2.DigitalInput01" Type="BOOL">
 <Prod Device="X2" DPName="DigitalInput01" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::Program:out[0]" Kind="pv"/>
 </LN>
 <LN ID="%IX.X2.DigitalInput02" Type="BOOL">
 <Prod Device="X2" DPName="DigitalInput02" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::Program:out[1]" Kind="pv"/>
 </LN>
 <LN ID="%IX.X2.DigitalInput03" Type="BOOL">
 <Prod Device="X2" DPName="DigitalInput03" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::Program:out[2]" Kind="pv"/>
 </LN>
 <LN ID="%IX.X2.DigitalInput04" Type="BOOL">
 <Prod Device="X2" DPName="DigitalInput04" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::Program:out[3]" Kind="pv"/>
 </LN>
 <LN ID="%IX.X2.DigitalInput05" Type="BOOL">
 <Prod Device="X2" DPName="DigitalInput05" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::Program:out[4]" Kind="pv"/>
 </LN>
 <LN ID="%IX.X2.DigitalInput06" Type="BOOL">
 <Prod Device="X2" DPName="DigitalInput06" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::Program:out[5]" Kind="pv"/>
 </LN>
 <LN ID="%IX.X2.DigitalInput07" Type="BOOL">
 <Prod Device="X2" DPName="DigitalInput07" Kind="io"/>

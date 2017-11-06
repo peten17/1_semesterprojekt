@@ -3,6 +3,7 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="I4.33"/>
   <Hardware Target="SG4"/>
+  <Operation Delete="reset.br"/>
   <Operation Delete="Program.br"/>
   <Operation Delete="asieccon.br"/>
   <Operation Delete="astime.br"/>
@@ -11,15 +12,16 @@
   <Operation Download="arconfig.br" Memory="SystemROM"/>
   <Operation Download="sysconf.br" Memory="SystemROM"/>
   <Operation Restart="warm"/>
+  <Operation Download="udbdef.br" Memory="UserROM"/>
+  <Operation Download="TCData.br" Memory="SystemROM"/>
+  <Operation Download="ashwac.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
   <Operation Download="runtime.br" Memory="UserROM"/>
   <Operation Download="astime.br" Memory="UserROM"/>
   <Operation Download="asieccon.br" Memory="UserROM"/>
-  <Operation Download="standard.br" Memory="UserROM"/>
-  <Operation Download="ashwac.br" Memory="UserROM"/>
-  <Operation Download="iomap.br" Memory="UserROM"/>
-  <Operation Download="Role.br" Memory="UserROM"/>
-  <Operation Download="TCData.br" Memory="SystemROM"/>
-  <Operation Download="udbdef.br" Memory="UserROM"/>
-  <Operation Download="User.br" Memory="UserROM"/>
   <Operation Download="Program.br" Memory="UserROM"/>
+  <Operation Download="reset.br" Memory="UserROM"/>
 </Transfer>

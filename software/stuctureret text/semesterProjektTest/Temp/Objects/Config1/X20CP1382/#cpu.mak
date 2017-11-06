@@ -18,6 +18,7 @@ $(AS_CPU_PATH)/sysconf.br \
 $(AS_CPU_PATH)/arconfig.br \
 $(AS_CPU_PATH)/ashwac.br \
 $(AS_CPU_PATH)/Program.br \
+$(AS_CPU_PATH)/reset.br \
 $(AS_CPU_PATH)/iomap.br \
 $(AS_CPU_PATH)/Role.br \
 $(AS_CPU_PATH)/User.br \
@@ -32,6 +33,7 @@ $(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/Transfer.lst: \
 	$(AS_CPU_PATH)/arconfig.br \
 	$(AS_CPU_PATH)/ashwac.br \
 	$(AS_CPU_PATH)/Program.br \
+	$(AS_CPU_PATH)/reset.br \
 	$(AS_CPU_PATH)/iomap.br \
 	$(AS_CPU_PATH)/Role.br \
 	$(AS_CPU_PATH)/User.br \
@@ -45,6 +47,7 @@ include $(AS_CPU_PATH)/TCData/TCData.mak
 include $(AS_CPU_PATH)/User/User.mak
 include $(AS_CPU_PATH)/Role/Role.mak
 include $(AS_CPU_PATH)/iomap/iomap.mak
+include $(AS_CPU_PATH)/reset/reset.mak
 include $(AS_CPU_PATH)/Program/Program.mak
 include $(AS_CPU_PATH)/ashwac/ashwac.mak
 include $(AS_CPU_PATH)/arconfig/arconfig.mak

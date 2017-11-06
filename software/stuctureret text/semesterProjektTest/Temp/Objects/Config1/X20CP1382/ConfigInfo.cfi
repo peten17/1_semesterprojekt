@@ -27,7 +27,20 @@
   <TaskClass
     Name="Cyclic#6" />
   <TaskClass
-    Name="Cyclic#7" />
+    Name="Cyclic#7">
+    <Task
+      Name="reset"
+      Disable="false"
+      Source="reset"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\reset\Main.st.var" />
+      <File
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Types.typ" />
+      <File
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Variables.var" />
+    </Task>
+  </TaskClass>
   <TaskClass
     Name="Cyclic#8" />
 </ConfigInfo>

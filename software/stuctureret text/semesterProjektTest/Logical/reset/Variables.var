@@ -1,0 +1,4 @@
+VAR
+	resetXYZ : USINT;
+	swCount : UINT;
+END_VAR
