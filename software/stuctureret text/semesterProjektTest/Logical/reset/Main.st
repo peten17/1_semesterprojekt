@@ -53,8 +53,11 @@ PROGRAM _CYCLIC
 			resetXYZ:= 3;
 		END_IF
 		IF (resetXYZ = 3 AND switch = FALSE) THEN
+			posX := 0;
+			posY := 0;
+			posZ := 0;
 			reset:= FALSE;
-
+			
 			
 		END_IF
 		

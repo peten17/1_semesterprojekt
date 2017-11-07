@@ -1,19 +1,19 @@
 VAR
-	t : USINT;
+	dirX : BOOL;
+	dirY : BOOL;
+	dirZ : BOOL;
+	enabX : BOOL;
+	enabY : BOOL;
+	enabZ : BOOL;
+	input : STRING[80];
+
 	posX : UINT;
 	posY : UINT;
-	switch : BOOL;
 	posZ : UINT;
-	stepX : BOOL;
-	input : STRING[80];
-	stepZ : BOOL;
-	stepY : BOOL;
-	enabZ : BOOL;
-	enabY : BOOL;
-	enabX : BOOL;
 	reset : BOOL;
-	dirZ : BOOL;
-	dirY : BOOL;
-	dirX : BOOL;
-
+	stepX : BOOL;
+	stepY : BOOL;
+	stepZ : BOOL;
+	switch : BOOL;
+	t : USINT;
 END_VAR

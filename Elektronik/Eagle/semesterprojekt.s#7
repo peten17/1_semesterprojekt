@@ -4379,7 +4379,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="T9" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PLC-DRIVERZ" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
-<part name="PLC-SHARPENER" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="PLC-SHARPENER-GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PLC-DRIVERY" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -4407,7 +4407,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1"/>
+<part name="24V-&gt;6V" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SWITCH-GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -4451,8 +4451,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="PLC-DRIVERZ" gate="-2" x="-27.94" y="-20.32" rot="MR0"/>
 <instance part="PLC-DRIVERZ" gate="-3" x="-27.94" y="-22.86" rot="MR0"/>
 <instance part="PLC-DRIVERZ" gate="-4" x="-27.94" y="-25.4" rot="MR0"/>
-<instance part="PLC-SHARPENER" gate="-1" x="-27.94" y="-40.64" rot="MR0"/>
-<instance part="PLC-SHARPENER" gate="-2" x="-27.94" y="-43.18" rot="MR0"/>
+<instance part="PLC-SHARPENER-GND" gate="-1" x="-27.94" y="-40.64" rot="MR0"/>
+<instance part="PLC-SHARPENER-GND" gate="-2" x="-27.94" y="-43.18" rot="MR0"/>
 <instance part="GND10" gate="1" x="-17.78" y="-45.72"/>
 <instance part="PLC-DRIVERY" gate="-1" x="-30.48" y="25.4" rot="MR0"/>
 <instance part="PLC-DRIVERY" gate="-2" x="-30.48" y="17.78" rot="MR0"/>
@@ -4486,7 +4486,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R10" gate="G$1" x="86.36" y="66.04"/>
 <instance part="R11" gate="G$1" x="86.36" y="73.66"/>
 <instance part="R12" gate="G$1" x="86.36" y="81.28"/>
-<instance part="IC1" gate="1" x="17.78" y="-40.64"/>
+<instance part="24V-&gt;6V" gate="1" x="17.78" y="-40.64"/>
 <instance part="GND11" gate="1" x="17.78" y="-53.34"/>
 <instance part="SWITCH-GND" gate="-1" x="45.72" y="109.22" rot="R90"/>
 <instance part="SWITCH-GND" gate="-2" x="48.26" y="109.22" rot="R90"/>
@@ -4527,6 +4527,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="33.02" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <junction x="22.86" y="106.68"/>
 <junction x="27.94" y="106.68"/>
+<junction x="33.02" y="106.68"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4535,7 +4536,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="PLC-SHARPENER" gate="-2" pin="S"/>
+<pinref part="PLC-SHARPENER-GND" gate="-2" pin="S"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="-17.78" y1="-43.18" x2="-25.4" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
@@ -4576,7 +4577,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="1" pin="GND"/>
+<pinref part="24V-&gt;6V" gate="1" pin="GND"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="17.78" y1="-48.26" x2="17.78" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
@@ -4600,9 +4601,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="PLC-SHARPENER" gate="-1" pin="S"/>
+<pinref part="PLC-SHARPENER-GND" gate="-1" pin="S"/>
 <wire x1="-25.4" y1="-40.64" x2="10.16" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="IN"/>
+<pinref part="24V-&gt;6V" gate="1" pin="IN"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4715,26 +4716,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<wire x1="2.54" y1="50.8" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="55.88" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="T6" gate="G$1" pin="B"/>
-<wire x1="7.62" y1="58.42" x2="12.7" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="58.42" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="50.8" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="50.8" x2="-17.78" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="50.8" x2="-17.78" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="5.08" y1="43.18" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="53.34" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="53.34" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="43.18" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="T5" gate="G$1" pin="B"/>
-<wire x1="10.16" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="55.88" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="43.18" x2="-17.78" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="43.18" x2="-17.78" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -4855,7 +4850,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="SHARPENER" gate="-1" pin="S"/>
 <wire x1="81.28" y1="-20.32" x2="121.92" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="-40.64" x2="25.4" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="OUT"/>
+<pinref part="24V-&gt;6V" gate="1" pin="OUT"/>
 </segment>
 </net>
 <net name="N$1" class="0">
