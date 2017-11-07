@@ -1,6 +1,6 @@
 
 PROGRAM _INIT
-	input := 'XBN';
+	input := ;
 
 	// R = next pixel
 	// N = new line
