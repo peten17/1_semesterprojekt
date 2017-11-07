@@ -1,2 +1,2 @@
+reset	"$(AS_CPU_PATH)/reset/a.out" -o "$(AS_CPU_PATH)/reset/reset.ox" -T SG4 -r Cyclic3   -G V4.1.2  -B I4.33
 Program	"$(AS_CPU_PATH)/Program/a.out" -o "$(AS_CPU_PATH)/Program/Program.ox" -T SG4 -r Cyclic4   -G V4.1.2  -B I4.33
-reset	"$(AS_CPU_PATH)/reset/a.out" -o "$(AS_CPU_PATH)/reset/reset.ox" -T SG4 -r Cyclic7   -G V4.1.2  -B I4.33
