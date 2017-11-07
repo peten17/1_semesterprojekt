@@ -1,6 +1,7 @@
 VAR
 
-	timer : TON;
+	(*timer : TON;*)
 	i : UINT;
-	
+	placeInString : UINT;
+	placement : STRING[10];
 END_VAR
