@@ -54,6 +54,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -61,22 +62,6 @@
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="22-23-2041" library_version="1">
-<description>.100" (2.54mm) Center Header - 4 Pin</description>
-<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
-<wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="1.27" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="22-23-2021" library_version="1">
 <description>.100" (2.54mm) Center Headers - 2 Pin</description>
 <wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.254" layer="21"/>
@@ -121,33 +106,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="22-23-2041" prefix="X" library_version="1">
-<description>.100" (2.54mm) Center Header - 4 Pin</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="22-23-2041">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2041" constant="no"/>
-<attribute name="OC_FARNELL" value="1462920" constant="no"/>
-<attribute name="OC_NEWARK" value="38C0355" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="22-23-2021" prefix="X" library_version="1">
 <description>.100" (2.54mm) Center Header - 2 Pin</description>
 <gates>
@@ -4362,6 +4320,87 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="diode" urn="urn:adsk.eagle:library:210">
+<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola : www.onsemi.com
+&lt;li&gt;Fairchild : www.fairchildsemi.com
+&lt;li&gt;Philips : www.semiconductors.com
+&lt;li&gt;Vishay : www.vishay.de
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DO41-10" urn="urn:adsk.eagle:footprint:43094/1" library_version="2">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="A" x="5.08" y="0" drill="1.1176"/>
+<pad name="C" x="-5.08" y="0" drill="1.1176"/>
+<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
+<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
+<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="DO41-10" urn="urn:adsk.eagle:package:43336/1" type="box" library_version="2">
+<description>DIODE
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="D" urn="urn:adsk.eagle:symbol:43091/1" library_version="2">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1N4004" urn="urn:adsk.eagle:component:43462/1" prefix="D" library_version="2">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+general purpose rectifier, 1 A</description>
+<gates>
+<gate name="1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO41-10">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43336/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4372,177 +4411,138 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="DRIVERY" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
-<part name="DRIVERX" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
 <part name="PLC-SWITCH" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="SWITCH3+" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
-<part name="T9" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2"/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PLC-DRIVERZ" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
-<part name="PLC-SHARPENER" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="PLC-24V" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PLC-DRIVERY" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
 <part name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
 <part name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
-<part name="T4" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
-<part name="PLC-DRIVERX" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
 <part name="T5" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
 <part name="T6" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
 <part name="T7" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
-<part name="T8" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
-<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="24V-&gt;6V" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SWITCH-GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k"/>
-<part name="R" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="100k"/>
-<part name="DRIVERZ" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
 <part name="SHARPENER" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="24V-OUT" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
+<part name="24V-IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="PLC-Y" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
+<part name="PLC-X" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
+<part name="PLC-Z" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
+<part name="DRIVER-X" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
+<part name="DRIVER-Y" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
+<part name="DRIVER-Z" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
+<part name="24V" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="DRIVERY" gate="-1" x="121.92" y="48.26"/>
-<instance part="DRIVERY" gate="-2" x="121.92" y="40.64"/>
-<instance part="DRIVERY" gate="-3" x="121.92" y="33.02"/>
-<instance part="DRIVERY" gate="-4" x="121.92" y="25.4"/>
-<instance part="DRIVERX" gate="-1" x="119.38" y="81.28"/>
-<instance part="DRIVERX" gate="-2" x="119.38" y="73.66"/>
-<instance part="DRIVERX" gate="-3" x="119.38" y="66.04"/>
-<instance part="DRIVERX" gate="-4" x="119.38" y="58.42"/>
-<instance part="PLC-SWITCH" gate="-1" x="-33.02" y="101.6" rot="MR0"/>
-<instance part="SWITCH3+" gate="-1" x="22.86" y="109.22" rot="R90"/>
-<instance part="SWITCH3+" gate="-2" x="27.94" y="109.22" rot="R90"/>
-<instance part="SWITCH3+" gate="-3" x="33.02" y="109.22" rot="R90"/>
-<instance part="T9" gate="G$1" x="5.08" y="101.6"/>
-<instance part="GND5" gate="1" x="7.62" y="93.98"/>
-<instance part="PLC-DRIVERZ" gate="-1" x="-27.94" y="-17.78" rot="MR0"/>
-<instance part="PLC-DRIVERZ" gate="-2" x="-27.94" y="-20.32" rot="MR0"/>
-<instance part="PLC-DRIVERZ" gate="-3" x="-27.94" y="-22.86" rot="MR0"/>
-<instance part="PLC-DRIVERZ" gate="-4" x="-27.94" y="-25.4" rot="MR0"/>
-<instance part="PLC-SHARPENER" gate="-1" x="-27.94" y="-40.64" rot="MR0"/>
-<instance part="PLC-SHARPENER" gate="-2" x="-27.94" y="-43.18" rot="MR0"/>
+<instance part="PLC-SWITCH" gate="-1" x="35.56" y="111.76" rot="MR180"/>
+<instance part="SWITCH3+" gate="-1" x="-5.08" y="124.46" rot="R90"/>
+<instance part="SWITCH3+" gate="-2" x="0" y="124.46" rot="R90"/>
+<instance part="SWITCH3+" gate="-3" x="5.08" y="124.46" rot="R90"/>
+<instance part="PLC-24V" gate="-1" x="-27.94" y="-40.64" rot="MR0"/>
+<instance part="PLC-24V" gate="-2" x="-27.94" y="-43.18" rot="MR0"/>
 <instance part="GND10" gate="1" x="-17.78" y="-45.72"/>
-<instance part="PLC-DRIVERY" gate="-1" x="-30.48" y="25.4" rot="MR0"/>
-<instance part="PLC-DRIVERY" gate="-2" x="-30.48" y="17.78" rot="MR0"/>
-<instance part="PLC-DRIVERY" gate="-3" x="-30.48" y="10.16" rot="MR0"/>
-<instance part="PLC-DRIVERY" gate="-4" x="-30.48" y="2.54" rot="MR0"/>
-<instance part="GND6" gate="1" x="17.78" y="27.94"/>
 <instance part="GND7" gate="1" x="25.4" y="27.94"/>
 <instance part="GND8" gate="1" x="33.02" y="27.94"/>
 <instance part="GND9" gate="1" x="40.64" y="27.94"/>
 <instance part="T1" gate="G$1" x="38.1" y="35.56"/>
 <instance part="T2" gate="G$1" x="30.48" y="35.56"/>
 <instance part="T3" gate="G$1" x="22.86" y="35.56"/>
-<instance part="T4" gate="G$1" x="15.24" y="35.56"/>
-<instance part="R5" gate="G$1" x="86.36" y="48.26"/>
 <instance part="R6" gate="G$1" x="86.36" y="40.64"/>
 <instance part="R7" gate="G$1" x="86.36" y="33.02"/>
 <instance part="R8" gate="G$1" x="86.36" y="25.4"/>
-<instance part="PLC-DRIVERX" gate="-1" x="-33.02" y="66.04" rot="MR0"/>
-<instance part="PLC-DRIVERX" gate="-2" x="-33.02" y="58.42" rot="MR0"/>
-<instance part="PLC-DRIVERX" gate="-3" x="-30.48" y="50.8" rot="MR0"/>
-<instance part="PLC-DRIVERX" gate="-4" x="-30.48" y="43.18" rot="MR0"/>
 <instance part="T5" gate="G$1" x="22.86" y="68.58"/>
 <instance part="T6" gate="G$1" x="15.24" y="68.58"/>
 <instance part="T7" gate="G$1" x="7.62" y="68.58"/>
-<instance part="T8" gate="G$1" x="0" y="68.58"/>
-<instance part="GND1" gate="1" x="2.54" y="60.96"/>
 <instance part="GND2" gate="1" x="10.16" y="60.96"/>
 <instance part="GND3" gate="1" x="17.78" y="60.96"/>
 <instance part="GND4" gate="1" x="25.4" y="60.96"/>
 <instance part="R9" gate="G$1" x="86.36" y="58.42"/>
 <instance part="R10" gate="G$1" x="86.36" y="66.04"/>
 <instance part="R11" gate="G$1" x="86.36" y="73.66"/>
-<instance part="R12" gate="G$1" x="86.36" y="81.28"/>
 <instance part="24V-&gt;6V" gate="1" x="17.78" y="-40.64"/>
 <instance part="GND11" gate="1" x="17.78" y="-53.34"/>
-<instance part="SWITCH-GND" gate="-1" x="45.72" y="109.22" rot="R90"/>
-<instance part="SWITCH-GND" gate="-2" x="48.26" y="109.22" rot="R90"/>
-<instance part="SWITCH-GND" gate="-3" x="50.8" y="109.22" rot="R90"/>
-<instance part="GND13" gate="1" x="48.26" y="96.52"/>
-<instance part="R13" gate="G$1" x="-22.86" y="66.04"/>
+<instance part="SWITCH-GND" gate="-1" x="17.78" y="124.46" rot="R90"/>
+<instance part="SWITCH-GND" gate="-2" x="22.86" y="124.46" rot="R90"/>
+<instance part="SWITCH-GND" gate="-3" x="27.94" y="124.46" rot="R90"/>
+<instance part="GND13" gate="1" x="22.86" y="91.44"/>
 <instance part="R14" gate="G$1" x="-22.86" y="58.42"/>
 <instance part="R15" gate="G$1" x="-22.86" y="50.8"/>
 <instance part="R16" gate="G$1" x="-22.86" y="43.18"/>
-<instance part="R17" gate="G$1" x="-22.86" y="25.4"/>
 <instance part="R18" gate="G$1" x="-22.86" y="17.78"/>
 <instance part="R19" gate="G$1" x="-22.86" y="10.16"/>
 <instance part="R20" gate="G$1" x="-22.86" y="2.54"/>
-<instance part="R" gate="G$1" x="-25.4" y="101.6"/>
-<instance part="DRIVERZ" gate="-1" x="121.92" y="12.7"/>
-<instance part="DRIVERZ" gate="-2" x="121.92" y="5.08"/>
-<instance part="DRIVERZ" gate="-3" x="121.92" y="-2.54"/>
-<instance part="DRIVERZ" gate="-4" x="121.92" y="-10.16"/>
 <instance part="SHARPENER" gate="-1" x="124.46" y="-20.32"/>
 <instance part="SHARPENER" gate="-2" x="124.46" y="-22.86"/>
-<instance part="R1" gate="G$1" x="86.36" y="12.7"/>
 <instance part="R2" gate="G$1" x="86.36" y="5.08"/>
 <instance part="R3" gate="G$1" x="86.36" y="-2.54"/>
 <instance part="R4" gate="G$1" x="86.36" y="-10.16"/>
 <instance part="GND12" gate="1" x="114.3" y="-25.4"/>
+<instance part="24V-OUT" gate="-1" x="233.68" y="60.96"/>
+<instance part="24V-OUT" gate="-2" x="233.68" y="58.42"/>
+<instance part="24V-OUT" gate="-3" x="233.68" y="55.88"/>
+<instance part="24V-IN" gate="-1" x="180.34" y="60.96" rot="R180"/>
+<instance part="24V-IN" gate="-2" x="180.34" y="63.5" rot="R180"/>
+<instance part="GND1" gate="1" x="187.96" y="58.42"/>
+<instance part="PLC-Y" gate="-1" x="-43.18" y="2.54" rot="R180"/>
+<instance part="PLC-Y" gate="-2" x="-43.18" y="10.16" rot="R180"/>
+<instance part="PLC-Y" gate="-3" x="-43.18" y="17.78" rot="R180"/>
+<instance part="PLC-X" gate="-1" x="-43.18" y="43.18" rot="R180"/>
+<instance part="PLC-X" gate="-2" x="-43.18" y="50.8" rot="R180"/>
+<instance part="PLC-X" gate="-3" x="-43.18" y="58.42" rot="R180"/>
+<instance part="PLC-Z" gate="-1" x="-45.72" y="-25.4" rot="R180"/>
+<instance part="PLC-Z" gate="-2" x="-45.72" y="-22.86" rot="R180"/>
+<instance part="PLC-Z" gate="-3" x="-45.72" y="-20.32" rot="R180"/>
+<instance part="DRIVER-X" gate="-1" x="119.38" y="73.66"/>
+<instance part="DRIVER-X" gate="-2" x="119.38" y="66.04"/>
+<instance part="DRIVER-X" gate="-3" x="119.38" y="58.42"/>
+<instance part="DRIVER-Y" gate="-1" x="121.92" y="40.64"/>
+<instance part="DRIVER-Y" gate="-2" x="121.92" y="33.02"/>
+<instance part="DRIVER-Y" gate="-3" x="121.92" y="25.4"/>
+<instance part="DRIVER-Z" gate="-1" x="121.92" y="5.08"/>
+<instance part="DRIVER-Z" gate="-2" x="121.92" y="-2.54"/>
+<instance part="DRIVER-Z" gate="-3" x="121.92" y="-10.16"/>
+<instance part="24V" gate="-1" x="-50.8" y="119.38" rot="R180"/>
+<instance part="D1" gate="1" x="22.86" y="104.14" rot="R270"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$16" class="0">
-<segment>
-<pinref part="T9" gate="G$1" pin="C"/>
-<pinref part="SWITCH3+" gate="-1" pin="S"/>
-<wire x1="22.86" y1="106.68" x2="7.62" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="SWITCH3+" gate="-2" pin="S"/>
-<wire x1="27.94" y1="106.68" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="SWITCH3+" gate="-3" pin="S"/>
-<wire x1="33.02" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<junction x="22.86" y="106.68"/>
-<junction x="27.94" y="106.68"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
-<pinref part="T9" gate="G$1" pin="E"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="PLC-SHARPENER" gate="-2" pin="S"/>
+<pinref part="PLC-24V" gate="-2" pin="S"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="-17.78" y1="-43.18" x2="-25.4" y2="-43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND6" gate="1" pin="GND"/>
-<junction x="17.78" y="30.48"/>
-<pinref part="T4" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -4558,10 +4558,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 <junction x="40.64" y="30.48"/>
 <pinref part="T1" gate="G$1" pin="E"/>
-</segment>
-<segment>
-<pinref part="T8" gate="G$1" pin="E"/>
-<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="T7" gate="G$1" pin="E"/>
@@ -4581,36 +4577,26 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="17.78" y1="-48.26" x2="17.78" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SWITCH-GND" gate="-1" pin="S"/>
-<wire x1="45.72" y1="106.68" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="SWITCH-GND" gate="-3" pin="S"/>
-<wire x1="48.26" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="106.68" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="SWITCH-GND" gate="-2" pin="S"/>
-<wire x1="48.26" y1="106.68" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="104.14" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="SHARPENER" gate="-2" pin="S"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="114.3" y1="-22.86" x2="121.92" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="24V-IN" gate="-1" pin="S"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="187.96" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D1" gate="1" pin="C"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="22.86" y1="93.98" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="PLC-SHARPENER" gate="-1" pin="S"/>
+<pinref part="PLC-24V" gate="-1" pin="S"/>
 <wire x1="-25.4" y1="-40.64" x2="10.16" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="24V-&gt;6V" gate="1" pin="IN"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<wire x1="12.7" y1="25.4" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="T4" gate="G$1" pin="B"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="25.4" x2="-17.78" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -4637,16 +4623,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="35.56" y1="2.54" x2="-17.78" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="T4" gate="G$1" pin="C"/>
-<wire x1="17.78" y1="40.64" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="53.34" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$18" class="0">
 <segment>
 <wire x1="55.88" y1="45.72" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
@@ -4659,9 +4635,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="DRIVERY" gate="-4" pin="S"/>
 <wire x1="119.38" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="DRIVER-Y" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -4676,9 +4652,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="DRIVERY" gate="-3" pin="S"/>
 <wire x1="119.38" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="DRIVER-Y" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -4693,16 +4669,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="DRIVERY" gate="-2" pin="S"/>
 <wire x1="119.38" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="DRIVERY" gate="-1" pin="S"/>
-<wire x1="91.44" y1="48.26" x2="119.38" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="DRIVER-Y" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -4715,26 +4684,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<wire x1="2.54" y1="50.8" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="55.88" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="T6" gate="G$1" pin="B"/>
-<wire x1="7.62" y1="58.42" x2="12.7" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="58.42" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="50.8" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="50.8" x2="-17.78" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="50.8" x2="-17.78" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="5.08" y1="43.18" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="53.34" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="53.34" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="43.18" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="T5" gate="G$1" pin="B"/>
-<wire x1="10.16" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="55.88" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="43.18" x2="-17.78" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="43.18" x2="-17.78" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -4766,87 +4729,32 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="73.66" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="T8" gate="G$1" pin="C"/>
-<wire x1="2.54" y1="73.66" x2="2.54" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="81.28" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="DRIVERX" gate="-1" pin="S"/>
-<wire x1="91.44" y1="81.28" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="DRIVERX" gate="-2" pin="S"/>
 <wire x1="91.44" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="DRIVER-X" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="DRIVERX" gate="-3" pin="S"/>
 <wire x1="91.44" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="DRIVER-X" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="DRIVERX" gate="-4" pin="S"/>
 <wire x1="91.44" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="R" gate="G$1" pin="2"/>
-<pinref part="T9" gate="G$1" pin="B"/>
-<wire x1="-20.32" y1="101.6" x2="2.54" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="T8" gate="G$1" pin="B"/>
-<wire x1="-17.78" y1="66.04" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="66.04" x2="-2.54" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="DRIVER-X" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="PLC-DRIVERX" gate="-2" pin="S"/>
-<wire x1="-30.48" y1="58.42" x2="-27.94" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="PLC-DRIVERX" gate="-1" pin="S"/>
-<wire x1="-27.94" y1="66.04" x2="-30.48" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="PLC-DRIVERX" gate="-3" pin="S"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="PLC-DRIVERX" gate="-4" pin="S"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="R" gate="G$1" pin="1"/>
-<pinref part="PLC-SWITCH" gate="-1" pin="S"/>
+<pinref part="PLC-X" gate="-3" pin="S"/>
+<wire x1="-40.64" y1="58.42" x2="-27.94" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -4858,41 +4766,34 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="24V-&gt;6V" gate="1" pin="OUT"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="DRIVERZ" gate="-1" pin="S"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="DRIVERZ" gate="-2" pin="S"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="5.08" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="DRIVER-Z" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="DRIVERZ" gate="-3" pin="S"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="-2.54" x2="91.44" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="DRIVER-Z" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="DRIVERZ" gate="-4" pin="S"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="-10.16" x2="91.44" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="DRIVER-Z" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<wire x1="-25.4" y1="-25.4" x2="68.58" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-25.4" x2="68.58" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-25.4" x2="68.58" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="-10.16" x2="81.28" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="PLC-DRIVERZ" gate="-4" pin="S"/>
+<pinref part="PLC-Z" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -4900,50 +4801,106 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="-2.54" x2="66.04" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-2.54" x2="66.04" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-22.86" x2="-25.4" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="PLC-DRIVERZ" gate="-3" pin="S"/>
+<wire x1="66.04" y1="-22.86" x2="-43.18" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="PLC-Z" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<wire x1="-25.4" y1="-20.32" x2="63.5" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-20.32" x2="63.5" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-20.32" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="5.08" x2="81.28" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="PLC-DRIVERZ" gate="-2" pin="S"/>
+<pinref part="PLC-Z" gate="-3" pin="S"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="24V-IN" gate="-2" pin="S"/>
+<wire x1="182.88" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="63.5" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="58.42" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="24V-OUT" gate="-1" pin="S"/>
+<wire x1="223.52" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="24V-OUT" gate="-2" pin="S"/>
+<wire x1="223.52" y1="58.42" x2="231.14" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="24V-OUT" gate="-3" pin="S"/>
+<wire x1="223.52" y1="58.42" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="55.88" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
+<junction x="223.52" y="58.42"/>
+<junction x="223.52" y="60.96"/>
+<junction x="223.52" y="55.88"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="PLC-X" gate="-2" pin="S"/>
+<wire x1="-40.64" y1="50.8" x2="-27.94" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="PLC-X" gate="-1" pin="S"/>
+<wire x1="-40.64" y1="43.18" x2="-27.94" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="PLC-Y" gate="-3" pin="S"/>
+<wire x1="-40.64" y1="17.78" x2="-27.94" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="PLC-Y" gate="-2" pin="S"/>
+<wire x1="-40.64" y1="10.16" x2="-27.94" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="PLC-Y" gate="-1" pin="S"/>
+<wire x1="-40.64" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="12.7" x2="60.96" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-17.78" x2="-25.4" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="PLC-DRIVERZ" gate="-1" pin="S"/>
+<pinref part="24V" gate="-1" pin="S"/>
+<pinref part="SWITCH3+" gate="-1" pin="S"/>
+<pinref part="SWITCH3+" gate="-2" pin="S"/>
+<wire x1="0" y1="121.92" x2="-5.08" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="SWITCH3+" gate="-3" pin="S"/>
+<wire x1="5.08" y1="121.92" x2="0" y2="121.92" width="0.1524" layer="91"/>
+<junction x="0" y="121.92"/>
+<junction x="5.08" y="121.92"/>
+<wire x1="0" y1="121.92" x2="0" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="0" y1="119.38" x2="-48.26" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-5.08" y="121.92"/>
 </segment>
 </net>
-<net name="N$42" class="0">
+<net name="N$5" class="0">
 <segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="PLC-DRIVERY" gate="-3" pin="S"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<pinref part="PLC-DRIVERY" gate="-4" pin="S"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="PLC-DRIVERY" gate="-2" pin="S"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="PLC-DRIVERY" gate="-1" pin="S"/>
+<pinref part="SWITCH-GND" gate="-1" pin="S"/>
+<wire x1="17.78" y1="121.92" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="SWITCH-GND" gate="-3" pin="S"/>
+<wire x1="22.86" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="121.92" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="SWITCH-GND" gate="-2" pin="S"/>
+<wire x1="22.86" y1="121.92" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="116.84" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
+<junction x="22.86" y="116.84"/>
+<junction x="17.78" y="116.84"/>
+<junction x="27.94" y="116.84"/>
+<pinref part="D1" gate="1" pin="A"/>
+<pinref part="PLC-SWITCH" gate="-1" pin="S"/>
+<wire x1="22.86" y1="111.76" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
