@@ -16,4 +16,6 @@ VAR
 	stepZ : BOOL;
 	switch : BOOL;
 	t : USINT;
+	quit : BOOL;
+	sharpen : UINT;
 END_VAR
