@@ -1,8 +1,10 @@
+(*timer : TON;*)
 VAR
-
-	(*timer : TON;*)
+	timer : TON;
 	i : UINT;
 	placeInString : UINT;
 	placement : STRING[10];
 	tempX : UINT;
+	newLineX : UINT;
+	activator : BOOL;
 END_VAR
