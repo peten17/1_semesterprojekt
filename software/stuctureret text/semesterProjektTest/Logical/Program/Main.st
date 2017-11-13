@@ -1,6 +1,6 @@
 
 PROGRAM _INIT
-	input := 'R1R0Q';
+	input := '';
 	// R = next pixel
 	// N = new line
 	// 0 = pen up
