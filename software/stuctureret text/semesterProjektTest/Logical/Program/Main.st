@@ -10,11 +10,17 @@ PROGRAM _INIT
 	i := 0;
 	sharpen := 1;
 	activator := FALSE;
-	newLineX := 0; 
+	newLineX := 0; 	
+	
 END_PROGRAM
 
 PROGRAM _CYCLIC
 	IF (reset = FALSE) THEN
+		
+		IF (enabX) THEN
+			status:= 2;
+		END_IF
+		
 		placement := MID(input, 1, placeInString);
 		
 		// here the robot will move to the shapener, sharpen the pencil and move back to were it came from

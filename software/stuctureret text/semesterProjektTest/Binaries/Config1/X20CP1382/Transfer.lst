@@ -5,7 +5,36 @@
   <Hardware Target="SG4"/>
   <Operation Delete="reset.br"/>
   <Operation Delete="Program.br"/>
+  <Operation Delete="emergencyS.br"/>
+  <Operation Delete="Visu_R.br"/>
+  <Operation Delete="vctcal.br"/>
+  <Operation Delete="vcrt.br"/>
+  <Operation Delete="vcpkat.br"/>
+  <Operation Delete="vcpfar00.br"/>
+  <Operation Delete="vcpdvnc.br"/>
+  <Operation Delete="vcpdsw.br"/>
+  <Operation Delete="vcmgr.br"/>
+  <Operation Delete="vcfntttf.br"/>
+  <Operation Delete="vcfile.br"/>
+  <Operation Delete="vcdsloc.br"/>
+  <Operation Delete="vcdsint.br"/>
+  <Operation Delete="vcctext.br"/>
+  <Operation Delete="vccshape.br"/>
+  <Operation Delete="vccovl.br"/>
+  <Operation Delete="vccbtn.br"/>
+  <Operation Delete="vcbclass.br"/>
+  <Operation Delete="vcalarm.br"/>
   <Operation Delete="asieccon.br"/>
+  <Operation Delete="vcshared.br"/>
+  <Operation Delete="arialbd.br"/>
+  <Operation Delete="arial.br"/>
+  <Operation Delete="Visu_R03.br"/>
+  <Operation Delete="Visu_R02.br"/>
+  <Operation Delete="Visu_R01.br"/>
+  <Operation Delete="vcnet.br"/>
+  <Operation Delete="vcgclass.br"/>
+  <Operation Delete="fileio.br"/>
+  <Operation Delete="dataobj.br"/>
   <Operation Delete="astime.br"/>
   <Operation Download="ashwd.br" Memory="SystemROM"/>
   <Operation Download="asfw.br" Memory="SystemROM"/>
@@ -20,8 +49,38 @@
   <Operation Download="Role.br" Memory="UserROM"/>
   <Operation Download="standard.br" Memory="UserROM"/>
   <Operation Download="runtime.br" Memory="UserROM"/>
+  <Operation Download="vcresman.br" Memory="UserROM"/>
   <Operation Download="astime.br" Memory="UserROM"/>
+  <Operation Download="dataobj.br" Memory="UserROM"/>
+  <Operation Download="fileio.br" Memory="UserROM"/>
+  <Operation Download="vcgclass.br" Memory="UserROM"/>
+  <Operation Download="vcnet.br" Memory="UserROM"/>
+  <Operation Download="Visu_R01.br" Memory="UserROM"/>
+  <Operation Download="Visu_R02.br" Memory="UserROM"/>
+  <Operation Download="Visu_R03.br" Memory="UserROM"/>
+  <Operation Download="arial.br" Memory="UserROM"/>
+  <Operation Download="arialbd.br" Memory="UserROM"/>
+  <Operation Download="vcshared.br" Memory="UserROM"/>
   <Operation Download="asieccon.br" Memory="UserROM"/>
+  <Operation Download="vcalarm.br" Memory="UserROM"/>
+  <Operation Download="vcbclass.br" Memory="UserROM"/>
+  <Operation Download="vccbtn.br" Memory="UserROM"/>
+  <Operation Download="vccovl.br" Memory="UserROM"/>
+  <Operation Download="vccshape.br" Memory="UserROM"/>
+  <Operation Download="vcctext.br" Memory="UserROM"/>
+  <Operation Download="vcdsint.br" Memory="UserROM"/>
+  <Operation Download="vcdsloc.br" Memory="UserROM"/>
+  <Operation Download="vcfile.br" Memory="UserROM"/>
+  <Operation Download="vcfntttf.br" Memory="UserROM"/>
+  <Operation Download="vcmgr.br" Memory="UserROM"/>
+  <Operation Download="vcpdsw.br" Memory="UserROM"/>
+  <Operation Download="vcpdvnc.br" Memory="UserROM"/>
+  <Operation Download="vcpfar00.br" Memory="UserROM"/>
+  <Operation Download="vcpkat.br" Memory="UserROM"/>
+  <Operation Download="vcrt.br" Memory="UserROM"/>
+  <Operation Download="vctcal.br" Memory="UserROM"/>
+  <Operation Download="Visu_R.br" Memory="UserROM"/>
+  <Operation Download="emergencyS.br" Memory="UserROM"/>
   <Operation Download="Program.br" Memory="UserROM"/>
   <Operation Download="reset.br" Memory="UserROM"/>
 </Transfer>

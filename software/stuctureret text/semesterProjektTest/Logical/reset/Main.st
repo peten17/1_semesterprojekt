@@ -4,14 +4,14 @@ PROGRAM _INIT
 	resetXYZ := 0;
 	swCount:= 0;
 	quit := FALSE;
-	
+	status := 1;
 END_PROGRAM
 
 PROGRAM _CYCLIC
 
 		
 		IF (reset = TRUE) THEN
-
+			
 		// Resets the z-axis to know the position of the pen.
 			IF (switch = FALSE AND resetXYZ = 0) THEN
 				enabZ:= TRUE;
@@ -61,7 +61,8 @@ PROGRAM _CYCLIC
 				posZ := 0;
 				IF (quit = FALSE)THEN
 					reset:= FALSE;
-				
+					resetXYZ:= 0;
+					swCount := 0;
 				
 			END_IF
 	END_IF

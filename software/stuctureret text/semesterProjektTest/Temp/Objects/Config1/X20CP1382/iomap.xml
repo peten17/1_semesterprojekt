@@ -221,11 +221,10 @@
 <Cons Device="X3" DPName="DigitalOutput01" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput02" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::enabX" Kind="pv"/>
+<Prod Device="TC#4-CPYDEV" DPName="::enabX" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput02" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput03" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::stepX" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput03" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput04" Type="BOOL">
@@ -233,11 +232,10 @@
 <Cons Device="X3" DPName="DigitalOutput04" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput05" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::enabY" Kind="pv"/>
+<Prod Device="TC#4-CPYDEV" DPName="::enabY" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput05" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput06" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::stepY" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput06" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput07" Type="BOOL">
@@ -245,20 +243,22 @@
 <Cons Device="X3" DPName="DigitalOutput07" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput08" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::enabZ" Kind="pv"/>
+<Prod Device="TC#4-CPYDEV" DPName="::enabZ" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput08" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput09" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::stepZ" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput09" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput10" Type="BOOL">
+<Prod Device="TC#7-CPYDEV" DPName="::stepX" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput10" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput11" Type="BOOL">
+<Prod Device="TC#7-CPYDEV" DPName="::stepZ" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput11" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput12" Type="BOOL">
+<Prod Device="TC#7-CPYDEV" DPName="::stepY" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput12" Kind="io"/>
 </LN>
 <LN ID="%IX.X3.StatusDigitalOutput01" Type="BOOL">
