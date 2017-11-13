@@ -9,7 +9,7 @@
       <Byte Name="DefaultKeyLevelString">0</Byte>
       <Int32 Name="KeyRepeatDelay">300</Int32>
       <Int32 Name="KeyRepeatRate">50</Int32>
-      <Reference Name="DefaultPage" Type="PAGE">Source[local].Page[Init_Page]</Reference>
+      <Reference Name="DefaultPage" Type="PAGE">Source[local].Page[Informaion]</Reference>
       <Reference Name="ConnectionErrorPage" Type="ConnectionErrorPage">None</Reference>
       <UInt32 Name="ServicePage">4294967295</UInt32>
       <Reference Name="DefaultLanguage" Type="LOC">Source[local].Localizer[en]</Reference>

@@ -21,6 +21,7 @@
   <Operation Delete="vcctext.br"/>
   <Operation Delete="vccshape.br"/>
   <Operation Delete="vccovl.br"/>
+  <Operation Delete="vccnum.br"/>
   <Operation Delete="vccbtn.br"/>
   <Operation Delete="vcbclass.br"/>
   <Operation Delete="vcalarm.br"/>
@@ -65,6 +66,7 @@
   <Operation Download="vcalarm.br" Memory="UserROM"/>
   <Operation Download="vcbclass.br" Memory="UserROM"/>
   <Operation Download="vccbtn.br" Memory="UserROM"/>
+  <Operation Download="vccnum.br" Memory="UserROM"/>
   <Operation Download="vccovl.br" Memory="UserROM"/>
   <Operation Download="vccshape.br" Memory="UserROM"/>
   <Operation Download="vcctext.br" Memory="UserROM"/>

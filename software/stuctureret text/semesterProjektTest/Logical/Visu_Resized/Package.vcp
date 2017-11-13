@@ -12,7 +12,7 @@
   <Property Name="DefaultKeyLevelNumeric" Value="0"/>
   <Property Name="DefaultKeyLevelString" Value="0"/>
   <Property Name="DefaultLanguage" Value="en"/>
-  <Property Name="DefaultPage" Value="Source[local].Page[Init_Page]"/>
+  <Property Name="DefaultPage" Value="Source[local].Page[Informaion]"/>
   <Property Name="DefaultStyleSheet" Value="Source[local].StyleSheet[Color]"/>
   <Property Name="FocusControlDatapoint" Value="None"/>
   <Property Name="FontAntialiasing" Value="Off"/>
@@ -126,8 +126,8 @@
     <Source File="BitmapGroups\AcknowledgeState.bmgrp"/>
     <Source File="BitmapGroups\NavigationPad.bmgrp"/>
     <Source File="BitmapGroups\Borders.bmgrp"/>
-    <Source File="Pages\Init_Page.page"/>
-    <Source File="Pages\Page_1.page"/>
+    <Source File="Pages\Informaion.page"/>
+    <Source File="Pages\Config.page"/>
     <Source File="Layers\CommonLayer_1.layer"/>
     <Source File="StyleSheets\Gray.vcs"/>
     <Source File="StyleSheets\Color.vcs"/>

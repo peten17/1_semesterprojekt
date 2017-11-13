@@ -17,15 +17,14 @@ $(AS_CPU_PATH)/emergencyS/a.out: \
 
 $(AS_CPU_PATH)/emergencyS/Main.st.o: \
 	$(AS_PROJECT_PATH)/Logical/emergencyStop/Main.st \
-	FORCE 
+	$(AS_PROJECT_PATH)/Logical/Global.var \
+	$(AS_PROJECT_PATH)/Logical/emergencyStop/Variables.var
 	@'$(AS_BIN_PATH)/BR.AS.IecCompiler.exe' '$(AS_PROJECT_PATH)/Logical/emergencyStop/Main.st' -o '$(AS_CPU_PATH)/emergencyS/Main.st.o'  -O '$(AS_CPU_PATH)//emergencyS/Main.st.o.opt' -secret '$(AS_PROJECT_PATH)_br.as.ieccompiler.exe'
 
 $(AS_CPU_PATH)/emergencyS/_bur_pvdef.st.o: \
-	FORCE 
+	$(AS_PROJECT_PATH)/Logical/Global.var \
+	$(AS_PROJECT_PATH)/Logical/emergencyStop/Variables.var
 	@'$(AS_BIN_PATH)/BR.AS.IecCompiler.exe' '$(AS_PATH)/AS/GnuInst/V4.1.2/i386-elf/include/bur/_bur_pvdef.st' -o '$(AS_CPU_PATH)/emergencyS/_bur_pvdef.st.o'  -O '$(AS_CPU_PATH)//emergencyS/_bur_pvdef.st.opt' -secret '$(AS_PROJECT_PATH)_br.as.ieccompiler.exe'
 
 -include $(AS_CPU_PATH)/Force.mak 
 
-
-
-FORCE:

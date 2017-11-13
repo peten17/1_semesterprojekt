@@ -14,18 +14,24 @@
       <Text ID="94981" Value="Reset"/>
       <Text ID="94985" Value="Start"/>
       <Text ID="94987" Value="Status:"/>
+      <Text ID="94993" Value="Configuation"/>
+      <Text ID="94995" Value="Information"/>
     </TextLayer>
     <TextLayer LanguageId="da">
       <Text ID="94979" Value="Nødstop"/>
       <Text ID="94981" Value="Nulstil"/>
       <Text ID="94985" Value="Start"/>
       <Text ID="94987" Value="Status:"/>
+      <Text ID="94993" Value="Konfiguration "/>
+      <Text ID="94995" Value="Information"/>
     </TextLayer>
     <IndexMap>
       <Index ID="94979" Value="0"/>
       <Index ID="94981" Value="2"/>
       <Index ID="94985" Value="6"/>
       <Index ID="94987" Value="8"/>
+      <Index ID="94993" Value="9"/>
+      <Index ID="94995" Value="11"/>
     </IndexMap>
   </TextGroup>
   <Controls>
@@ -137,6 +143,49 @@
       <Property Name="Top" Value="206"/>
       <Property Name="Width" Value="70"/>
     </Control>
+    <Control ClassId="0x00001002" Name="Button_2">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_4]"/>
+      <Property Name="Height" Value="40"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="10"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="9"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="740"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_4]"/>
+      <Property Name="Width" Value="100"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_5]"/>
+      <Property Name="Height" Value="40"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="10"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="11"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="680"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_5]"/>
+      <Property Name="Width" Value="100"/>
+    </Control>
   </Controls>
   <KeyMapping>
     <VirtualKey Name="%embVirtualKey_1">
@@ -182,6 +231,32 @@
           <Property Name="Name" Value="Action_0"/>
           <Property Name="SetValue" Value="0"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.quit]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_4">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000160">
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="Page" Value="Source[local].Page[Config]"/>
+          <Property Name="Target" Value="Page"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_5">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000160">
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="Page" Value="Source[local].Page[Informaion]"/>
+          <Property Name="Target" Value="Page"/>
         </KeyAction>
       </KeyActions>
     </VirtualKey>

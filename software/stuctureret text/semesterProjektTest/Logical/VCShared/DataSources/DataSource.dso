@@ -47,5 +47,32 @@
       <Property Name="UserID" Value="None"/>
       <Property Name="VCType" Value="INTEGER"/>
     </DataPoint>
+    <DataPoint Name="posZ">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Visu_Resized"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="UINT"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="INTEGER"/>
+    </DataPoint>
+    <DataPoint Name="posY">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Visu_Resized"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="UINT"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="INTEGER"/>
+    </DataPoint>
+    <DataPoint Name="posX">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Visu_Resized"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="UINT"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="INTEGER"/>
+    </DataPoint>
   </DataPoints>
 </DataSource>
