@@ -91,6 +91,22 @@
 <text x="-3.81" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="22-23-2041" library_version="1">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MV" library_version="1">
@@ -149,6 +165,33 @@
 <attribute name="MPN" value="22-23-2031" constant="no"/>
 <attribute name="OC_FARNELL" value="1462950" constant="no"/>
 <attribute name="OC_NEWARK" value="30C0862" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22-23-2041" prefix="X" library_version="1">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="22-23-2041">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="22-23-2041" constant="no"/>
+<attribute name="OC_FARNELL" value="1462920" constant="no"/>
+<attribute name="OC_NEWARK" value="38C0355" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4413,7 +4456,7 @@ general purpose rectifier, 1 A</description>
 <parts>
 <part name="PLC-SWITCH" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="SWITCH3+" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
-<part name="PLC-SHARPENER-GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="PLC-24V" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -4448,7 +4491,6 @@ general purpose rectifier, 1 A</description>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="24V-OUT" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="24V-IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PLC-Y" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
@@ -4459,6 +4501,7 @@ general purpose rectifier, 1 A</description>
 <part name="DRIVER-Z" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="24V" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
+<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4469,8 +4512,8 @@ general purpose rectifier, 1 A</description>
 <instance part="SWITCH3+" gate="-1" x="-5.08" y="124.46" rot="R90"/>
 <instance part="SWITCH3+" gate="-2" x="0" y="124.46" rot="R90"/>
 <instance part="SWITCH3+" gate="-3" x="5.08" y="124.46" rot="R90"/>
-<instance part="PLC-SHARPENER-GND" gate="-1" x="-27.94" y="-40.64" rot="MR0"/>
-<instance part="PLC-SHARPENER-GND" gate="-2" x="-27.94" y="-43.18" rot="MR0"/>
+<instance part="PLC-24V" gate="-1" x="-27.94" y="-40.64" rot="MR0"/>
+<instance part="PLC-24V" gate="-2" x="-27.94" y="-43.18" rot="MR0"/>
 <instance part="GND10" gate="1" x="-17.78" y="-45.72"/>
 <instance part="GND7" gate="1" x="25.4" y="27.94"/>
 <instance part="GND8" gate="1" x="33.02" y="27.94"/>
@@ -4508,9 +4551,6 @@ general purpose rectifier, 1 A</description>
 <instance part="R3" gate="G$1" x="86.36" y="-2.54"/>
 <instance part="R4" gate="G$1" x="86.36" y="-10.16"/>
 <instance part="GND12" gate="1" x="114.3" y="-25.4"/>
-<instance part="24V-OUT" gate="-1" x="233.68" y="60.96"/>
-<instance part="24V-OUT" gate="-2" x="233.68" y="58.42"/>
-<instance part="24V-OUT" gate="-3" x="233.68" y="55.88"/>
 <instance part="24V-IN" gate="-1" x="180.34" y="60.96" rot="R180"/>
 <instance part="24V-IN" gate="-2" x="180.34" y="63.5" rot="R180"/>
 <instance part="GND1" gate="1" x="187.96" y="58.42"/>
@@ -4534,13 +4574,17 @@ general purpose rectifier, 1 A</description>
 <instance part="DRIVER-Z" gate="-3" x="121.92" y="-10.16"/>
 <instance part="24V" gate="-1" x="-50.8" y="119.38" rot="R180"/>
 <instance part="D1" gate="1" x="22.86" y="104.14" rot="R270"/>
+<instance part="X1" gate="-1" x="233.68" y="60.96"/>
+<instance part="X1" gate="-2" x="233.68" y="58.42"/>
+<instance part="X1" gate="-3" x="233.68" y="55.88"/>
+<instance part="X1" gate="-4" x="233.68" y="53.34"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="PLC-SHARPENER-GND" gate="-2" pin="S"/>
+<pinref part="PLC-24V" gate="-2" pin="S"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="-17.78" y1="-43.18" x2="-25.4" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
@@ -4594,7 +4638,7 @@ general purpose rectifier, 1 A</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="PLC-SHARPENER-GND" gate="-1" pin="S"/>
+<pinref part="PLC-24V" gate="-1" pin="S"/>
 <wire x1="-25.4" y1="-40.64" x2="10.16" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="24V-&gt;6V" gate="1" pin="IN"/>
 </segment>
@@ -4821,16 +4865,19 @@ general purpose rectifier, 1 A</description>
 <wire x1="208.28" y1="63.5" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="58.42" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="24V-OUT" gate="-1" pin="S"/>
 <wire x1="223.52" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="24V-OUT" gate="-2" pin="S"/>
 <wire x1="223.52" y1="58.42" x2="231.14" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="24V-OUT" gate="-3" pin="S"/>
 <wire x1="223.52" y1="58.42" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="55.88" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
 <junction x="223.52" y="58.42"/>
 <junction x="223.52" y="60.96"/>
 <junction x="223.52" y="55.88"/>
+<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="X1" gate="-3" pin="S"/>
+<pinref part="X1" gate="-4" pin="S"/>
+<wire x1="223.52" y1="55.88" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="53.34" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
