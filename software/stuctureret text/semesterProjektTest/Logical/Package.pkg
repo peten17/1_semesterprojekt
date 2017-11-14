@@ -7,7 +7,7 @@
     <Object Type="Package" Description="Global libraries">Libraries</Object>
     <Object Type="Program" Language="IEC">Program</Object>
     <Object Type="Program" Language="IEC">reset</Object>
-    <Object Type="DataObject" Language="Vc" Description="1280x800">Visu_Resized</Object>
     <Object Type="Program" Language="IEC">emergencyStop</Object>
+    <Object Type="DataObject" Language="Vc" Description="1280x800">Visu_Resized</Object>
   </Objects>
 </Package>
