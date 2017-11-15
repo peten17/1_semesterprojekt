@@ -9,25 +9,33 @@ import javax.imageio.ImageIO;
 public class PictureinOOP {
 
     public static void main(String[] args) {
-
+        //Scanner
         Scanner sc = new Scanner(System.in);
-        System.out.println("Write picture file name:"); //Star.png
-        String fileName = sc.nextLine();
         
-        BufferedImage cImage = null;
-        try {
-            cImage = ImageIO.read(new File(fileName)); // placeringen af filen er relativ til java filen.
-        } catch (IOException e) {
-  
+        while(true) { //For continueing the program or shutting it down
+
+        
+
+        
+        
+        String fileName;
+        BufferedImage cImage = null; //Forskel på declaration og initialization
+        
+        while(true){
+            System.out.println("Write picture file name:"); //Star.png
+            fileName = sc.nextLine();
+            
+            try {
+                cImage = ImageIO.read(new File(fileName)); // placeringen af filen er relativ til java filen. https://docs.oracle.com/javase/7/docs/api/javax/imageio/ImageIO.html#read(java.io.File)
+                break;
+            } catch (IOException | IllegalArgumentException e) { // | er en bitwis OR operator. https://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html
+
+            }
         }
-       
-//        DimensionChange dimensions = new DimensionChange();
-//        System.out.println(dimensions.getPreferredSize(cImage));
-        
-        
+
         
         //Multiarray initializing and creating.
-        byte[][] pixels = new byte[cImage.getWidth()][];
+        byte[][] pictureArray = new byte[cImage.getWidth()][];
         
         
         //Image initializing
@@ -36,14 +44,68 @@ public class PictureinOOP {
         Image mim = new Image(h,w);
         
         //Multiarray filling
-        mim.assempleImage(pixels, cImage);
+        mim.assempleImage(pictureArray, cImage);
+                
         
-        //Draw image
-        mim.drawImage(pixels);
+        //Message for part of a picture.
+        String fullorPart = "";
+        while(true) {
+        System.out.println("Full picture or a specific part? Answer FP or SP");
+        fullorPart = sc.nextLine();
+            if (fullorPart.compareTo("FP") == 0) { // compare giver 0 hvis de to Strings er ens. https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+                break;
+            } else if(fullorPart.compareTo("SP") == 0) {
+                break;
+            } else {
+                System.out.print("Wrong answer, please try again: ");
+            }
+                    
+        }
 
-        //Convert picture to String
-        Message code = new Message();
-        String message = code.convertToMessage(pixels, cImage);
-        System.out.print(message);
+            
+        if(fullorPart.compareTo("FP") == 0) {
+            Message code = new Message();
+            String message = code.convertToMessage(pictureArray, cImage);
+            //Draw full image 
+            mim.drawImage(pictureArray);
+            //Write full message
+            System.out.println(message);
+            
+            //Connect and send to PLC
+            
+            
+            
+        } else if(fullorPart.compareTo("SP") == 0) {
+            System.out.println("Specific part? Alright, please type in two x-values and y-values");
+            System.out.println("values for " + "x, has to value within: " + cImage.getWidth() + "and y, within: " + cImage.getHeight());
+            System.out.println("x1 has to be smaller than x2 and so goes for y1 and y2");
+            
+            System.out.println("x1: ");
+            int x1 = sc.nextInt();
+            System.out.println("x2: ");
+            int x2 = sc.nextInt();
+            System.out.println("y1: ");
+            int y1 = sc.nextInt();
+            System.out.println("y2: ");
+            int y2 = sc.nextInt();
+            
+            PartImage part = new PartImage();
+            String partMessage = part.messagePart(x1, y1, x2, y2, pictureArray);
+            //Draw part of immage
+            part.drawImage(x1, y1, x2, y2,pictureArray);
+            
+            //Write part of message
+            System.out.print(partMessage);
+            
+        }
+        
+        //Continue?
+        System.out.println("Continue");
+        System.out.println(" YES/NO");
+        String stopOrNot = sc.nextLine();
+            if (stopOrNot.compareTo("NO") == 0 ) {
+                break;
+            }
+        }
     }
 }

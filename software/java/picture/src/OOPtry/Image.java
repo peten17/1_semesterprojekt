@@ -23,10 +23,10 @@ public class Image {
     
     
         
-    public void assempleImage(byte pixelspls[][], BufferedImage image) {
+    public void assempleImage(byte pictureArray[][], BufferedImage image) {
         Color ofPicture = new Color(); 
         for(int x = 0; x < this.iWidth; x++) {
-            pixelspls[x] = new byte[this.iHeight];
+            pictureArray[x] = new byte[this.iHeight]; // Indsætning af array i multiarrayet
             for(int y = 0; y < this.iHeight; y++) {
                 
                 ofPicture.RGB = image.getRGB(x, y);
@@ -38,12 +38,12 @@ public class Image {
 
                 image.setRGB(x, y, average);
              
-                System.out.print(average + " ");                    // Behøves ikke. Er til at teste.
+//                System.out.print(average + " ");                    // Behøves ikke. Er til at teste.
                 
                 if(average >= 160) {
-                    pixelspls[x][y] = (byte)(0);
+                    pictureArray[x][y] = (byte)(0);
                 } else {
-                    pixelspls[x][y] = (byte)(1);    
+                    pictureArray[x][y] = (byte)(1);    
                 }
             }
         }
@@ -51,10 +51,10 @@ public class Image {
         
     
         
-    public void drawImage(byte pixelspls[][]) {
+    public void drawImage(byte pictureArray[][]) {
         for(int y = 0; y < this.iHeight ; y++) {
             for(int x = 0; x < this.iWidth; x++) {
-                if(pixelspls[x][y] == 0) {
+                if(pictureArray[x][y] == 0) {
                     System.out.print("0 ");
                 } else {
                     System.out.print("1 ");
