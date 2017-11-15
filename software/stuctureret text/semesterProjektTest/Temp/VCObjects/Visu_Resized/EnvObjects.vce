@@ -2,20 +2,20 @@
 <?AutomationStudio Version="4.3.3.196"?>
 <EnvironmentSettings xmlns="http://br-automation.co.at/AS/VC/Project">
   <Visual_Components_Frames>
-    <Property Name="ActiveFrame" Value="0"/>
+    <Property Name="ActiveFrame" Value="4"/>
     <Property Name="SaveFrameLimit" Value="4"/>
     <Property Name="ShowCmd" Value="3"/>
     <Frame>
       <Property Name="ActiveView" Value="0"/>
       <Property Name="FrameMinPtX" Value="-1"/>
       <Property Name="FrameMinPtY" Value="-1"/>
-      <Property Name="ParentObjectName" Value="Config"/>
+      <Property Name="ParentObjectName" Value="Informaion"/>
       <Property Name="ParentObjectType" Value="Page"/>
-      <Property Name="ShowCmd" Value="1"/>
-      <Property Name="WndPosBottom" Value="661"/>
-      <Property Name="WndPosLeft" Value="192"/>
-      <Property Name="WndPosRight" Value="852"/>
-      <Property Name="WndPosTop" Value="192"/>
+      <Property Name="ShowCmd" Value="3"/>
+      <Property Name="WndPosBottom" Value="597"/>
+      <Property Name="WndPosLeft" Value="128"/>
+      <Property Name="WndPosRight" Value="788"/>
+      <Property Name="WndPosTop" Value="128"/>
       <Views>
         <View>
           <Property Name="ID" Value="32"/>
@@ -39,19 +39,19 @@
       <Property Name="ActiveView" Value="0"/>
       <Property Name="FrameMinPtX" Value="-1"/>
       <Property Name="FrameMinPtY" Value="-1"/>
-      <Property Name="ParentObjectName" Value="Pages"/>
-      <Property Name="ParentObjectType" Value="PageMngr"/>
+      <Property Name="ParentObjectName" Value="Bitmaps"/>
+      <Property Name="ParentObjectType" Value="BitmapMngr"/>
       <Property Name="ShowCmd" Value="1"/>
-      <Property Name="WndPosBottom" Value="629"/>
-      <Property Name="WndPosLeft" Value="160"/>
-      <Property Name="WndPosRight" Value="820"/>
-      <Property Name="WndPosTop" Value="160"/>
+      <Property Name="WndPosBottom" Value="501"/>
+      <Property Name="WndPosLeft" Value="96"/>
+      <Property Name="WndPosRight" Value="611"/>
+      <Property Name="WndPosTop" Value="96"/>
       <Views>
         <View>
-          <Property Name="ID" Value="0"/>
+          <Property Name="ID" Value="4"/>
         </View>
         <View>
-          <Property Name="ID" Value="524288"/>
+          <Property Name="ID" Value="8"/>
           <Property Name="Scalecx" Value="10"/>
           <Property Name="Scalecy" Value="10"/>
           <Property Name="ScrollPositionX" Value="0"/>
@@ -90,19 +90,19 @@
       <Property Name="ActiveView" Value="0"/>
       <Property Name="FrameMinPtX" Value="-1"/>
       <Property Name="FrameMinPtY" Value="-1"/>
-      <Property Name="ParentObjectName" Value="Bitmaps"/>
-      <Property Name="ParentObjectType" Value="BitmapMngr"/>
+      <Property Name="ParentObjectName" Value="Pages"/>
+      <Property Name="ParentObjectType" Value="PageMngr"/>
       <Property Name="ShowCmd" Value="1"/>
-      <Property Name="WndPosBottom" Value="501"/>
-      <Property Name="WndPosLeft" Value="96"/>
-      <Property Name="WndPosRight" Value="611"/>
-      <Property Name="WndPosTop" Value="96"/>
+      <Property Name="WndPosBottom" Value="629"/>
+      <Property Name="WndPosLeft" Value="160"/>
+      <Property Name="WndPosRight" Value="820"/>
+      <Property Name="WndPosTop" Value="160"/>
       <Views>
         <View>
-          <Property Name="ID" Value="4"/>
+          <Property Name="ID" Value="0"/>
         </View>
         <View>
-          <Property Name="ID" Value="8"/>
+          <Property Name="ID" Value="524288"/>
           <Property Name="Scalecx" Value="10"/>
           <Property Name="Scalecy" Value="10"/>
           <Property Name="ScrollPositionX" Value="0"/>

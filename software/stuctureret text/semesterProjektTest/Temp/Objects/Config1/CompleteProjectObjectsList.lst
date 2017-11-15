@@ -5,7 +5,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Package.pkg"
     LogicalPath=""
     Type="Package"
-    LastWriteTime="131550494102815682" />
+    LastWriteTime="131551379081253306" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -170,7 +170,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Main.st"
     LogicalPath="reset.Main.st"
     Type="File"
-    LastWriteTime="131550516547000356"
+    LastWriteTime="131550580543749087"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Types.typ"
@@ -184,17 +184,6 @@
     Type="File"
     LastWriteTime="131544476268729720"
     Private="true" />
-  <Object
-    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Visu_Resized\Vc.dob"
-    LogicalPath="Visu_Resized"
-    Type="DataObject"
-    LastWriteTime="131550489841021156" />
-  <Object
-    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Visu_Resized\VCObject.vc"
-    LogicalPath="Visu_Resized.VCObject.vc"
-    Type="File"
-    LastWriteTime="131550489848547612"
-    Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\IEC.prg"
     LogicalPath="emergencyStop"
@@ -218,6 +207,17 @@
     Type="File"
     LastWriteTime="131550502450229668"
     Private="true" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Visu_Resized\Vc.dob"
+    LogicalPath="Visu_Resized"
+    Type="DataObject"
+    LastWriteTime="131550489841021156" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Visu_Resized\VCObject.vc"
+    LogicalPath="Visu_Resized.VCObject.vc"
+    Type="File"
+    LastWriteTime="131550489848547612"
+    Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Config.pkg"
     LogicalPath="Config1"
@@ -256,7 +256,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\IoMap.iom"
     LogicalPath="Config1.X20CP1382.IoMap.iom"
     Type="File"
-    LastWriteTime="131550467441763506"
+    LastWriteTime="131551366696053772"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\PvMap.vvm"

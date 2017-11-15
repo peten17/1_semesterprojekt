@@ -1,7 +1,7 @@
 SHELL := cmd.exe
 CYGWIN=nontsec
 export PATH := C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Users\peter\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\peter\AppData\Local\GitHubDesktop\bin;C:\Users\peter\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\peter\AppData\Local\GitHubDesktop\bin
-export AS_BUILD_MODE := Build
+export AS_BUILD_MODE := BuildAndTransfer
 export AS_VERSION := 4.3.3.196
 export AS_COMPANY_NAME :=  
 export AS_USER_NAME := peter
@@ -34,7 +34,7 @@ export WIN32_AS_INSTALL_PATH := "C:\BrAutomation\AS43"
 
 ProjectMakeFile:
 
-	@'$(AS_BIN_PATH)/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/semesterProjektTest.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'Build'  
+	@'$(AS_BIN_PATH)/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/semesterProjektTest.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'BuildAndTransfer'  
 
 	@$(AS_GNU_BIN_PATH)/mingw32-make.exe -r -f 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Temp/Objects/$(AS_CONFIGURATION)/X20CP1382/#cpu.mak' -k 
 
