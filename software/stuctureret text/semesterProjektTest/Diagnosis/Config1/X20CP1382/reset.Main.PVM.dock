@@ -8,10 +8,11 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index
                                    enabY                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
                                    enabZ                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
                                    reset                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
-                                resetXYZ                                    USINT    0 "                                                               3"    0    5    1   10    1    0         
+                                resetXYZ                                    USINT    0 "                                                               0"    0    5    1   10    1    0         
                                    stepX                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
                                    stepY                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
-                                   stepZ                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
-                                 swCount                                     UINT    0 "                                                               2"    0    6    1   10    1    0         
+                                   stepZ                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
+                                 swCount                                     UINT    0 "                                                               0"    0    6    1   10    1    0         
                                   switch                                     BOOL    2 "                                                           FALSE"    0    1    1    2    0    0         
                                        t                                    USINT    0 "                                                               *"    0    5    1   10    0    0         
+                                    quit                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         

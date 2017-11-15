@@ -8,7 +8,20 @@
   <TaskClass
     Name="Cyclic#3" />
   <TaskClass
-    Name="Cyclic#4" />
+    Name="Cyclic#4">
+    <Task
+      Name="emergencyS"
+      Disable="false"
+      Source="emergencyStop"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\emergencyS\Main.st.var" />
+      <File
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Types.typ" />
+      <File
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Variables.var" />
+    </Task>
+  </TaskClass>
   <TaskClass
     Name="Cyclic#5" />
   <TaskClass
@@ -21,11 +34,11 @@
       Source="Program"
       Language="IEC">
       <InternalFile
-        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\Program\Main.st.var" />
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\Program\Main.st.var" />
       <File
-        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Types.typ" />
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Types.typ" />
       <File
-        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Variables.var" />
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Variables.var" />
     </Task>
     <Task
       Name="reset"
@@ -33,11 +46,11 @@
       Source="reset"
       Language="IEC">
       <InternalFile
-        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\reset\Main.st.var" />
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\reset\Main.st.var" />
       <File
-        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Types.typ" />
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Types.typ" />
       <File
-        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Variables.var" />
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

@@ -6,7 +6,6 @@ VAR
 	enabY : BOOL;
 	enabZ : BOOL;
 	input : STRING[80];
-
 	posX : UINT;
 	posY : UINT;
 	posZ : UINT;
@@ -18,4 +17,5 @@ VAR
 	t : USINT;
 	quit : BOOL;
 	sharpen : UINT;
+	status : USINT;
 END_VAR
