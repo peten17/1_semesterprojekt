@@ -217,7 +217,7 @@
 <Prod Device="X2" DPName="DigitalInput14" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput01" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::dirX" Kind="pv"/>
+<Prod Device="TC#4-CPYDEV" DPName="::dirX" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput01" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput02" Type="BOOL">
@@ -225,7 +225,7 @@
 <Cons Device="X3" DPName="DigitalOutput02" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput03" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::dirY" Kind="pv"/>
+<Prod Device="TC#4-CPYDEV" DPName="::dirY" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput03" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput04" Type="BOOL">
@@ -233,7 +233,7 @@
 <Cons Device="X3" DPName="DigitalOutput04" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput05" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::dirZ" Kind="pv"/>
+<Prod Device="TC#4-CPYDEV" DPName="::dirZ" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput05" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput06" Type="BOOL">
@@ -250,15 +250,15 @@
 <Cons Device="X3" DPName="DigitalOutput09" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput10" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::stepX" Kind="pv"/>
+<Prod Device="TC#4-CPYDEV" DPName="::stepX" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput10" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput11" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::stepZ" Kind="pv"/>
+<Prod Device="TC#4-CPYDEV" DPName="::stepY" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput11" Kind="io"/>
 </LN>
 <LN ID="%QX.X3.DigitalOutput12" Type="BOOL">
-<Prod Device="TC#7-CPYDEV" DPName="::stepY" Kind="pv"/>
+<Prod Device="TC#4-CPYDEV" DPName="::stepZ" Kind="pv"/>
 <Cons Device="X3" DPName="DigitalOutput12" Kind="io"/>
 </LN>
 <LN ID="%IX.X3.StatusDigitalOutput01" Type="BOOL">

@@ -14,13 +14,13 @@ PROGRAM _CYCLIC
 			
 		// Resets the z-axis to know the position of the pen.
 			IF (switch = FALSE AND resetXYZ = 0) THEN
-				enabZ:= TRUE;
+				enabZ:= FALSE;
 				dirZ:= FALSE;
 				stepZ := NOT stepZ;
 
 			END_IF
 			IF (switch = TRUE AND swCount = 0 ) THEN 
-				enabZ:= TRUE;
+				enabZ:= FALSE;
 				dirZ:= TRUE;
 				stepZ := NOT stepZ;
 				resetXYZ:= 1;
@@ -29,13 +29,13 @@ PROGRAM _CYCLIC
 			// Resets the x-axis to know the position of the pen.
 			IF (switch = FALSE AND resetXYZ = 1) THEN
 				swCount := 1;
-				enabX:= TRUE;
+				enabX:= FALSE;
 				dirX:= FALSE;
 				stepX := NOT stepX;
 	
 			END_IF
 			IF (switch = TRUE AND swCount = 1) THEN 
-				enabX:= TRUE;
+				enabX:= FALSE;
 				dirX:= TRUE;
 				stepX := NOT stepX;
 				resetXYZ:= 2;
@@ -44,13 +44,13 @@ PROGRAM _CYCLIC
 			// Resets the y-axis to know the position of the pen.
 			IF (switch = FALSE AND resetXYZ = 2) THEN
 				swCount := 2;
-				enabY:= TRUE;
+				enabY:= FALSE;
 				dirY:= FALSE;
 				stepY := NOT stepY;
 	
 			END_IF
 			IF (switch = TRUE AND swCount = 2) THEN 
-				enabY:= TRUE;
+				enabY:= FALSE;
 				dirY:= TRUE;
 				stepY := NOT stepY;
 				resetXYZ:= 3;

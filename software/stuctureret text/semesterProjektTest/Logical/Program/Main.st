@@ -17,7 +17,7 @@ END_PROGRAM
 PROGRAM _CYCLIC
 	IF (reset = FALSE) THEN
 		
-		IF (enabX) THEN
+		IF (enabX = FALSE) THEN
 			status:= 2;
 		END_IF
 		
