@@ -1589,7 +1589,6 @@ design rules under a new name.</description>
 <contactref element="T5" pad="3"/>
 <polygon width="0.8128" layer="1">
 <vertex x="-3.81" y="-3.81"/>
-<vertex x="-3.81" y="40.64" curve="-90"/>
 <vertex x="-3.81" y="55.88"/>
 <vertex x="86.36" y="55.88"/>
 <vertex x="86.36" y="-3.81"/>
