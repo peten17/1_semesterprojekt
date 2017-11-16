@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 
 public class Message {
     private char upOrDown;
-    private String original = "";
+    private String message = "";
     
     Message() {
         
@@ -18,16 +18,16 @@ public class Message {
                 } else {
                    upOrDown = '1';
                 }
-                original = original + upOrDown;
+                message = message + upOrDown;
                 if(x < image.getWidth()-1) {
-                    original = original + 'R' ;
+                    message = message + 'R' ;
                 }
             }
-            original = original + 'N';
+            message = message + 'N';
         }
-        original = original + 'Q';
+        message = message + 'Q';
         
-        return  original;
+        return  message;
     }
     
     
