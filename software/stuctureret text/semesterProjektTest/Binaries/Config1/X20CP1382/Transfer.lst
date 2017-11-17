@@ -3,9 +3,9 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="I4.33"/>
   <Hardware Target="SG4"/>
+  <Operation Delete="emergencyS.br"/>
   <Operation Delete="reset.br"/>
   <Operation Delete="Program.br"/>
-  <Operation Delete="emergencyS.br"/>
   <Operation Delete="Visu_R.br"/>
   <Operation Delete="vccshape.br"/>
   <Operation Delete="vcbclass.br"/>
@@ -86,7 +86,7 @@
   <Operation Download="vcbclass.br" Memory="UserROM"/>
   <Operation Download="vccshape.br" Memory="UserROM"/>
   <Operation Download="Visu_R.br" Memory="UserROM"/>
-  <Operation Download="emergencyS.br" Memory="UserROM"/>
   <Operation Download="Program.br" Memory="UserROM"/>
   <Operation Download="reset.br" Memory="UserROM"/>
+  <Operation Download="emergencyS.br" Memory="UserROM"/>
 </Transfer>

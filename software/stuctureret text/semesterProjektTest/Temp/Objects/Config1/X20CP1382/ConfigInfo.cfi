@@ -2,7 +2,32 @@
 <?AutomationStudio Version="4.3.3.196"?>
 <ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
   <TaskClass
-    Name="Cyclic#1" />
+    Name="Cyclic#1">
+    <Task
+      Name="Program"
+      Disable="false"
+      Source="Program"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\Program\Main.st.var" />
+      <File
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Types.typ" />
+      <File
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Variables.var" />
+    </Task>
+    <Task
+      Name="reset"
+      Disable="false"
+      Source="reset"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\reset\Main.st.var" />
+      <File
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Types.typ" />
+      <File
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Variables.var" />
+    </Task>
+  </TaskClass>
   <TaskClass
     Name="Cyclic#2" />
   <TaskClass
@@ -21,38 +46,13 @@
       <File
         Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Variables.var" />
     </Task>
-    <Task
-      Name="Program"
-      Disable="false"
-      Source="Program"
-      Language="IEC">
-      <InternalFile
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\Program\Main.st.var" />
-      <File
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Types.typ" />
-      <File
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Variables.var" />
-    </Task>
   </TaskClass>
   <TaskClass
     Name="Cyclic#5" />
   <TaskClass
     Name="Cyclic#6" />
   <TaskClass
-    Name="Cyclic#7">
-    <Task
-      Name="reset"
-      Disable="false"
-      Source="reset"
-      Language="IEC">
-      <InternalFile
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\reset\Main.st.var" />
-      <File
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Types.typ" />
-      <File
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Variables.var" />
-    </Task>
-  </TaskClass>
+    Name="Cyclic#7" />
   <TaskClass
     Name="Cyclic#8" />
 </ConfigInfo>

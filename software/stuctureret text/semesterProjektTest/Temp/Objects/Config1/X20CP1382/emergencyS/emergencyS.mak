@@ -3,11 +3,13 @@ MarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojek
 
 $(AS_CPU_PATH)/emergencyS.br: \
 	$(AS_PROJECT_CPU_PATH)/Cpu.per \
+	FORCE \
 	$(AS_CPU_PATH)/emergencyS/emergencyS.ox
 	@'$(AS_BIN_PATH)/BR.AS.TaskBuilder.exe' '$(AS_CPU_PATH)/emergencyS/emergencyS.ox' -o '$(AS_CPU_PATH)/emergencyS.br' -v V1.00.0 -f '$(AS_CPU_PATH)/NT.ofs' -offsetLT '$(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/LT.ofs' -T SG4  -M IA32  -B I4.33 -extConstants -d 'runtime: V* - V*,asieccon: V* - V*' -r Cyclic4 -p 2 -s 'emergencyStop' -L 'AsIecCon: V*, astime: V*, operator: V*, runtime: V*, standard: V*' -P '$(AS_PROJECT_PATH)' -secret '$(AS_PROJECT_PATH)_br.as.taskbuilder.exe'
 
 $(AS_CPU_PATH)/emergencyS/emergencyS.ox: \
-	$(AS_CPU_PATH)/emergencyS/a.out
+	$(AS_CPU_PATH)/emergencyS/a.out \
+	FORCE 
 	@'$(AS_BIN_PATH)/BR.AS.Backend.exe' '$(AS_CPU_PATH)/emergencyS/a.out' -o '$(AS_CPU_PATH)/emergencyS/emergencyS.ox' -T SG4 -r Cyclic4   -G V4.1.2  -B I4.33 -secret '$(AS_PROJECT_PATH)_br.as.backend.exe'
 
 $(AS_CPU_PATH)/emergencyS/a.out: \
@@ -28,3 +30,6 @@ $(AS_CPU_PATH)/emergencyS/_bur_pvdef.st.o: \
 
 -include $(AS_CPU_PATH)/Force.mak 
 
+
+
+FORCE:
