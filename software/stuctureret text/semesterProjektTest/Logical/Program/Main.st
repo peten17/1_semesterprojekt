@@ -11,11 +11,13 @@ PROGRAM _INIT
 	sharpen := 1;
 	activator := FALSE;
 	newLineX := 0; 	
+	testEnab:= FALSE;
+	
 	
 END_PROGRAM
 
 PROGRAM _CYCLIC
-	IF (reset = FALSE) THEN
+	IF (reset = FALSE AND testEnab = FALSE) THEN
 		
 		IF (enabX = FALSE) THEN
 			status:= 2;

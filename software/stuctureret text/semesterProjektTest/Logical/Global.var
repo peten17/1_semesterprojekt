@@ -18,4 +18,5 @@ VAR
 	quit : BOOL;
 	sharpen : UINT;
 	status : USINT;
+	testEnab : BOOL;
 END_VAR

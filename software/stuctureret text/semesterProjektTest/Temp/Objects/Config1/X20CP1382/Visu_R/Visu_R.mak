@@ -159,7 +159,8 @@ BMGRP_SOURCES_Visu_R=$(AS_PROJECT_PATH)/Logical/Visu_Resized/BitmapGroups/AlphaP
 	$(AS_PROJECT_PATH)/Logical/Visu_Resized/BitmapGroups/Borders.bmgrp 
 
 PAGE_SOURCES_Visu_R=$(AS_PROJECT_PATH)/Logical/Visu_Resized/Pages/Informaion.page \
-	$(AS_PROJECT_PATH)/Logical/Visu_Resized/Pages/Config.page 
+	$(AS_PROJECT_PATH)/Logical/Visu_Resized/Pages/Config.page \
+	$(AS_PROJECT_PATH)/Logical/Visu_Resized/Pages/Testing.page 
 
 LAYER_SOURCES_Visu_R=$(AS_PROJECT_PATH)/Logical/Visu_Resized/Layers/CommonLayer_1.layer 
 
@@ -237,6 +238,10 @@ $(TEMP_PATH_Visu_R)/page.Informaion.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized
 
 
 $(TEMP_PATH_Visu_R)/page.Config.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/Pages/Config.page $(VC_LANGUAGES_Visu_R)
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -P '$(AS_PROJECT_PATH)' -ds '$(SRC_PATH_Visu_R)/StyleSheets/Color.vcs' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
+
+
+$(TEMP_PATH_Visu_R)/page.Testing.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/Pages/Testing.page $(VC_LANGUAGES_Visu_R)
 	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -P '$(AS_PROJECT_PATH)' -ds '$(SRC_PATH_Visu_R)/StyleSheets/Color.vcs' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
 
 

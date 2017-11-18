@@ -128,6 +128,7 @@
     <Source File="BitmapGroups\Borders.bmgrp"/>
     <Source File="Pages\Informaion.page"/>
     <Source File="Pages\Config.page"/>
+    <Source File="Pages\Testing.page"/>
     <Source File="Layers\CommonLayer_1.layer"/>
     <Source File="StyleSheets\Gray.vcs"/>
     <Source File="StyleSheets\Color.vcs"/>

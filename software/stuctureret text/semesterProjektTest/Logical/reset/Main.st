@@ -10,7 +10,7 @@ END_PROGRAM
 PROGRAM _CYCLIC
 
 		
-		IF (reset = TRUE) THEN
+		IF (reset = TRUE AND testEnab = FALSE) THEN
 			
 		// Resets the z-axis to know the position of the pen.
 			IF (switch = FALSE AND resetXYZ = 0) THEN
