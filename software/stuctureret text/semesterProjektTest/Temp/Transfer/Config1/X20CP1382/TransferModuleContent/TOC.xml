@@ -46,8 +46,8 @@
 			<Module Name="::Program" Type="17" Size="9668" Modified="2017-11-17 16:41:40" Version="1.00" ProjectDependent="1" />
 			<Module Name="::Role" Type="136" Size="760" Modified="2017-11-07 09:37:58" Version="1.00" ProjectDependent="1" />
 			<Module Name="::User" Type="136" Size="656" Modified="2017-11-07 09:37:59" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Visu_R" Type="18" Size="1464" Modified="2017-11-17 16:47:49" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Visu_R01" Type="18" Size="47320" Modified="2017-11-17 16:47:49" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visu_R" Type="18" Size="1464" Modified="2017-11-18 12:47:37" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Visu_R01" Type="18" Size="47320" Modified="2017-11-18 12:47:36" Version="1.00" ProjectDependent="1" />
 			<Module Name="::Visu_R02" Type="18" Size="2616" Modified="2017-11-17 16:46:29" Version="1.00" ProjectDependent="1" />
 			<Module Name="::Visu_R03" Type="18" Size="2273252" Modified="2017-11-17 16:46:29" Version="1.00" ProjectDependent="1" />
 			<Module Name="::arial" Type="18" Size="923108" Modified="2017-11-13 13:51:58" Version="1.00" ProjectDependent="1" />

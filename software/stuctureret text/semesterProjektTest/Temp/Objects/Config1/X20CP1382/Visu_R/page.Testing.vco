@@ -122,9 +122,9 @@
           </Object>
           <Object Name="Text_1" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Text_1]">
             <UInt32 Name="Left">200</UInt32>
-            <UInt32 Name="Top">147</UInt32>
+            <UInt32 Name="Top">150</UInt32>
             <UInt32 Name="Right">299</UInt32>
-            <UInt32 Name="Bottom">206</UInt32>
+            <UInt32 Name="Bottom">209</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
