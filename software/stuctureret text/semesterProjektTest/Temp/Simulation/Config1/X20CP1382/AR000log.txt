@@ -1,35 +1,24 @@
 
 
-Sat Nov 18 12:46:57 2017
+Mon Nov 20 13:12:33 2017
 No ARsim registration found!
   Bernecker & Rainer 
 
 
 
-Sat Nov 18 12:46:57 2017
+Mon Nov 20 13:12:33 2017
 COMMAND_COLDSTART
-InstanceName : 01d36062f05c03e0
+InstanceName : 01d361f8d84105c0
 
 WorkingPath :
 C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Simulation\Config1\X20CP1382\
 
 
 
-Sat Nov 18 12:46:57 2017
+Mon Nov 20 13:12:33 2017
 COMMAND_COLDSTART
 Version : I4.33
 
 
 
-Sat Nov 18 12:53:03 2017
-COMMAND_TERMINATE
-
-
-Sat Nov 18 12:53:04 2017
-
-
-Sat Nov 18 12:53:04 2017
-COMMAND_TERMINATE
-
-
-Sat Nov 18 12:53:04 2017
+Mon Nov 20 13:29:12 2017

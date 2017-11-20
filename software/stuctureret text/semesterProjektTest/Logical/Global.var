@@ -19,4 +19,10 @@ VAR
 	sharpen : UINT;
 	status : USINT;
 	testEnab : BOOL;
+	z_move_down : BOOL;
+	z_move_up : BOOL;
+	y_move_right : BOOL;
+	y_move_left : BOOL;
+	x_move_right : BOOL;
+	x_move_left : BOOL;
 END_VAR

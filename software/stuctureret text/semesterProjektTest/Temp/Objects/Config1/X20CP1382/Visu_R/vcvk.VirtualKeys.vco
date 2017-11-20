@@ -2649,6 +2649,15 @@
       <Object Name="Source[local].VirtualKey[%embVirtualKey_14]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_14]" />
       <Object Name="Source[local].VirtualKey[%embVirtualKey_15]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_15]" />
       <Object Name="Source[local].VirtualKey[%embVirtualKey_16]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_16]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_17]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_17]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_18]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_18]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_19]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_19]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_20]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_20]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_22]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_22]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_23]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_23]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_24]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_24]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_25]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_25]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_26]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_26]" />
     </Folder>
   </Folder>
 </Intermediate>

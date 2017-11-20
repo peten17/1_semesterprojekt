@@ -9,8 +9,8 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index
                                placement                               STRING[10]    0 "                                                              ''"    0    9   11    1    1    0         
                                     posX                                     UINT    0 "                                                               0"    0    6    1   10    0    0         
                                     posZ                                     UINT    0 "                                                               0"    0    6    1   10    0    0         
-                                    quit                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                    quit                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
                                    reset                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
                                    stepX                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
-                                   enabX                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
+                                   enabX                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
                                    stepZ                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         

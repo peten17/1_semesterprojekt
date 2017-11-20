@@ -1,11 +1,11 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=reset 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=2 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=5 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
                                     dirX                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
                                     dirY                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
                                     dirZ                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
-                                   enabX                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
-                                   enabY                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
+                                   enabX                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
+                                   enabY                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
                                    enabZ                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
                                    reset                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
                                 resetXYZ                                    USINT    0 "                                                               0"    0    5    1   10    1    0         
@@ -15,4 +15,4 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index
                                  swCount                                     UINT    0 "                                                               0"    0    6    1   10    1    0         
                                   switch                                     BOOL    1 "                                                           FALSE"    0    1    1    2    0    0         
                                        t                                    USINT    0 "                                                               *"    0    5    1   10    0    0         
-                                    quit                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                    quit                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         

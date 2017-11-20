@@ -17,6 +17,8 @@ PROGRAM _CYCLIC
 				enabZ:= FALSE;
 				dirZ:= FALSE;
 				stepZ := NOT stepZ;
+		END_IF		
+			
 
 			END_IF
 			IF (switch = TRUE AND swCount = 0 ) THEN 
@@ -66,11 +68,43 @@ PROGRAM _CYCLIC
 				
 			END_IF
 	END_IF
+	
+	
+	// move x-axis left 
+	IF (x_move_left) THEN 
+		stepX := NOT stepX;
+		dirX := TRUE;
 	END_IF
 	
+	// move x-axis right
+	IF (x_move_right) THEN 
+		stepX := NOT stepX;
+		dirX := FALSE;
+	END_IF
 	
+	// move y-axis left
+	IF (y_move_left) THEN 
+		stepY := NOT stepY;
+		dirY := TRUE;
+	END_IF	
 	
+	// move y-axis right 
+	IF (y_move_right) THEN 
+		stepY := NOT stepY;
+		dirY := FALSE;
+	END_IF
 	
+	// move z-axis up 
+	IF (z_move_up) THEN 
+		stepZ := NOT stepZ;
+		dirZ := FALSE;
+	END_IF
+	
+	// move z-axis down 
+	IF (z_move_down) THEN 
+		stepZ := NOT stepZ;
+		dirZ := FALSE;
+	END_IF
 	
 END_PROGRAM
 
