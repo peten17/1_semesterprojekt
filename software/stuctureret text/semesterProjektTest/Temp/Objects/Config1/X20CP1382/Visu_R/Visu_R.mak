@@ -146,7 +146,9 @@ BMINFO_SOURCES_Visu_R=$(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/AlphaPadQV
 	$(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/zuneListPadHor_pressed.bminfo \
 	$(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/zuneListPadHor_released.bminfo \
 	$(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/zuneListPadVer_pressed.bminfo \
-	$(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/zuneNumPad_pressed.bminfo 
+	$(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/zuneNumPad_pressed.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/indexsdsds.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/rsz_logo_2.bminfo 
 
 BMGRP_SOURCES_Visu_R=$(AS_PROJECT_PATH)/Logical/Visu_Resized/BitmapGroups/AlphaPadQVGA.bmgrp \
 	$(AS_PROJECT_PATH)/Logical/Visu_Resized/BitmapGroups/NumPad.bmgrp \
@@ -651,6 +653,14 @@ $(TEMP_PATH_Visu_R)/bminfo.zuneListPadVer_pressed.vco: $(AS_PROJECT_PATH)/Logica
 
 
 $(TEMP_PATH_Visu_R)/bminfo.zuneNumPad_pressed.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/zuneNumPad_pressed.bminfo $(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/zuneNumPad_pressed.bmp
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R)  -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
+
+
+$(TEMP_PATH_Visu_R)/bminfo.indexsdsds.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/indexsdsds.bminfo $(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/indexsdsds.png
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R)  -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
+
+
+$(TEMP_PATH_Visu_R)/bminfo.rsz_logo_2.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/rsz_logo_2.bminfo $(AS_PROJECT_PATH)/Logical/Visu_Resized/Bitmaps/rsz_logo_2.png
 	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R)  -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
 
 

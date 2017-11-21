@@ -41,16 +41,19 @@
           <Text ID="94997" Value="X-position "/>
           <Text ID="95000" Value="Y-position:"/>
           <Text ID="95001" Value="Z-position: "/>
+          <Text ID="95109" Value="Time since sharpening:"/>
         </TextLayer>
         <TextLayer LanguageId="da">
           <Text ID="94997" Value="X-position "/>
           <Text ID="95000" Value="Y-position "/>
           <Text ID="95001" Value="Z-position: "/>
+          <Text ID="95109" Value="Tid siden spidsning:"/>
         </TextLayer>
         <IndexMap>
           <Index ID="94997" Value="0"/>
           <Index ID="95000" Value="1"/>
           <Index ID="95001" Value="2"/>
+          <Index ID="95109" Value="4"/>
         </IndexMap>
       </TextGroup>
       <Controls>
@@ -153,6 +156,39 @@
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="80"/>
         </Control>
+        <Control ClassId="0x00001004" Name="Text_4">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="400"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="4"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="100"/>
+          <Property Name="Width" Value="152"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="562"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="101"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.posX]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
       </Controls>
       <KeyMapping/>
     </Layer>
@@ -162,5 +198,6 @@
     <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
     <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
     <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
   </TabSequence>
 </Page>

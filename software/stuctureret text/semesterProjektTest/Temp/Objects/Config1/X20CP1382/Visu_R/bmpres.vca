@@ -242,4 +242,6 @@
   <Symbol Name="\Projects\Visu_R\Bitmaps\POBJ" Index="68" Type="GFX" RefString="Source[local].Bitmap[zuneListPadHor_released]" />
   <Symbol Name="\Projects\Visu_R\Bitmaps\POBJ" Index="69" Type="GFX" RefString="Source[local].Bitmap[zuneListPadVer_pressed]" />
   <Symbol Name="\Projects\Visu_R\Bitmaps\POBJ" Index="70" Type="GFX" RefString="Source[local].Bitmap[zuneNumPad_pressed]" />
+  <Symbol Name="\Projects\Visu_R\Bitmaps\POBJ" Index="71" Type="GFX" RefString="Source[local].Bitmap[indexsdsds]" />
+  <Symbol Name="\Projects\Visu_R\Bitmaps\POBJ" Index="72" Type="GFX" RefString="Source[local].Bitmap[rsz_logo_2]" />
 </SymbolTable>

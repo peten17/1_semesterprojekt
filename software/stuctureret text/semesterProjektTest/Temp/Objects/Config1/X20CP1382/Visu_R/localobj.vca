@@ -242,6 +242,8 @@
   <Symbol Name="\Projects\Visu_R\Bitmaps\POBJ" Index="68" Type="GFX" RefString="Source[local].Bitmap[zuneListPadHor_released]" />
   <Symbol Name="\Projects\Visu_R\Bitmaps\POBJ" Index="69" Type="GFX" RefString="Source[local].Bitmap[zuneListPadVer_pressed]" />
   <Symbol Name="\Projects\Visu_R\Bitmaps\POBJ" Index="70" Type="GFX" RefString="Source[local].Bitmap[zuneNumPad_pressed]" />
+  <Symbol Name="\Projects\Visu_R\Bitmaps\POBJ" Index="71" Type="GFX" RefString="Source[local].Bitmap[indexsdsds]" />
+  <Symbol Name="\Projects\Visu_R\Bitmaps\POBJ" Index="72" Type="GFX" RefString="Source[local].Bitmap[rsz_logo_2]" />
   <Symbol Name="\Projects\Visu_R\BorderManager\POBJ\BorderObjects" Index="0" Type="BRD" RefString="Source[local].Border[Raised]" />
   <Symbol Name="\Projects\Visu_R\BorderManager\POBJ\BorderObjects" Index="1" Type="BRD" RefString="Source[local].Border[Sunken]" />
   <Symbol Name="\Projects\Visu_R\BorderManager\POBJ\BorderObjects" Index="2" Type="BRD" RefString="Source[local].Border[Etched]" />
@@ -442,15 +444,13 @@
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_14]" Index="1073741966" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_14]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_15]" Index="1073741967" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_15]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_16]" Index="1073741968" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_16]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_17]" Index="1073741969" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_17]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_18]" Index="1073741970" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_18]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_19]" Index="1073741971" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_19]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_20]" Index="1073741972" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_20]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_22]" Index="1073741973" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_22]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_23]" Index="1073741974" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_23]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_24]" Index="1073741975" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_24]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_25]" Index="1073741976" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_25]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_26]" Index="1073741977" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_26]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_20]" Index="1073741969" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_20]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_22]" Index="1073741970" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_22]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_23]" Index="1073741971" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_23]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_24]" Index="1073741972" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_24]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_25]" Index="1073741973" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_25]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_26]" Index="1073741974" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_26]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_17]" Index="1073741975" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_17]" />
   <Symbol Name="Source[local].TouchPad[NumPad].Control[TouchPadEdit]" Index="1073741824" Type="CTRL" RefString="Source[local].TouchPad[NumPad].Control[TouchPadEdit]" />
   <Symbol Name="Source[local].TouchPad[NumPad]" Index="1073741824" Type="OVL" RefString="Source[local].TouchPad[NumPad]" />
   <Symbol Name="Source[local].TouchPad[AlphaPadQVGA].Control[TouchPadEdit]" Index="1073741825" Type="CTRL" RefString="Source[local].TouchPad[AlphaPadQVGA].Control[TouchPadEdit]" />
@@ -469,47 +469,54 @@
   <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Button_2]" Index="1073741833" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Button_2]" />
   <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Button_3]" Index="1073741834" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Button_3]" />
   <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Button_4]" Index="1073741835" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Button_4]" />
+  <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Text_2]" Index="1073741836" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Text_2]" />
+  <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Text_3]" Index="1073741837" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Text_3]" />
+  <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Text_4]" Index="1073741838" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Text_4]" />
+  <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Shape_3]" Index="1073741839" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Shape_3]" />
+  <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Shape_4]" Index="1073741840" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Shape_4]" />
+  <Symbol Name="Source[local].Layer[CommonLayer_1].Control[Shape_5]" Index="1073741841" Type="CTRL" RefString="Source[local].Layer[CommonLayer_1].Control[Shape_5]" />
   <Symbol Name="Source[local].Layer[CommonLayer_1]" Index="1073741824" Type="LAY" RefString="Source[local].Layer[CommonLayer_1]" />
-  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Text_1]" Index="1073741836" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Text_1]" />
-  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Numeric_1]" Index="1073741837" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Numeric_1]" />
-  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Text_2]" Index="1073741838" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Text_2]" />
-  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Numeric_4]" Index="1073741839" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Numeric_4]" />
-  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Text_3]" Index="1073741840" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Text_3]" />
-  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Numeric_2]" Index="1073741841" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Numeric_2]" />
+  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Text_1]" Index="1073741842" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Text_1]" />
+  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Numeric_1]" Index="1073741843" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Numeric_1]" />
+  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Text_2]" Index="1073741844" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Numeric_4]" Index="1073741845" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Numeric_4]" />
+  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Text_3]" Index="1073741846" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Text_3]" />
+  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Numeric_2]" Index="1073741847" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Numeric_2]" />
+  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Text_4]" Index="1073741848" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Text_4]" />
+  <Symbol Name="Source[local].Page[Informaion].Layer[Default].Control[Numeric_3]" Index="1073741849" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Numeric_3]" />
   <Symbol Name="Source[local].Page[Informaion].Layer[Default]" Index="1073741825" Type="LAY" RefString="Source[local].Page[Informaion].Layer[Default]" />
+  <Symbol Name="Source[local].Page[Config].Layer[Default].Control[Button_1]" Index="1073741850" Type="CTRL" RefString="Source[local].Page[Config].Layer[Default].Control[Button_1]" />
   <Symbol Name="Source[local].Page[Config].Layer[Default]" Index="1073741826" Type="LAY" RefString="Source[local].Page[Config].Layer[Default]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_1]" Index="1073741842" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_1]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_1]" Index="1073741843" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_1]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Text_1]" Index="1073741844" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Text_1]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_2]" Index="1073741845" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_2]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_2]" Index="1073741846" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_2]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_3]" Index="1073741847" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_3]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_3]" Index="1073741848" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_3]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Text_2]" Index="1073741849" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Text_2]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_4]" Index="1073741850" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_4]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_4]" Index="1073741851" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_4]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_5]" Index="1073741852" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_5]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_5]" Index="1073741853" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_5]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Text_3]" Index="1073741854" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Text_3]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_6]" Index="1073741855" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_6]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_6]" Index="1073741856" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_6]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_7]" Index="1073741857" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_7]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_8]" Index="1073741858" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_8]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_9]" Index="1073741859" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_9]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_10]" Index="1073741860" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_10]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_11]" Index="1073741861" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_11]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_12]" Index="1073741862" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_12]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_13]" Index="1073741863" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_13]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_14]" Index="1073741864" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_14]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_16]" Index="1073741865" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_16]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_17]" Index="1073741866" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_17]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_18]" Index="1073741867" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_18]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_19]" Index="1073741868" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_19]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_20]" Index="1073741869" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_20]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_1]" Index="1073741851" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_1]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_1]" Index="1073741852" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_1]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Text_1]" Index="1073741853" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Text_1]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_2]" Index="1073741854" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_2]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_2]" Index="1073741855" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_2]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_3]" Index="1073741856" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_3]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_3]" Index="1073741857" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_3]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Text_2]" Index="1073741858" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_4]" Index="1073741859" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_4]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_4]" Index="1073741860" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_4]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_5]" Index="1073741861" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_5]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_5]" Index="1073741862" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_5]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Text_3]" Index="1073741863" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Text_3]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_6]" Index="1073741864" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_6]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_6]" Index="1073741865" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_6]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_7]" Index="1073741866" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_7]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_8]" Index="1073741867" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_8]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_9]" Index="1073741868" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_9]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_10]" Index="1073741869" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_10]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_14]" Index="1073741870" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_14]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_16]" Index="1073741871" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_16]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_17]" Index="1073741872" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_17]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_18]" Index="1073741873" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_18]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_19]" Index="1073741874" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_19]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_20]" Index="1073741875" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_20]" />
   <Symbol Name="Source[local].Page[Testing].Layer[Default]" Index="1073741827" Type="LAY" RefString="Source[local].Page[Testing].Layer[Default]" />
   <Symbol Name="Source[local].Layer[CommonLayer_1].TextGroup[Embedded]" Index="1073741824" Type="TG" RefString="Source[local].Layer[CommonLayer_1].TextGroup[Embedded]" />
   <Symbol Name="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded]" Index="1073741825" Type="TG" RefString="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded]" />
-  <Symbol Name="Source[local].Page[Testing].Layer[Default].TextGroup[Embedded]" Index="1073741826" Type="TG" RefString="Source[local].Page[Testing].Layer[Default].TextGroup[Embedded]" />
+  <Symbol Name="Source[local].Page[Config].Layer[Default].TextGroup[Embedded]" Index="1073741826" Type="TG" RefString="Source[local].Page[Config].Layer[Default].TextGroup[Embedded]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].TextGroup[Embedded]" Index="1073741827" Type="TG" RefString="Source[local].Page[Testing].Layer[Default].TextGroup[Embedded]" />
   <Symbol Name="Source[local].Runtime[Visu_R]" Index="1073741824" Type="RTM" RefString="Source[local].Runtime[Visu_R]" />
   <Symbol Name="Source[local].TrendDataConfiguration[TrendData]" Index="1073741824" Type="TDC" RefString="Source[local].TrendDataConfiguration[TrendData]" />
   <Symbol Name="Source[local].StyleGroup[0x00000400].StyleClass[default]" Index="1073741833" Type="REF" RefString="Source[local].StyleGroup[0x00000400].StyleClass[default]" />
@@ -665,6 +672,7 @@
   <Symbol Name="\Projects\Visu_R\Layers\CommonLayer_1\VKeys\Common" Index="1073741956" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_4]#\Projects\Visu_R\Layers\CommonLayer_1\VKeys\Common" />
   <Symbol Name="\Projects\Visu_R\Layers\CommonLayer_1\VKeys\Common" Index="1073741957" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_5]#\Projects\Visu_R\Layers\CommonLayer_1\VKeys\Common" />
   <Symbol Name="\Projects\Visu_R\Layers\CommonLayer_1\VKeys\Common" Index="1073741965" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_13]#\Projects\Visu_R\Layers\CommonLayer_1\VKeys\Common" />
+  <Symbol Name="\Projects\Visu_R\Layers\ConfigDefault\VKeys\Common" Index="1073741975" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_17]#\Projects\Visu_R\Layers\ConfigDefault\VKeys\Common" />
   <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741958" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_6]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
   <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741959" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_7]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
   <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741960" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_8]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
@@ -675,19 +683,18 @@
   <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741966" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_14]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
   <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741967" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_15]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
   <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741968" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_16]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
-  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741969" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_17]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
-  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741970" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_18]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
-  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741971" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_19]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
-  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741972" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_20]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
-  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741973" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_22]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
-  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741974" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_23]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
-  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741975" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_24]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
-  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741976" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_25]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
-  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741977" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_26]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
+  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741969" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_20]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
+  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741970" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_22]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
+  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741971" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_23]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
+  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741972" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_24]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
+  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741973" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_25]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
+  <Symbol Name="\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" Index="1073741974" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_26]#\Projects\Visu_R\Layers\TestingDefault\VKeys\Common" />
   <Symbol Name="\Projects\Visu_R\Language\en\TextGroups\POBJ" Index="1073741824" Type="TG" RefString="Source[local].Layer[CommonLayer_1].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\Visu_R\Language\en\TextGroups\POBJ" Index="1073741825" Type="TG" RefString="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded].Language[en]" />
-  <Symbol Name="\Projects\Visu_R\Language\en\TextGroups\POBJ" Index="1073741826" Type="TG" RefString="Source[local].Page[Testing].Layer[Default].TextGroup[Embedded].Language[en]" />
+  <Symbol Name="\Projects\Visu_R\Language\en\TextGroups\POBJ" Index="1073741826" Type="TG" RefString="Source[local].Page[Config].Layer[Default].TextGroup[Embedded].Language[en]" />
+  <Symbol Name="\Projects\Visu_R\Language\en\TextGroups\POBJ" Index="1073741827" Type="TG" RefString="Source[local].Page[Testing].Layer[Default].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\Visu_R\Language\da\TextGroups\POBJ" Index="1073741824" Type="TG" RefString="Source[local].Layer[CommonLayer_1].TextGroup[Embedded].Language[da]" />
   <Symbol Name="\Projects\Visu_R\Language\da\TextGroups\POBJ" Index="1073741825" Type="TG" RefString="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded].Language[da]" />
-  <Symbol Name="\Projects\Visu_R\Language\da\TextGroups\POBJ" Index="1073741826" Type="TG" RefString="Source[local].Page[Testing].Layer[Default].TextGroup[Embedded].Language[da]" />
+  <Symbol Name="\Projects\Visu_R\Language\da\TextGroups\POBJ" Index="1073741826" Type="TG" RefString="Source[local].Page[Config].Layer[Default].TextGroup[Embedded].Language[da]" />
+  <Symbol Name="\Projects\Visu_R\Language\da\TextGroups\POBJ" Index="1073741827" Type="TG" RefString="Source[local].Page[Testing].Layer[Default].TextGroup[Embedded].Language[da]" />
 </SymbolTable>
