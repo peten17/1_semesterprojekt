@@ -71,39 +71,57 @@ PROGRAM _CYCLIC
 	
 	
 	// move x-axis left 
-	IF (x_move_left) THEN 
+	IF (x_move_left AND testEnab) THEN 
 		stepX := NOT stepX;
 		dirX := TRUE;
+		IF stepX = FALSE THEN
+			posX := posX +1;
+		END_IF
 	END_IF
 	
 	// move x-axis right
-	IF (x_move_right) THEN 
+	IF (x_move_right AND testEnab) THEN 
 		stepX := NOT stepX;
 		dirX := FALSE;
+		IF stepX = FALSE THEN
+			posX := posX -1;
+		END_IF
 	END_IF
 	
 	// move y-axis left
-	IF (y_move_left) THEN 
+	IF (y_move_left AND testEnab) THEN 
 		stepY := NOT stepY;
 		dirY := TRUE;
+		IF stepY = FALSE THEN
+			posY := posY +1;
+		END_IF
 	END_IF	
 	
 	// move y-axis right 
-	IF (y_move_right) THEN 
+	IF (y_move_right AND testEnab) THEN 
 		stepY := NOT stepY;
 		dirY := FALSE;
+		IF stepY = FALSE THEN
+			posY := posY -1;
+		END_IF
 	END_IF
 	
 	// move z-axis up 
-	IF (z_move_up) THEN 
+	IF (z_move_up AND testEnab) THEN 
 		stepZ := NOT stepZ;
 		dirZ := FALSE;
+		IF stepZ = FALSE THEN
+			posZ := posZ +1;
+		END_IF
 	END_IF
 	
 	// move z-axis down 
-	IF (z_move_down) THEN 
+	IF (z_move_down AND testEnab) THEN 
 		stepZ := NOT stepZ;
 		dirZ := FALSE;
+		IF stepZ = FALSE THEN
+			posZ := posZ -1;
+		END_IF	
 	END_IF
 	
 END_PROGRAM
