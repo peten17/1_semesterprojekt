@@ -3,10 +3,10 @@ VAR_CONFIG
 	::enabX AT %QX."X3".DigitalOutput02;
 	::enabY AT %QX."X3".DigitalOutput04;
 	::dirZ AT %QX."X3".DigitalOutput05;
-	::switch AT %IX."X2".DigitalInput01;
 	::stepX AT %QX."X3".DigitalOutput10;
 	::dirY AT %QX."X3".DigitalOutput03;
 	::enabZ AT %QX."X3".DigitalOutput06;
 	::stepY AT %QX."X3".DigitalOutput11;
 	::stepZ AT %QX."X3".DigitalOutput12;
+	::switch AT %IX."X2".DigitalInput02;
 END_VAR

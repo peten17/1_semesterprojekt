@@ -25,9 +25,6 @@
       <Group ID="Vnc1" />
       <Parameter ID="VncVcObjectName1" Value="Visu_R" />
       <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
-      <Parameter ID="VncAuthentication1" Value="1" />
-      <Parameter ID="VncPasswordViewOnly1" Value="v" />
-      <Parameter ID="VncPasswordViewControl1" Value="vc" />
       <Parameter ID="VncRefreshRate1" Value="100" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="semesterProjektTest_Config1" />

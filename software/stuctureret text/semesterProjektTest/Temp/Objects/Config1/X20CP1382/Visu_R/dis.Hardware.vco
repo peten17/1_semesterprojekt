@@ -11,10 +11,10 @@
         <UInt16 Name="Port">5900</UInt16>
         <UInt16 Name="RefreshRate">100</UInt16>
         <UInt16 Name="MaxClients">1</UInt16>
-        <Byte Name="AuthenticationDisable">0</Byte>
+        <Byte Name="AuthenticationDisable">1</Byte>
         <Byte Name="Reserved">0</Byte>
-        <Binary Name="Password" Encoding="Base64">Ik7KLuzTPsE=</Binary>
-        <Binary Name="Password" Encoding="Base64">awrbfcfjNT8=</Binary>
+        <Binary Name="Password" Encoding="Base64">WrLNwLrcrxM=</Binary>
+        <Binary Name="Password" Encoding="Base64">WrLNwLrcrxM=</Binary>
         <UInt16 Name="Timeout">4</UInt16>
         <Int16 Name="Reserved">0</Int16>
         <Binary Name="Title" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</Binary>
