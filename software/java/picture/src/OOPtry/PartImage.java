@@ -1,7 +1,6 @@
 
 package OOPtry;
 
-import java.awt.image.BufferedImage;
 
 
 public class PartImage {

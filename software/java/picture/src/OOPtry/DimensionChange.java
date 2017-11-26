@@ -64,6 +64,7 @@ public class DimensionChange {
                 }
 
             }
+            System.out.println();
         }
     }
 }

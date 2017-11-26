@@ -28,7 +28,7 @@ public class PictureinOOP {
             try {
                 cImage = ImageIO.read(new File(fileName)); // placeringen af filen er relativ til java filen. https://docs.oracle.com/javase/7/docs/api/javax/imageio/ImageIO.html#read(java.io.File)
                 break;
-            } catch (IOException | IllegalArgumentException e) { // | er en bitwis OR operator. https://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html
+            } catch (IOException | IllegalArgumentException e) { // | er en bitwis OR operator. hvis enten det på højre eller venstre side af en bitvis OR operator er 1, så giver det 1. https://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html
 
             }
         }
@@ -73,6 +73,10 @@ public class PictureinOOP {
             
             //Connect and send to PLC
             
+            // DimensionChange d = new DimensionChange();
+            //d.convertToScaledMessage(pictureArray, cImage);
+
+
             
             
         } else if(fullorPart.compareTo("SP") == 0) {
