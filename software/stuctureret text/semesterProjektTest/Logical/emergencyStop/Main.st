@@ -8,9 +8,9 @@ END_PROGRAM
 
 PROGRAM _CYCLIC
 	IF (emergencyStop) THEN
-		enabX := FALSE;
-		enabY := FALSE;
-		enabZ := FALSE;
+		enabX := TRUE;
+		enabY := TRUE;
+		enabZ := TRUE;
 		status := 0;
 		
 	END_IF

@@ -3,9 +3,9 @@
     <SourceFile Value="C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Physical/Config1/X20CP1382/Cpu.sw" />
     <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
     <Xml>
-      <Task Name="emergencyS" Source="emergencyStop.prg" />
       <Task Name="Program" Source="Program.prg" />
       <Task Name="reset" Source="reset.prg" />
+      <Task Name="emergencyS" Source="emergencyStop.prg" />
     </Xml>
   </BuildOption>
 </BuildOptions>

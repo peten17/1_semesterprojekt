@@ -3,6 +3,11 @@
   <Property Name="VCPDAR00" Value="False" />
   <Property Name="VCWXPRT" Value="False" />
   <Module>
+    <Property Name="Name" Value="AsHW.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="" />
+  </Module>
+  <Module>
     <Property Name="Name" Value="FileIO.br" />
     <Property Name="Version" Value="Core" />
     <Property Name="Platform" Value="" />
@@ -84,6 +89,11 @@
   </Module>
   <Module>
     <Property Name="Name" Value="vcpfar00.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcpfx20.br" />
     <Property Name="Version" Value="Core" />
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>

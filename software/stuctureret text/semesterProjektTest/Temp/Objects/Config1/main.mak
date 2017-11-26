@@ -1,6 +1,6 @@
 SHELL := cmd.exe
 CYGWIN=nontsec
-export PATH := C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Users\peter\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\peter\AppData\Local\GitHubDesktop\bin;C:\Users\peter\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\peter\AppData\Local\GitHubDesktop\bin
+export PATH := C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Users\peter\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\peter\AppData\Local\GitHubDesktop\bin;C:\Users\peter\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\peter\AppData\Local\GitHubDesktop\bin
 export AS_BUILD_MODE := BuildAndTransfer
 export AS_VERSION := 4.3.3.196
 export AS_COMPANY_NAME :=  

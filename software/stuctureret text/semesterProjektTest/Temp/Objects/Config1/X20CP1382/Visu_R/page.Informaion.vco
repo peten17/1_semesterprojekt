@@ -188,18 +188,81 @@
               <UInt16 Name="Size">0</UInt16>
             </Group>
           </Object>
+          <Object Name="Text_4" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Text_4]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">100</UInt32>
+            <UInt32 Name="Right">551</UInt32>
+            <UInt32 Name="Bottom">129</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">38</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentVertical">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10pxBold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">4</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_3" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[Numeric_3]">
+            <UInt32 Name="Left">562</UInt32>
+            <UInt32 Name="Top">101</UInt32>
+            <UInt32 Name="Right">641</UInt32>
+            <UInt32 Name="Bottom">130</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.posX]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
         </Folder>
       </Folder>
       <Folder Name="POBJ">
         <Object Name="Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[Informaion].Layer[Default]">
           <Reference Name="StatusDP" Type="DP">None</Reference>
-          <UInt32 Name="CtrlCount">6</UInt32>
+          <UInt32 Name="CtrlCount">8</UInt32>
           <Reference Name="Text_1" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Text_1]</Reference>
           <Reference Name="Numeric_1" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Numeric_1]</Reference>
           <Reference Name="Text_2" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Text_2]</Reference>
           <Reference Name="Numeric_4" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Numeric_4]</Reference>
           <Reference Name="Text_3" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Text_3]</Reference>
           <Reference Name="Numeric_2" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Numeric_2]</Reference>
+          <Reference Name="Text_4" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Text_4]</Reference>
+          <Reference Name="Numeric_3" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Numeric_3]</Reference>
         </Object>
       </Folder>
     </Folder>
@@ -208,7 +271,7 @@
     <Folder Name="PInformaion.LDefault" TargetIndex="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded]">
       <Object Name="Embedded" ClsId="0x304" Version="1" Type="TG" RefString="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded]">
         <UInt32 Name="NumberOfTags">0</UInt32>
-        <UInt32 Name="NumberOfTexts">3</UInt32>
+        <UInt32 Name="NumberOfTexts">4</UInt32>
         <Table Name="TextMap" Cols="2">
           <TableHeader>
             <Column Name="UserIndex" />
@@ -226,6 +289,10 @@
             <UInt32 Name="UserIndex">2</UInt32>
             <UInt32 Name="TextIndex">95001</UInt32>
           </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">4</UInt32>
+            <UInt32 Name="TextIndex">95109</UInt32>
+          </TableRow>
         </Table>
       </Object>
     </Folder>
@@ -235,7 +302,7 @@
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded].Language[en]">
-            <UInt32 Name="NumberOfTexts">3</UInt32>
+            <UInt32 Name="NumberOfTexts">4</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
                 <Column Name="TextIndex" />
@@ -246,21 +313,28 @@
               </TableHeader>
               <TableRow>
                 <UInt32 Name="TextIndex">94997</UInt32>
-                <UInt32 Name="TextOffset">40</UInt32>
+                <UInt32 Name="TextOffset">52</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">95000</UInt32>
-                <UInt32 Name="TextOffset">64</UInt32>
+                <UInt32 Name="TextOffset">76</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">95001</UInt32>
-                <UInt32 Name="TextOffset">88</UInt32>
+                <UInt32 Name="TextOffset">100</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">95109</UInt32>
+                <UInt32 Name="TextOffset">126</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
@@ -270,6 +344,7 @@
               <String Name="Text" Encoding="Unicode">"X-position "</String>
               <String Name="Text" Encoding="Unicode">"Y-position:"</String>
               <String Name="Text" Encoding="Unicode">"Z-position: "</String>
+              <String Name="Text" Encoding="Unicode">"Time since sharpening:"</String>
             </Group>
           </Object>
         </Folder>
@@ -281,7 +356,7 @@
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded].Language[da]">
-            <UInt32 Name="NumberOfTexts">3</UInt32>
+            <UInt32 Name="NumberOfTexts">4</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
                 <Column Name="TextIndex" />
@@ -292,21 +367,28 @@
               </TableHeader>
               <TableRow>
                 <UInt32 Name="TextIndex">94997</UInt32>
-                <UInt32 Name="TextOffset">40</UInt32>
+                <UInt32 Name="TextOffset">52</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">95000</UInt32>
-                <UInt32 Name="TextOffset">64</UInt32>
+                <UInt32 Name="TextOffset">76</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">95001</UInt32>
-                <UInt32 Name="TextOffset">88</UInt32>
+                <UInt32 Name="TextOffset">100</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">95109</UInt32>
+                <UInt32 Name="TextOffset">126</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
@@ -316,6 +398,7 @@
               <String Name="Text" Encoding="Unicode">"X-position "</String>
               <String Name="Text" Encoding="Unicode">"Y-position "</String>
               <String Name="Text" Encoding="Unicode">"Z-position: "</String>
+              <String Name="Text" Encoding="Unicode">"Tid siden spidsning:"</String>
             </Group>
           </Object>
         </Folder>
