@@ -105,13 +105,13 @@
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
-  <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Main.st" CaretLine="44" CaretColumn="24" FirstVisibleLine="29">
+  <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Main.st" CaretLine="11" CaretColumn="12" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Main.st" CaretLine="15" CaretColumn="2" FirstVisibleLine="1">
+  <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Main.st" CaretLine="24" CaretColumn="3" FirstVisibleLine="61">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Main.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+  <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Main.st" CaretLine="20" CaretColumn="16" FirstVisibleLine="4">
     <Bookmarks />
   </TextEdit>
   <TreeView ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Variables.var" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
@@ -149,7 +149,9 @@
       <Column Index="10" Width="0" Position="10" />
     </Columns>
     <ExpandedNodes />
-    <SelectedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="0" />
+    </SelectedNodes>
     <ZoomIndices />
   </TreeView>
   <TreeView ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Variables.var" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
@@ -167,7 +169,9 @@
       <Column Index="10" Width="0" Position="10" />
     </Columns>
     <ExpandedNodes />
-    <SelectedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="0" />
+    </SelectedNodes>
     <ZoomIndices />
   </TreeView>
   <TreeView ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Variables.var" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
