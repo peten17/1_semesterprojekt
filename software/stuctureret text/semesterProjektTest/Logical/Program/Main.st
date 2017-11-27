@@ -9,15 +9,14 @@ PROGRAM _INIT
 	placeInString := 1; 
 	i := 0;
 	sharpen := 1;
-	activator := FALSE;
-	newLineX := 0; 	
+	activator := FALSE;	
 	testEnab:= FALSE;
 	
 	
 END_PROGRAM
 
 PROGRAM _CYCLIC
-	IF (reset = FALSE AND testEnab = FALSE) THEN
+	IF (reset = FALSE AND testEnab = FALSE ) THEN
 		
 		IF (enabX = FALSE) THEN
 			status:= 2;
@@ -80,7 +79,7 @@ PROGRAM _CYCLIC
 			// here the robot will draw
 			IF (placement = 'R') THEN
 				IF (MID(input, 1, placeInString + 1) = '1' AND i < 3) THEN
-					IF (posZ < 1200) THEN  // !!!!!!
+					IF (posZ < 3000) THEN  // !!!!!!
 						dirZ := FALSE;
 						stepZ := NOT stepZ;
 						IF (stepZ = FALSE) THEN
@@ -102,7 +101,7 @@ PROGRAM _CYCLIC
 					
 				ELSIF (MID(input, 1, placeInString + 1) = '0' AND i < 3) THEN
 					
-					IF (posZ > 800) THEN  // !!!!!!
+					IF (posZ > 2650) THEN  // !!!!!!
 						dirZ := TRUE;
 						stepZ := NOT stepZ;
 						IF (stepZ = FALSE) THEN
@@ -132,13 +131,13 @@ PROGRAM _CYCLIC
 			
 			
 			ELSIF (placement = 'N') THEN
-				IF (posZ > 800) THEN  // !!!!!!
+				IF (posZ > 2600) THEN  // !!!!!!
 					dirZ := TRUE;
 					stepZ := NOT stepZ;
 					IF (stepZ = FALSE) THEN
 						posZ := posZ -1;
 					END_IF
-				ELSIF (posZ = 800 AND newLineX > 0) THEN//!!!!
+				ELSIF (posZ = 2600 AND newLineX > 0) THEN//!!!!
 					dirX := FALSE;
 					stepX := NOT stepX;
 					IF (stepX = FALSE) THEN
@@ -146,7 +145,7 @@ PROGRAM _CYCLIC
 						newLineX := newLineX -1;
 					END_IF
 					
-				ELSIF (posZ = 800 AND newLineX = 0 AND i < 3) THEN
+				ELSIF (posZ = 2600 AND newLineX = 0 AND i < 3) THEN
 					dirY := TRUE;
 					stepY := NOT stepY;
 					IF (stepY = FALSE) THEN

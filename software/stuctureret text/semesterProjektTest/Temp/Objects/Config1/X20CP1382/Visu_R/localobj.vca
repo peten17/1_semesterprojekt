@@ -512,6 +512,12 @@
   <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_18]" Index="1073741873" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_18]" />
   <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_19]" Index="1073741874" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_19]" />
   <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Button_20]" Index="1073741875" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Button_20]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Text_4]" Index="1073741876" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Text_4]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_7]" Index="1073741877" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_7]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Text_5]" Index="1073741878" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Text_5]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_8]" Index="1073741879" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_8]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Text_6]" Index="1073741880" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Text_6]" />
+  <Symbol Name="Source[local].Page[Testing].Layer[Default].Control[Numeric_9]" Index="1073741881" Type="CTRL" RefString="Source[local].Page[Testing].Layer[Default].Control[Numeric_9]" />
   <Symbol Name="Source[local].Page[Testing].Layer[Default]" Index="1073741827" Type="LAY" RefString="Source[local].Page[Testing].Layer[Default]" />
   <Symbol Name="Source[local].Layer[CommonLayer_1].TextGroup[Embedded]" Index="1073741824" Type="TG" RefString="Source[local].Layer[CommonLayer_1].TextGroup[Embedded]" />
   <Symbol Name="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded]" Index="1073741825" Type="TG" RefString="Source[local].Page[Informaion].Layer[Default].TextGroup[Embedded]" />
