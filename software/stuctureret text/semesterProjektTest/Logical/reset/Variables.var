@@ -1,5 +1,6 @@
 VAR
-	resetXYZ : USINT;
-	swCount : UINT;
 	count : USINT;
+	resetXYZ : USINT;
+	move_to_point : BOOL;
+	swCount : UINT;
 END_VAR
