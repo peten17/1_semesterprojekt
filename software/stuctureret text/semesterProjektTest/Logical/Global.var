@@ -6,14 +6,14 @@ VAR
 	enabY : BOOL;
 	enabZ : BOOL;
 	input : STRING[80];
-	posX : UINT;
-	posY : UINT;
-	posZ : UINT;
+	posX : UDINT;
+	posY : UDINT;
+	posZ : UDINT;
 	reset : BOOL;
 	stepX : BOOL;
 	stepY : BOOL;
 	stepZ : BOOL;
-	switch : BOOL;
+	switch_X : BOOL;
 	t : USINT;
 	quit : BOOL;
 	sharpen : UINT;
@@ -25,4 +25,8 @@ VAR
 	y_move_left : BOOL;
 	x_move_right : BOOL;
 	x_move_left : BOOL;
+	New_Variable : USINT;
+	switch_Z : BOOL;
+	switch_Y : BOOL;
+	newLineX : UDINT;
 END_VAR

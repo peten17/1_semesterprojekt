@@ -1,9 +1,8 @@
 VAR
 	timer : TON;
-	i : UINT;
+	i : UDINT;
 	placeInString : UINT;
 	placement : STRING[10];
-	tempX : UINT;
-	newLineX : UINT;
+	tempX : UDINT;
 	activator : BOOL;
 END_VAR
