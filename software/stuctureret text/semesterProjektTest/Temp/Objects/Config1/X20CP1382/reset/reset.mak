@@ -1,5 +1,5 @@
-UnmarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Logical/reset
-MarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterProjektTest/Logical/reset
+UnmarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Logical/reset
+MarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterProjektTest/Logical/reset
 
 $(AS_CPU_PATH)/reset.br: \
 	$(AS_PROJECT_CPU_PATH)/Cpu.per \
