@@ -9,6 +9,6 @@ VAR_CONFIG
 	::stepY AT %QX."X3".DigitalOutput11;
 	::stepZ AT %QX."X3".DigitalOutput12;
 	::switch_Z AT %IX."X2".DigitalInput03;
-	::switch_X AT %IX."X2".DigitalInput02;
-	::switch_Y AT %IX."X2".DigitalInput01;
+	::switch_Y AT %IX."X2".DigitalInput02;
+	::switch_X AT %IX."X2".DigitalInput01;
 END_VAR

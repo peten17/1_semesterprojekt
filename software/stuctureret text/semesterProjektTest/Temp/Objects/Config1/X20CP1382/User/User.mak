@@ -1,5 +1,5 @@
-UnmarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Physical/Config1/X20CP1382/AccessAndSecurity/UserRoleSystem
-MarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterProjektTest/Physical/Config1/X20CP1382/AccessAndSecurity/UserRoleSystem
+UnmarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Physical/Config1/X20CP1382/AccessAndSecurity/UserRoleSystem
+MarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterProjektTest/Physical/Config1/X20CP1382/AccessAndSecurity/UserRoleSystem
 
 $(AS_CPU_PATH)/User.br: \
 	$(AS_PROJECT_CONFIG_PATH)/$(AS_PLC)/AccessAndSecurity/UserRoleSystem/User.user \

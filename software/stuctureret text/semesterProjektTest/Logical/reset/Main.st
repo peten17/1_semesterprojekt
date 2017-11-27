@@ -11,37 +11,38 @@ PROGRAM _INIT
 	posX := 0;
 	posY := 0;
 	posZ := 0;
+
 END_PROGRAM
 
 PROGRAM _CYCLIC
 
 		
 	IF (reset = TRUE AND testEnab = FALSE) THEN
-		IF switch_X = FALSE AND resetX = 0  THEN
+		IF switch_X = TRUE AND resetX = 0  THEN
 			enabX:= FALSE;
 			dirX:= FALSE;
 			stepX := NOT stepX;
-		ELSIF switch_X THEN	
+		ELSIF switch_X = FALSE THEN	
 			resetX := 1;
 			dirX:= TRUE;
 			stepX := NOT stepX;
 		END_IF	
 		
-		IF switch_Y = FALSE AND resetY = 0 THEN
+		IF switch_Y = TRUE AND resetY = 0 THEN
 			enabY:= FALSE;
 			dirY:= FALSE;
 			stepY := NOT stepY;
-		ELSIF switch_Y THEN
+		ELSIF switch_Y = FALSE THEN
 			resetY := 1; 
 			dirY:= TRUE;
 			stepY := NOT stepY;
 		END_IF
 		
-		IF switch_Z = FALSE AND resetZ = 0 THEN
+		IF switch_Z = TRUE AND resetZ = 0 THEN
 			enabZ:= FALSE;
 			dirZ:= FALSE;
 			stepZ := NOT stepZ;
-		ELSIF switch_Z THEN
+		ELSIF switch_Z = FALSE THEN
 			resetZ := 1;
 			dirZ:= TRUE;
 			stepZ := NOT stepZ;			
@@ -89,13 +90,20 @@ PROGRAM _CYCLIC
 //					stepY := NOT stepY;
 //					resetXYZ:= 3;
 //					reset := FALSE;
-//				END_IF
-		IF resetX = 1 AND resetY = 1 AND resetZ = 1 THEN
-			posX := 0;
-			posY := 0;
-			posZ := 0;
-			resetX := 2;
-		END_IF 
+		//				END_IF
+		timer.IN := TRUE;
+		timer.PT := T#100ms;
+		IF timer.Q THEN 
+			IF resetX = 1 AND resetY = 1 AND resetZ = 1 THEN
+				posX := 0;
+				posY := 0;
+				posZ := 0;
+				resetX := 2;
+			END_IF 
+			timer.IN := FALSE;
+		END_IF
+	
+		
 			
 		IF quit = FALSE AND resetX = 2 THEN
 			IF posX < 1900 THEN
@@ -103,13 +111,14 @@ PROGRAM _CYCLIC
 				stepX := NOT stepX;
 				IF (stepX = FALSE) THEN
 					posX := posX +1;
-					newLineX := 0;
 				END_IF
 			ELSE
 				reset:= FALSE;
 				resetX := 0; 
 				resetY := 0;  
-				resetZ := 0;
+				resetZ := 0;	
+				newLineX :=  2294967295;
+				newLineHelper := 2294967295;
 			END_IF
 		END_IF
 	END_IF	
@@ -171,7 +180,7 @@ PROGRAM _CYCLIC
 			posZ := posZ +1;
 		END_IF	
 	END_IF
-	
+	timer();
 END_PROGRAM
 
 PROGRAM _EXIT

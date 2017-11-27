@@ -5,7 +5,7 @@ VAR
 	enabX : BOOL;
 	enabY : BOOL;
 	enabZ : BOOL;
-	input : STRING[80];
+	input : STRING[30000];
 	posX : UDINT;
 	posY : UDINT;
 	posZ : UDINT;
@@ -25,8 +25,14 @@ VAR
 	y_move_left : BOOL;
 	x_move_right : BOOL;
 	x_move_left : BOOL;
-	New_Variable : USINT;
+	sharpenderNeed : BOOL;
 	switch_Z : BOOL;
 	switch_Y : BOOL;
+	percentage : REAL; (*%*)
 	newLineX : UDINT;
+	ValueZ : UINT;
+	penLength : REAL;
+	placeInString : UINT;
+	placement : STRING[5];
+	newLineHelper : UDINT;
 END_VAR

@@ -1,21 +1,22 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=reset 
 Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=6 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                                    dirX                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
-                                    dirY                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
-                                    dirZ                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
-                                   enabX                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
-                                   enabY                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
-                                   enabZ                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
-                                   reset                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
-                                resetXYZ                                    USINT    0 "                                                               3"    0    5    1   10    1    0         
-                                   stepX                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
-                                   stepY                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
-                                   stepZ                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
-                                 swCount                                     UINT    0 "                                                               3"    0    6    1   10    1    0         
-                                switch_X                                     BOOL    1 "                                                           FALSE"    0    1    1    2    0    0         
-                                switch_Y                                     BOOL    1 "                                                           FALSE"    0    1    1    2    0    0         
-                                switch_Z                                     BOOL    1 "                                                           FALSE"    0    1    1    2    0    0         
+                                    dirX                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                    dirY                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                    dirZ                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                   enabX                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   enabY                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   enabZ                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   reset                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                resetXYZ                                    USINT    0 "                                                               *"    0    5    1   10    1    0         
+                                   stepX                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                   stepY                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   stepZ                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                 swCount                                     UINT    0 "                                                               0"    0    6    1   10    1    0         
+                                  resetX                                    USINT    0 "                                                               2"    0    5    1   10    1    0         
+                                switch_X                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                switch_Y                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                switch_Z                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
                                   switch                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         
                                        t                                    USINT    0 "                                                               *"    0    5    1   10    0    0         
-                                    quit                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                    quit                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         

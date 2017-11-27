@@ -17,5 +17,5 @@
   <Memories
     PermanentAnalogMemory="0"
     PermanentDigitalMemory="0"
-    VolatileMemory="65535" />
+    VolatileMemory="655350" />
 </ConfigurationOptions>
