@@ -1,29 +1,26 @@
 
 PROGRAM _INIT
-	reset := FALSE;
+	reset := FALSE;//!!!!!!!!
 	resetXYZ := 0;
 	swCount:= 0;
 	quit := FALSE;
 	status := 1;
-	testEnab := FALSE;
+	testEnab := TRUE;//!!!!!!
 END_PROGRAM
 
 PROGRAM _CYCLIC
 
 		
-		IF (reset = TRUE AND testEnab = FALSE) THEN
+	IF (reset = TRUE AND testEnab = FALSE) THEN
 			
 		// Resets the z-axis to know the position of the pen.
-			IF (switch = TRUE AND resetXYZ = 0) THEN
-				enabZ:= FALSE;
+		IF (switch = TRUE AND resetXYZ = 0) THEN
+			enabZ:= FALSE;
 				dirZ:= FALSE;
 				stepZ := NOT stepZ;
 			END_IF		
 			
-		
-
-			END_IF
-			IF (switch = FALSE AND swCount = 0 ) THEN 
+		IF (switch = FALSE AND swCount = 0 ) THEN 
 				enabZ:= FALSE;
 				dirZ:= TRUE;
 				stepZ := NOT stepZ;
@@ -59,16 +56,25 @@ PROGRAM _CYCLIC
 				stepY := NOT stepY;
 				resetXYZ:= 3;
 			END_IF
-			IF (resetXYZ = 3 AND switch = FALSE) THEN
-				posX := 0;
-				posY := 0;
-				posZ := 0;
-				IF (quit = FALSE)THEN
+	IF (resetXYZ = 3 AND switch = FALSE) THEN
+		
+		posX := 0;
+		posY := 0;
+			posZ := 0;
+			IF (quit = FALSE)THEN
+				IF posX < 1200 THEN
+					dirX := TRUE;
+					stepX := NOT stepX;
+					IF (stepX = FALSE) THEN
+						posX := posX +1;
+					END_IF
+				ELSE
 					reset:= FALSE;
 					resetXYZ:= 0;
 					swCount := 0;
 				END_IF
-	END_IF
+		END_IF
+		END_IF 
 	
 	
 	// move x-axis left 
