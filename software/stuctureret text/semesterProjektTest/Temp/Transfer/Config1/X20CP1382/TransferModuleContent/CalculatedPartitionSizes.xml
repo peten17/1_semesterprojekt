@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<CFG>
-  <PROJECT ID="semesterProjektTest_Config1" OSVERSION="I4.33" INITIALTRANSFER="true" />
-  <FILESYSTEM>
-    <VOL ID="0" PARTITIONS="1">
-      <PARTITION ID="0" LABEL="SYSTEM" MINSIZE="185380592" />
-    </VOL>
-  </FILESYSTEM>
-</CFG>

@@ -1,22 +1,22 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=15 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=9 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
                                     dirX                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
                                     dirZ                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
                                        i                                    UDINT    0 "                                                               0"    0    7    1   10    1    0         
-                                 sharpen                                     UINT    0 "                                                              11"    0    6    1   10    0    0         
-                                  status                                    USINT    0 "                                                               1"    0    5    1   10    0    0         
+                                 sharpen                                     UINT    0 "                                                               1"    0    6    1   10    0    0         
+                                  status                                    USINT    0 "                                                               2"    0    5    1   10    0    0         
                                    input                            STRING[30000]    0 "'0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R0R"    0    9 30001    1    0    0         
-                           newLineHelper                                    UDINT    0 "                                                               0"    0    7    1   10    0    0         
-                                newLineX                                    UDINT    0 "                                                      4294962208"    0    7    1   10    0    0         
-                           placeInString                                     UINT    0 "                                                               1"    0    6    1   10    0    0         
+                           newLineHelper                                    UDINT    0 "                                                      2294967295"    0    7    1   10    0    0         
+                                newLineX                                    UDINT    0 "                                                      2294968285"    0    7    1   10    0    0         
+                           placeInString                                     UINT    0 "                                                             200"    0    6    1   10    0    0         
                                placement                                STRING[5]    0 "                                                             'N'"    0    9    6    1    0    0         
-                                    posX                                    UDINT    0 "                                                               0"    0    7    1   10    0    0         
+                                    posX                                    UDINT    0 "                                                            2890"    0    7    1   10    0    0         
                                     posZ                                    UDINT    0 "                                                               0"    0    7    1   10    0    0         
-                                    quit                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
-                                   reset                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                    quit                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   reset                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
                                    stepX                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
                                    enabX                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         
                                    stepZ                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
-                                  ValueZ                                     UINT    0 "                                                             586"    0    6    1   10    0    0         
+                                  ValueZ                                     UINT    0 "                                                             524"    0    6    1   10    0    0         
                               percentage                                     REAL    0 "                                                          1.0001"    0    8    1   10    0    0         

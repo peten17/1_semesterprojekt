@@ -179,11 +179,11 @@
 </LN>
 <LN ID="%IX.X2.DigitalInput02" Type="BOOL">
 <Prod Device="X2" DPName="DigitalInput02" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::switch_Y" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::switch_Z" Kind="pv"/>
 </LN>
 <LN ID="%IX.X2.DigitalInput03" Type="BOOL">
 <Prod Device="X2" DPName="DigitalInput03" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="::switch_Z" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="::switch_Y" Kind="pv"/>
 </LN>
 <LN ID="%IX.X2.DigitalInput04" Type="BOOL">
 <Prod Device="X2" DPName="DigitalInput04" Kind="io"/>
