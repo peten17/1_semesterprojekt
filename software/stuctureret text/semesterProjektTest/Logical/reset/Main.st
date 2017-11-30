@@ -16,7 +16,7 @@ END_PROGRAM
 
 PROGRAM _CYCLIC
 
-		
+// resets x-, y- and z-axis.
 	IF (reset = TRUE AND testEnab = FALSE) THEN
 		IF switch_X = TRUE AND resetX = 0  THEN
 			enabX:= FALSE;
@@ -47,50 +47,7 @@ PROGRAM _CYCLIC
 			dirZ:= TRUE;
 			stepZ := NOT stepZ;			
 		END_IF
-//			// Resets the z-axis to know the position of the pen.
-//			IF (switch_Z = TRUE AND resetXYZ = 0) THEN
-//				enabZ:= FALSE;
-//					dirZ:= FALSE;
-//					stepZ := NOT stepZ;
-//				END_IF		
-//				
-//			IF (switch_Z = FALSE AND swCount = 0 ) THEN 
-//					enabZ:= FALSE;
-//					dirZ:= TRUE;
-//					stepZ := NOT stepZ;
-//					resetXYZ:= 1;
-//				END_IF
-//				
-//				// Resets the x-axis to know the position of the pen.
-//				IF (switch_X = TRUE AND resetXYZ = 1) THEN
-//					swCount := 1;
-//					enabX:= FALSE;
-//					dirX:= FALSE;
-//					stepX := NOT stepX;
-//		
-//				END_IF
-//				IF (switch_X = FALSE AND swCount = 1) THEN 
-//					enabX:= FALSE;
-//					dirX:= TRUE;
-//					stepX := NOT stepX;
-//					resetXYZ:= 2;
-//				END_IF
-//				
-//				// Resets the y-axis to know the position of the pen.
-//				IF (switch_Y = TRUE AND resetXYZ = 2) THEN
-//					swCount := 2;
-//					enabY:= FALSE;
-//					dirY:= FALSE;
-//					stepY := NOT stepY;
-//		
-//				END_IF
-//				IF (switch_Y = FALSE AND swCount = 2) THEN 
-//					enabY:= FALSE;
-//					dirY:= TRUE;
-//					stepY := NOT stepY;
-//					resetXYZ:= 3;
-//					reset := FALSE;
-		//				END_IF
+// sets the position of the variables posX, posY and posZ
 		timer.IN := TRUE;
 		timer.PT := T#100ms;
 		IF timer.Q THEN 
@@ -104,7 +61,7 @@ PROGRAM _CYCLIC
 		END_IF
 	
 		
-			
+	// if start-button pressed, then go to start position 
 		IF quit = FALSE AND resetX = 2 THEN
 			IF posX < 1900 THEN
 				dirX := TRUE;
@@ -180,6 +137,13 @@ PROGRAM _CYCLIC
 			posZ := posZ +1;
 		END_IF	
 	END_IF
+	
+	
+	
+	
+	
+	
+	
 	timer();
 END_PROGRAM
 
