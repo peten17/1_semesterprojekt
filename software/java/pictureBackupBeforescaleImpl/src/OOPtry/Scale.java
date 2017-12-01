@@ -34,7 +34,16 @@ public class Scale {
         return this.pAmount;
     }
 
-    // Full scaled picture
+    
+//    public int comparingAmounts() {
+//        if (this.pAmount > 165*165) {
+//             return 1;
+//        } else if(this.pAmount < 165*165) {
+//            return -1;
+//        } else {
+//            return 0;
+//        }   
+//    }
     
     public void amountOfScaling(byte pictureArray[][]) {
         int limit = 165*165;  
@@ -72,75 +81,37 @@ public class Scale {
                 System.out.println();
             }
         }
+        System.out.println(n);
     }
     
     public String convertToMessage(byte pictureArray[][], BufferedImage image, int n) {
-        
+        long h = 0;
         for(int y = 0; y < image.getHeight(); y++) {
-            if(y%n != 0) {
+            if(y%n != 0){
                 for(int x = 0; x < image.getWidth(); x++) {        
                     if(x%n != 0) {
                         if(pictureArray[y][x] == 0) {
                            upOrDown = '0';
+                           h++;
                         } else {
                            upOrDown = '1';
+                           h++;
                         }
                         message = message + upOrDown;
                         if(x < image.getWidth()-1) {
                             message = message + 'R' ;
+                            h++;
                         }
                     }
                 }
                 message = message + 'N';
+                h++;
             }
         }
         message = message + 'Q';
-        
-        return  message;
+        h++;
+        return  h + message;
     }
     
     
-    // part of scaled picture
-
-    public String scaledMessagePart(int x1,int y1, int x2,int y2, byte pictureArray[][], int n) {
-        
-        for(int y = y1; y < y2; y++) {
-            if(y%n != 0) {
-                for(int x = x1; x < x2; x++) { 
-                    if(x%n != 0) { 
-                        if (pictureArray[y][x] == 1) {
-                           upOrDown = '1';
-                        } else {
-                           upOrDown = '0';
-                        }
-                        message = message + upOrDown;
-                        if(x < x2-1) {
-                            message = message + 'R' ;
-                        }
-                    }
-                }   
-                message = message + 'N';
-            }
-        }
-        message = message + 'Q';
-        return message;
-    }
-    
-    
-    public void drawImage(int x1,int y1, int x2,int y2,byte pictureArray[][], int n) {
-        for(int y = y1; y < y2; y++) {
-            if(y%n != 0) { 
-                for(int x = x1; x < x2; x++) {
-                    if(x%n != 0) { 
-                        if(pictureArray[x][y] == 0) {
-                            System.out.print("0 ");
-                        } else {
-                            System.out.print("1 ");
-                        }
-                    }
-                System.out.println();
-                }
-            }
-        }
-    }
 }
