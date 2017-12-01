@@ -198,7 +198,7 @@
     <Folder Name="POBJ">
       <Object Name="Config" ClsId="0x400" Version="1" TargetIndex="1" Type="PAGE" RefString="Source[local].Page[Config]">
         <UInt32 Name="FormLanguage">0</UInt32>
-        <Reference Name="StartControl" Type="CTRL">None</Reference>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
         <UInt32 Name="LayerCount">2</UInt32>
         <UInt32 Name="MoveFocus">1</UInt32>
         <Group Name="Styleable Properties">
@@ -213,7 +213,16 @@
         <Reference Name="FormLayer0" Type="LAY">Source[local].Layer[CommonLayer_1]</Reference>
         <Reference Name="FormLayer1" Type="LAY">Source[local].Page[Config].Layer[Default]</Reference>
         <Group Name="MovementOrder">
-          <UInt32 Name="Count">0</UInt32>
+          <UInt32 Name="Count">1</UInt32>
+          <Group Name="Source[local].Layer[CommonLayer_1].Control[Numeric_1]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+          </Group>
         </Group>
       </Object>
     </Folder>

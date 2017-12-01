@@ -51,7 +51,7 @@
       <Property Name="ConnectedBySharedResource" Value="False"/>
       <Property Name="ConnectingVisus" Value="Visu_Resized"/>
       <Property Name="Description" Value=""/>
-      <Property Name="PLCType" Value="UINT"/>
+      <Property Name="PLCType" Value="UDINT"/>
       <Property Name="UpdateTime" Value="Default"/>
       <Property Name="UserID" Value="None"/>
       <Property Name="VCType" Value="INTEGER"/>
@@ -60,7 +60,7 @@
       <Property Name="ConnectedBySharedResource" Value="False"/>
       <Property Name="ConnectingVisus" Value="Visu_Resized"/>
       <Property Name="Description" Value=""/>
-      <Property Name="PLCType" Value="UINT"/>
+      <Property Name="PLCType" Value="UDINT"/>
       <Property Name="UpdateTime" Value="Default"/>
       <Property Name="UserID" Value="None"/>
       <Property Name="VCType" Value="INTEGER"/>
@@ -69,7 +69,7 @@
       <Property Name="ConnectedBySharedResource" Value="False"/>
       <Property Name="ConnectingVisus" Value="Visu_Resized"/>
       <Property Name="Description" Value=""/>
-      <Property Name="PLCType" Value="UINT"/>
+      <Property Name="PLCType" Value="UDINT"/>
       <Property Name="UpdateTime" Value="Default"/>
       <Property Name="UserID" Value="None"/>
       <Property Name="VCType" Value="INTEGER"/>
@@ -217,6 +217,24 @@
       <Property Name="UpdateTime" Value="Default"/>
       <Property Name="UserID" Value="None"/>
       <Property Name="VCType" Value="BOOL"/>
+    </DataPoint>
+    <DataPoint Name="penLength">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Visu_Resized"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="UINT"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="INTEGER"/>
+    </DataPoint>
+    <DataPoint Name="percentage">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Visu_Resized"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="USINT"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="INTEGER"/>
     </DataPoint>
   </DataPoints>
 </DataSource>

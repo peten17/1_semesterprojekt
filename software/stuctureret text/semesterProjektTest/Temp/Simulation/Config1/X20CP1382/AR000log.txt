@@ -1,91 +1,48 @@
 
 
-<<<<<<< HEAD
-Mon Nov 27 10:24:43 2017
-=======
-Mon Nov 27 11:55:36 2017
->>>>>>> 27f0a3611345dff15a3814b595056f94eca9d418
+Thu Nov 30 12:28:05 2017
 No ARsim registration found!
   Bernecker & Rainer 
 
 
 
-<<<<<<< HEAD
-Mon Nov 27 10:24:43 2017
+Thu Nov 30 12:28:05 2017
 COMMAND_COLDSTART
-InstanceName : 01d367618f3a5610
+InstanceName : 01d369ce4a766950
 
 WorkingPath :
 C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Simulation\Config1\X20CP1382\
 
 
 
-Mon Nov 27 10:24:43 2017
-=======
-Mon Nov 27 11:55:36 2017
-COMMAND_COLDSTART
-InstanceName : 01d3676e4185af20
-
-WorkingPath :
-C:\Users\Anders Elo\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Simulation\Config1\X20CP1382\
-
-
-
-Mon Nov 27 11:55:36 2017
->>>>>>> 27f0a3611345dff15a3814b595056f94eca9d418
+Thu Nov 30 12:28:05 2017
 COMMAND_COLDSTART
 Version : I4.33
 
 
 
-<<<<<<< HEAD
-Mon Nov 27 10:24:46 2017
+Thu Nov 30 12:28:09 2017
 COMMAND_TERMINATE
 
 
-Mon Nov 27 10:24:46 2017
+Thu Nov 30 12:28:09 2017
 
 
-Mon Nov 27 10:24:46 2017
-=======
-Mon Nov 27 11:55:39 2017
-COMMAND_TERMINATE
-
-
-Mon Nov 27 11:55:39 2017
-
-
-Mon Nov 27 11:55:39 2017
->>>>>>> 27f0a3611345dff15a3814b595056f94eca9d418
+Thu Nov 30 12:28:09 2017
 COMMAND_COLDSTART
 Version : I4.33
 
 
 
-<<<<<<< HEAD
-Mon Nov 27 10:25:21 2017
+Thu Nov 30 12:28:13 2017
 COMMAND_TERMINATE
 
 
-Mon Nov 27 10:25:22 2017
+Thu Nov 30 12:28:14 2017
 
 
-Mon Nov 27 10:25:22 2017
+Thu Nov 30 12:28:14 2017
 COMMAND_TERMINATE
 
 
-Mon Nov 27 10:25:22 2017
-=======
-Mon Nov 27 12:31:08 2017
-COMMAND_TERMINATE
-
-
-Mon Nov 27 12:31:09 2017
-
-
-Mon Nov 27 12:31:09 2017
-COMMAND_TERMINATE
-
-
-Mon Nov 27 12:31:09 2017
->>>>>>> 27f0a3611345dff15a3814b595056f94eca9d418
+Thu Nov 30 12:28:14 2017

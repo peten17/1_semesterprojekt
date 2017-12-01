@@ -20,6 +20,7 @@ PROGRAM _CYCLIC
 		quit := TRUE;
 		status := 1;
 		reset_quit := FALSE;
+		placeInString :=1;
 		
 	END_IF
 	

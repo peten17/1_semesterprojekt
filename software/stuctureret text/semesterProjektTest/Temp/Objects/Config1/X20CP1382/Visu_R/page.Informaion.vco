@@ -249,12 +249,85 @@
               <UInt16 Name="Size">0</UInt16>
             </Group>
           </Object>
+          <Object Name="BarGraph_1" ClsId="0x1006" Version="1" Type="CTRL" RefString="Source[local].Page[Informaion].Layer[Default].Control[BarGraph_1]">
+            <UInt32 Name="Left">6</UInt32>
+            <UInt32 Name="Top">342</UInt32>
+            <UInt32 Name="Right">113</UInt32>
+            <UInt32 Name="Bottom">371</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.percentage]</Reference>
+            <UInt32 Name="Reserved">4294967295</UInt32>
+            <Double Name="StartValue">0</Double>
+            <Double Name="EndValue">100</Double>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001006].StyleClass[BarGraph]</Reference>
+            <UInt16 Name="StyleTableSize">108</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Etched]</Reference>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">252</UInt32>
+            </Group>
+            <Group Name="Range">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4</UInt32>
+            </Group>
+            <Group Name="Range[0].Color">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">148</UInt32>
+            </Group>
+            <Group Name="Range[0].Start">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">8</UInt16>
+              <Double Name="Data">0</Double>
+            </Group>
+            <Group Name="Range[1].Color">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">179</UInt32>
+            </Group>
+            <Group Name="Range[1].Start">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">8</UInt16>
+              <Double Name="Data">25</Double>
+            </Group>
+            <Group Name="Range[2].Color">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">222</UInt32>
+            </Group>
+            <Group Name="Range[2].Start">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">8</UInt16>
+              <Double Name="Data">50</Double>
+            </Group>
+            <Group Name="Range[3].Color">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">229</UInt32>
+            </Group>
+            <Group Name="Range[3].Start">
+              <UInt16 Name="Offset">72</UInt16>
+              <UInt16 Name="Size">8</UInt16>
+              <Double Name="Data">75</Double>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
         </Folder>
       </Folder>
       <Folder Name="POBJ">
         <Object Name="Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[Informaion].Layer[Default]">
           <Reference Name="StatusDP" Type="DP">None</Reference>
-          <UInt32 Name="CtrlCount">8</UInt32>
+          <UInt32 Name="CtrlCount">9</UInt32>
           <Reference Name="Text_1" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Text_1]</Reference>
           <Reference Name="Numeric_1" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Numeric_1]</Reference>
           <Reference Name="Text_2" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Text_2]</Reference>
@@ -263,6 +336,7 @@
           <Reference Name="Numeric_2" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Numeric_2]</Reference>
           <Reference Name="Text_4" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Text_4]</Reference>
           <Reference Name="Numeric_3" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[Numeric_3]</Reference>
+          <Reference Name="BarGraph_1" Type="CTRL">Source[local].Page[Informaion].Layer[Default].Control[BarGraph_1]</Reference>
         </Object>
       </Folder>
     </Folder>
@@ -409,7 +483,7 @@
     <Folder Name="POBJ">
       <Object Name="Informaion" ClsId="0x400" Version="1" TargetIndex="0" Type="PAGE" RefString="Source[local].Page[Informaion]">
         <UInt32 Name="FormLanguage">0</UInt32>
-        <Reference Name="StartControl" Type="CTRL">None</Reference>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
         <UInt32 Name="LayerCount">2</UInt32>
         <UInt32 Name="MoveFocus">1</UInt32>
         <Group Name="Styleable Properties">
@@ -424,7 +498,16 @@
         <Reference Name="FormLayer0" Type="LAY">Source[local].Layer[CommonLayer_1]</Reference>
         <Reference Name="FormLayer1" Type="LAY">Source[local].Page[Informaion].Layer[Default]</Reference>
         <Group Name="MovementOrder">
-          <UInt32 Name="Count">0</UInt32>
+          <UInt32 Name="Count">1</UInt32>
+          <Group Name="Source[local].Layer[CommonLayer_1].Control[Numeric_1]">
+            <Reference Name="Control" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[CommonLayer_1].Control[Numeric_1]</Reference>
+          </Group>
         </Group>
       </Object>
     </Folder>
