@@ -9,12 +9,13 @@ import javax.imageio.ImageIO;
 public class PictureinOOP {
 
     public static void main(String[] args) {
-        //Scanner
-        Scanner sc = new Scanner(System.in);
+ 
         
         while(true) { //For continueing the program or shutting it down
 
-
+        //Scanner
+        Scanner sc = new Scanner(System.in);
+            
         String fileName;
         BufferedImage cImage = null; //Forskel på declaration og initialization
         
@@ -181,7 +182,7 @@ public class PictureinOOP {
         }else if(partlyScaleNeeded) {
             
             System.out.println("Specific part? Alright, please type in two x-values and y-values");
-            System.out.println("values for " + "x, has to value within: " + cImage.getWidth() + "and y, within: " + cImage.getHeight());
+            System.out.println("values for " + "x, has to value within: " + cImage.getWidth() + "and y, within: " + cImage.getHeight()); //scaller billedet først. og få denne string til at afhænge af det nye billede
             System.out.println("x1 has to be smaller than x2 and so goes for y1 and y2");
 
             System.out.println("x1: ");
