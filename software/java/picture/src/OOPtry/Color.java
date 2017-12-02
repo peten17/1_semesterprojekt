@@ -2,7 +2,7 @@
 package OOPtry;
 
 public class Color {
-    int RGB;
+    int rgb;
     int red;
     int green;
     int blue;                 
