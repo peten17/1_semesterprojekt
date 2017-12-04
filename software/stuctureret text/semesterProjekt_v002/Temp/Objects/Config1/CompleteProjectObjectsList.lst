@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.3.3.196"?>
+<Objects>
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package"
+    LastWriteTime="131568496757256645" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="131540937340884113"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="131565053580133463"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="131540937341034534" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="131540937341174684" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="131540937341234859"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="131540937341254916"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="131540937341264918"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="131540937341285040" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="131540937341360250"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="131540937341370267"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="131540937341385287"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="131540937341054568" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="131540937341134577"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="131540937341144629"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="131540937341154631"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="131540937340964330" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="131540937340924227"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="131540937340934244"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="131540937340954305"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="131540937341400322" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="131540937341465527"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="131540937341485576"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="131540937341515662"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\IEC.prg"
+    LogicalPath="Program"
+    Type="Program"
+    LastWriteTime="131540937341535704" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Main.st"
+    LogicalPath="Program.Main.st"
+    Type="File"
+    LastWriteTime="131568576615686200"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Types.typ"
+    LogicalPath="Program.Types.typ"
+    Type="File"
+    LastWriteTime="131540937341555765"
+    Private="true" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Variables.var"
+    LogicalPath="Program.Variables.var"
+    Type="File"
+    LastWriteTime="131562738777297541"
+    Private="true" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\IEC.prg"
+    LogicalPath="reset"
+    Type="Program"
+    LastWriteTime="131544476268679585" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Main.st"
+    LogicalPath="reset.Main.st"
+    Type="File"
+    LastWriteTime="131565057048689294"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Types.typ"
+    LogicalPath="reset.Types.typ"
+    Type="File"
+    LastWriteTime="131544476268699634"
+    Private="true" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Variables.var"
+    LogicalPath="reset.Variables.var"
+    Type="File"
+    LastWriteTime="131562736199078792"
+    Private="true" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\IEC.prg"
+    LogicalPath="emergencyStop"
+    Type="Program"
+    LastWriteTime="131550493850167217" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Main.st"
+    LogicalPath="emergencyStop.Main.st"
+    Type="File"
+    LastWriteTime="131562741856966591"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Types.typ"
+    LogicalPath="emergencyStop.Types.typ"
+    Type="File"
+    LastWriteTime="131550495603263107"
+    Private="true" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Variables.var"
+    LogicalPath="emergencyStop.Variables.var"
+    Type="File"
+    LastWriteTime="131550502450229668"
+    Private="true" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Visu_Resized\Vc.dob"
+    LogicalPath="Visu_Resized"
+    Type="DataObject"
+    LastWriteTime="131550489841021156" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Visu_Resized\VCObject.vc"
+    LogicalPath="Visu_Resized.VCObject.vc"
+    Type="File"
+    LastWriteTime="131550489848547612"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration"
+    LastWriteTime="131540937341585839" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="131568501966212536"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="131568502168896179"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Cpu.pkg"
+    LogicalPath="Config1.X20CP1382"
+    Type="Cpu"
+    LastWriteTime="131568572465479637" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Cpu.sw"
+    LogicalPath="Config1.X20CP1382.Cpu.sw"
+    Type="File"
+    LastWriteTime="131568496763731616"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Cpu.per"
+    LogicalPath="Config1.X20CP1382.Cpu.per"
+    Type="File"
+    LastWriteTime="131540937341876610"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\IoMap.iom"
+    LogicalPath="Config1.X20CP1382.IoMap.iom"
+    Type="File"
+    LastWriteTime="131565100800509270"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\PvMap.vvm"
+    LogicalPath="Config1.X20CP1382.PvMap.vvm"
+    Type="File"
+    LastWriteTime="131540937341926749"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\mapp\Package.pkg"
+    LogicalPath="Config1.X20CP1382.mapp"
+    Type="Package"
+    LastWriteTime="131540937341966856" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP1382.Connectivity"
+    Type="Package"
+    LastWriteTime="131540937341866597" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.X20CP1382.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="131540937341856568" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1382.TextSystem"
+    Type="Package"
+    LastWriteTime="131540937341936782" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1382.UnitSystem"
+    Type="Package"
+    LastWriteTime="131540937341956835" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="131540937341776348" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="131540937341816454" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="131540937341826487"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="131540937341846540"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="131540937341736241" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="131540937341716188" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="131540937341696153" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="131540937341726220" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="131540937341756306" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="131540937341766323" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="131540937341656039" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="131540937341676085" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1382.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="131540937341796405" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\VC\Package.pkg"
+    LogicalPath="Config1.X20CP1382.VC"
+    Type="Package"
+    LastWriteTime="131550510712850590" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\VC\PS2-Keyboard.dis"
+    LogicalPath="Config1.X20CP1382.VC.PS2-Keyboard.dis"
+    Type="File"
+    LastWriteTime="131550510713151019"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="131568576614943318"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
+    LogicalPath="AsIecCon.h"
+    Type="File"
+    LastWriteTime="131540937341004437"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\astime\SG4\astime.h"
+    LogicalPath="astime.h"
+    Type="File"
+    LastWriteTime="131540937341094716"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\operator\SG4\operator.h"
+    LogicalPath="operator.h"
+    Type="File"
+    LastWriteTime="131540937341204758"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\runtime\SG4\runtime.h"
+    LogicalPath="runtime.h"
+    Type="File"
+    LastWriteTime="131540937341325123"
+    Private="false" />
+  <Object
+    Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\standard\SG4\standard.h"
+    LogicalPath="standard.h"
+    Type="File"
+    LastWriteTime="131540937341435449"
+    Private="false" />
+</Objects>
