@@ -1,0 +1,7 @@
+VAR
+	newInput : STRING[80];
+	input : STRING[80];
+	placement : USINT;
+	temp0 : STRING[80];
+	temp1 : STRING[80];
+END_VAR

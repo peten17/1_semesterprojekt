@@ -1003,7 +1003,14 @@
       </KeyMapping>
     </Layer>
   </Layers>
-  <MovementOrder/>
+  <MovementOrder>
+    <MovementEntry Control="Source[local].Layer[CommonLayer_1].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
+      <Property Name="Left" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
+      <Property Name="Right" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
+    </MovementEntry>
+  </MovementOrder>
   <TabSequence>
     <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
     <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
@@ -1014,5 +1021,7 @@
     <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
     <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
     <TabSeqItem Index="8" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
+    <TabSeqItem Index="9" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
+    <TabSeqItem Index="10" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_2]"/>
   </TabSequence>
 </Page>

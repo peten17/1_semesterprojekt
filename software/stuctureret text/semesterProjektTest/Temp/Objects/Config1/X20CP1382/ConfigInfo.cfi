@@ -46,6 +46,18 @@
       <File
         Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Variables.var" />
     </Task>
+    <Task
+      Name="test"
+      Disable="false"
+      Source="test"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\test\Main.st.var" />
+      <File
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\test\Types.typ" />
+      <File
+        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\test\Variables.var" />
+    </Task>
   </TaskClass>
   <TaskClass
     Name="Cyclic#5" />

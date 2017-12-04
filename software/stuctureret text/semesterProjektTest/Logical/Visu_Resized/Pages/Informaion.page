@@ -189,15 +189,48 @@
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="80"/>
         </Control>
+        <Control ClassId="0x00001006" Name="BarGraph_1">
+          <Property Name="BackColor" Value="252"/>
+          <Property Name="Border" Value="Source[local].Border[Etched]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndValue" Value="100"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="6"/>
+          <Property Name="Range" Value="4"/>
+          <Property Name="Range[0].Color" Value="148"/>
+          <Property Name="Range[0].Start" Value="0"/>
+          <Property Name="Range[1].Color" Value="179"/>
+          <Property Name="Range[1].Start" Value="25"/>
+          <Property Name="Range[2].Color" Value="222"/>
+          <Property Name="Range[2].Start" Value="50"/>
+          <Property Name="Range[3].Color" Value="229"/>
+          <Property Name="Range[3].Start" Value="75"/>
+          <Property Name="SimulationValue" Value="50"/>
+          <Property Name="StartValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BarGraph]"/>
+          <Property Name="Top" Value="342"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.percentage]"/>
+          <Property Name="Width" Value="108"/>
+        </Control>
       </Controls>
       <KeyMapping/>
     </Layer>
   </Layers>
-  <MovementOrder/>
+  <MovementOrder>
+    <MovementEntry Control="Source[local].Layer[CommonLayer_1].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
+      <Property Name="Left" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
+      <Property Name="Right" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
+    </MovementEntry>
+  </MovementOrder>
   <TabSequence>
     <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
     <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
     <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
     <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+    <TabSeqItem Index="4" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
+    <TabSeqItem Index="5" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_2]"/>
   </TabSequence>
 </Page>
