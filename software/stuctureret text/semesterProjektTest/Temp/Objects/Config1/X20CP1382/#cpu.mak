@@ -20,6 +20,7 @@ $(AS_CPU_PATH)/ashwac.br \
 $(AS_CPU_PATH)/Program.br \
 $(AS_CPU_PATH)/reset.br \
 $(AS_CPU_PATH)/emergencyS.br \
+$(AS_CPU_PATH)/test.br \
 $(AS_CPU_PATH)/Visu_R.br \
 vcPostBuild_Visu_R \
 $(AS_CPU_PATH)/iomap.br \
@@ -38,6 +39,7 @@ $(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/Transfer.lst: \
 	$(AS_CPU_PATH)/Program.br \
 	$(AS_CPU_PATH)/reset.br \
 	$(AS_CPU_PATH)/emergencyS.br \
+	$(AS_CPU_PATH)/test.br \
 	$(AS_CPU_PATH)/Visu_R.br \
 	$(AS_CPU_PATH)/iomap.br \
 	$(AS_CPU_PATH)/Role.br \
@@ -53,6 +55,7 @@ include $(AS_CPU_PATH)/User/User.mak
 include $(AS_CPU_PATH)/Role/Role.mak
 include $(AS_CPU_PATH)/iomap/iomap.mak
 include $(AS_CPU_PATH)/Visu_R/Visu_R.mak
+include $(AS_CPU_PATH)/test/test.mak
 include $(AS_CPU_PATH)/emergencyS/emergencyS.mak
 include $(AS_CPU_PATH)/reset/reset.mak
 include $(AS_CPU_PATH)/Program/Program.mak

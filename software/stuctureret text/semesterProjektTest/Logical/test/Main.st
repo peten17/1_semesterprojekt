@@ -1,0 +1,19 @@
+
+PROGRAM _INIT
+input := 'R0R0R0R0R0R0R0R0R0R1R1R1R1R1R1R1R0R0R0R0R0R0R0R0R1R1';
+END_PROGRAM
+
+PROGRAM _CYCLIC
+	
+	IF (placement = 'R') THEN
+		IF (MID(input, 1, placeInString + 1) = '1') THEN
+			temp1 :='001';
+				END_IF
+	
+END_PROGRAM
+
+PROGRAM _EXIT
+	(* Insert code here *)
+	 
+END_PROGRAM
+
