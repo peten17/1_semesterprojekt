@@ -84,14 +84,17 @@ PROGRAM _CYCLIC
 			// here the robot will draw
 			IF (placement = 21041 AND i < 30) THEN
 				IF (posZ < (3200-ValueZ)) THEN  // !!!!!!
-						dirZ := TRUE;
+					IF dirZ THEN  
 						stepZ := NOT stepZ;
 						IF (stepZ = FALSE) THEN
 							posZ := posZ +1;
 						END_IF
-							
-					ELSE
-						dirX := TRUE;
+					ELSE 	
+						dirZ := TRUE;
+					END_IF
+					
+				ELSE
+					IF dirX THEN
 						stepX := NOT stepX;
 						IF (stepX = FALSE) THEN
 							posX := posX + 1;
@@ -99,37 +102,42 @@ PROGRAM _CYCLIC
 							sharpen := sharpen + 1;
 							tempX := posX;
 						END_IF
-						i := i + 1;
-					END_IF	
+					ELSE
+						dirX := TRUE;
+					END_IF 	
+					i := i + 1;
+				END_IF	
 			
 			//dont draw
 			ELSIF placement = 21040 AND i < 30 THEN
-				
-					
 				IF (posZ > (2900-ValueZ)) THEN  // !!!!!!
-						dirZ := FALSE;
+					IF dirZ = FALSE THEN	
 						stepZ := NOT stepZ;
 						IF (stepZ = FALSE) THEN
 							posZ := posZ -1;
 						END_IF
-							
+					ELSE
+					dirZ := FALSE;
+					END_IF		
 				ELSE
-					
-						dirX := TRUE;
+					IF dirX THEN
 						stepX := NOT stepX;
 						IF (stepX = FALSE) THEN
 							posX := posX +1;
 							newLineX := newLineX +1;
 						END_IF
-						i := i + 1;
+					ELSE
+						dirX := TRUE;
+					END_IF
+					i := i + 1;
 				END_IF		
 					
-			ELSIF (i = 3) THEN
-				
-					
-					placeInString := placeInString + 1;
-					i := 0;
-					
+//			ELSIF (i = 3) THEN
+//				
+//					
+//					placeInString := placeInString + 1;
+//					i := 0;
+//					
 //				ELSE
 //					placeInString := placeInString + 1;	
 			
@@ -141,28 +149,36 @@ PROGRAM _CYCLIC
 			
 			ELSIF (placement = 20016 OR placement = 20017) THEN
 				IF (posZ > (2900-ValueZ) )THEN  // !!!!!!
-					dirZ := FALSE;
-					stepZ := NOT stepZ;
-					IF (stepZ = FALSE) THEN
-						posZ := posZ -1;
+					IF dirZ = FALSE THEN
+						stepZ := NOT stepZ;
+						IF (stepZ = FALSE) THEN
+							posZ := posZ -1;
+						END_IF
+					ELSE
+						dirZ := FALSE;
 					END_IF
-				ELSIF (posZ = (2900-ValueZ)) AND (newLineX >= (newLineHelper)) THEN//!!!!
-					dirX := FALSE;
-					stepX := NOT stepX;
-					IF (stepX = FALSE) THEN
-						posX := posX - 1;
-						newLineX := newLineX -1;
+					
+				ELSIF (posZ > (2900-ValueZ)) AND (newLineX >= (newLineHelper)) THEN//!!!!
+					IF dirX = FALSE THEN
+						stepX := NOT stepX;
+						IF (stepX = FALSE) THEN
+							posX := posX - 1;
+							newLineX := newLineX -1;
+						END_IF
+					ELSE
+						dirX := FALSE;
 					END_IF
 					
 				ELSIF ((posZ = (2900-ValueZ)) AND (newLineX <= newLineHelper) AND (i <= 30)(* OR ( posZ = 0)*)) THEN
-					dirY := TRUE;
+					IF dirY THEN
 					stepY := NOT stepY;
 					IF (stepY = FALSE) THEN
 						posX := posX - 1;
 						newLineX := newLineX -1;
-						
 					END_IF
-					
+					ELSE
+						dirY := TRUE;
+					END_IF
 					i := i +1;
 				END_IF
 				
