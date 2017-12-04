@@ -1,5 +1,5 @@
-UnmarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Logical/emergencyStop
-MarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterProjektTest/Logical/emergencyStop
+UnmarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjekt_v002/Logical/emergencyStop
+MarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterProjekt_v002/Logical/emergencyStop
 
 $(AS_CPU_PATH)/emergencyS.br: \
 	$(AS_PROJECT_CPU_PATH)/Cpu.per \
@@ -17,14 +17,15 @@ $(AS_CPU_PATH)/emergencyS/a.out: \
 
 $(AS_CPU_PATH)/emergencyS/Main.st.o: \
 	$(AS_PROJECT_PATH)/Logical/emergencyStop/Main.st \
-	$(AS_PROJECT_PATH)/Logical/Global.var \
-	$(AS_PROJECT_PATH)/Logical/emergencyStop/Variables.var
+	FORCE 
 	@'$(AS_BIN_PATH)/BR.AS.IecCompiler.exe' '$(AS_PROJECT_PATH)/Logical/emergencyStop/Main.st' -o '$(AS_CPU_PATH)/emergencyS/Main.st.o'  -O '$(AS_CPU_PATH)//emergencyS/Main.st.o.opt' -secret '$(AS_PROJECT_PATH)_br.as.ieccompiler.exe'
 
 $(AS_CPU_PATH)/emergencyS/_bur_pvdef.st.o: \
-	$(AS_PROJECT_PATH)/Logical/Global.var \
-	$(AS_PROJECT_PATH)/Logical/emergencyStop/Variables.var
+	FORCE 
 	@'$(AS_BIN_PATH)/BR.AS.IecCompiler.exe' '$(AS_PATH)/AS/GnuInst/V4.1.2/i386-elf/include/bur/_bur_pvdef.st' -o '$(AS_CPU_PATH)/emergencyS/_bur_pvdef.st.o'  -O '$(AS_CPU_PATH)//emergencyS/_bur_pvdef.st.opt' -secret '$(AS_PROJECT_PATH)_br.as.ieccompiler.exe'
 
 -include $(AS_CPU_PATH)/Force.mak 
 
+
+
+FORCE:
