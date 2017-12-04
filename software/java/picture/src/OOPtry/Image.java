@@ -12,8 +12,8 @@ import java.awt.image.BufferedImage;
  * @author cubey
  */
 public class Image {
-    int iHeight;
-    int iWidth;
+    private int iHeight;
+    private int iWidth;
 
     
     Image (int newIheight, int newIwidth) {
@@ -29,10 +29,10 @@ public class Image {
             pictureArray[x] = new byte[this.iHeight]; // Indsætning af array i multiarrayet
             for(int y = 0; y < this.iHeight; y++) {
                 
-                ofPicture.rgb = image.getRGB(x, y);
-                ofPicture.red = (ofPicture.rgb>>16)&0xff;
-                ofPicture.green = (ofPicture.rgb>>8)&0xff;
-                ofPicture.blue = ofPicture.rgb&0xff;                 //(newRPG>>0)&0xff.
+                ofPicture.setCrgb(image.getRGB(x, y));
+                ofPicture.setRed((ofPicture.getCrgb()>>16)&0xff);
+                ofPicture.setGreen((ofPicture.getCrgb()>>8)&0xff);
+                ofPicture.setBlue(ofPicture.getCrgb()&0xff);                 //(newRPG>>0)&0xff.
                 
                 int average = ofPicture.getAverage();
 

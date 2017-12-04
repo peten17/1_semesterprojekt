@@ -85,9 +85,9 @@ public class PictureinOOP {
         }
         
         // Setup roboClient
-//        String hostName = "";
-//        int port = 0;
-//        RobotClient roboC = new  RobotClient(hostName, port);
+        String hostName = "10.126.91.148";
+        int port = 12345;
+        RobotClient roboC = new  RobotClient(hostName, port);
 
         Scale scaledImage = new Scale(cImage);
         
@@ -101,17 +101,18 @@ public class PictureinOOP {
             System.out.println(message);
 
             //Connect and send to PLC
-//          roboC.connect();
-//          if(roboC.isConnected()){
-//              roboC.write(message);
-//          }
-//          System.out.println("Disconnect?");
-//          String disconnectOrNot = sc.nextLine();
-//          if (stopOrNot.compareTo("NO") == 0 ) {
-//              roboC.disconnect();
-//          }
-//          
-//    
+          roboC.connect();
+          if(roboC.isConnected()){
+              roboC.write(message);
+          }
+          System.out.println("Disconnect?");
+          String disconnectOrNot = sc.nextLine();
+          if (disconnectOrNot.compareTo("NO") == 0 ) {
+              System.out.println("Message send");
+              roboC.disconnect();
+          }
+          
+    
 
 
         } else if(picturePart) {
@@ -137,17 +138,17 @@ public class PictureinOOP {
             System.out.println(partMessage);
 
             //Connect and send to PLC
-//          roboC.connect();
-//          if(roboC.isConnected()){
-//              roboC.write(message);
-//          }
-//          System.out.println("Disconnect?");
-//          String disconnectOrNot = sc.nextLine();
-//          if (stopOrNot.compareTo("NO") == 0 ) {
-//              roboC.disconnect();
-//          }
-//          
-//    
+          roboC.connect();
+          if(roboC.isConnected()){
+              roboC.write(partMessage);
+          }
+          System.out.println("Disconnect?");
+          String disconnectOrNot = sc.nextLine();
+          if (disconnectOrNot.compareTo("NO") == 0 ) {
+              roboC.disconnect();
+          }
+          
+    
 
         }else if(fullScaleNeeded) {
             
@@ -167,17 +168,17 @@ public class PictureinOOP {
             //Write scaled message
 
             //Connect and send to PLC
-//          roboC.connect();
-//          if(roboC.isConnected()){
-//              roboC.write(message);
-//          }
-//          System.out.println("Disconnect?");
-//          String disconnectOrNot = sc.nextLine();
-//          if (stopOrNot.compareTo("NO") == 0 ) {
-//              roboC.disconnect();
-//          }
-//          
-//          
+          roboC.connect();
+          if(roboC.isConnected()){
+              roboC.write(scaledMessage);
+          }
+          System.out.println("Disconnect?");
+          String disconnectOrNot = sc.nextLine();
+          if (disconnectOrNot.compareTo("NO") == 0 ) {
+              roboC.disconnect();
+          }
+          
+          
             
         }else if(partlyScaleNeeded) {
             
