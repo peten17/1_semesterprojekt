@@ -9,6 +9,7 @@
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
     <Task Name="emergencyS" Source="emergencyStop.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="TCP" Source="TCP.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#5" />
   <TaskClass Name="Cyclic#6" />
@@ -58,12 +59,13 @@
   </Binaries>
   <Libraries>
     <LibraryObject Name="standard" Source="Libraries.standard.lby" Memory="UserROM" Language="Binary" Debugging="true" />
-    <LibraryObject Name="runtime" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="astime" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="asieccon" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="fileio" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="dataobj" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="ashw" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="vcresman" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="AsMbTCP" Source="Libraries.AsMbTCP.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="runtime" Source="Libraries.runtime.lby" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

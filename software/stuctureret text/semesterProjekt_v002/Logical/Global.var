@@ -6,7 +6,7 @@ VAR
 	enabY : BOOL;
 	enabZ : BOOL;
 	drawFunction : BOOL;
-	input : STRING[30000];
+	input : ARRAY[0..1999999] OF UINT;
 	posX : UDINT;
 	posY : UDINT;
 	posZ : UDINT;
@@ -34,6 +34,6 @@ VAR
 	ValueZ : UINT;
 	penLength : REAL;
 	placeInString : UINT;
-	placement : STRING[5];
+	placement : UINT;
 	newLineHelper : UDINT;
 END_VAR

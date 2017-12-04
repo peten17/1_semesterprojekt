@@ -46,6 +46,18 @@
       <File
         Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\emergencyStop\Variables.var" />
     </Task>
+    <Task
+      Name="TCP"
+      Disable="false"
+      Source="TCP"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Temp\Objects\Config1\X20CP1382\TCP\Main.st.var" />
+      <File
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\TCP\Types.typ" />
+      <File
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\TCP\Variables.var" />
+    </Task>
   </TaskClass>
   <TaskClass
     Name="Cyclic#5" />
