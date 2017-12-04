@@ -29,10 +29,10 @@ public class Image {
             pictureArray[x] = new byte[this.iHeight]; // Indsætning af array i multiarrayet
             for(int y = 0; y < this.iHeight; y++) {
                 
-                ofPicture.rgb = image.getRGB(x, y);
-                ofPicture.red = (ofPicture.rgb>>16)&0xff;
-                ofPicture.green = (ofPicture.rgb>>8)&0xff;
-                ofPicture.blue = ofPicture.rgb&0xff;                 //(newRPG>>0)&0xff.
+                ofPicture.RGB = image.getRGB(x, y);
+                ofPicture.red = (ofPicture.RGB>>16)&0xff;
+                ofPicture.green = (ofPicture.RGB>>8)&0xff;
+                ofPicture.blue = ofPicture.RGB&0xff;                 //(newRPG>>0)&0xff.
                 
                 int average = ofPicture.getAverage();
 
