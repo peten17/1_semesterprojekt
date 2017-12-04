@@ -23,7 +23,7 @@ PROGRAM _CYCLIC
 			status:= 2;
 		END_IF
 		
-		IF (i = 20) THEN
+		IF (i = 30) THEN
 			placeInString := placeInString + 1;
 			i := 0;
 		END_IF	
@@ -83,7 +83,7 @@ PROGRAM _CYCLIC
 		ELSE
 			// here the robot will draw
 			IF (placement = 'R') THEN
-				IF (MID(input, 1, placeInString + 1) = '1' AND i < 20) THEN
+				IF (MID(input, 1, placeInString + 1) = '1' AND i < 30) THEN
 					IF (posZ < (3200-ValueZ)) THEN  // !!!!!!
 						dirZ := TRUE;
 						stepZ := NOT stepZ;
@@ -104,7 +104,7 @@ PROGRAM _CYCLIC
 						
 					END_IF
 					
-				ELSIF (MID(input, 1, placeInString + 1) = '0' AND i < 20) THEN
+				ELSIF (MID(input, 1, placeInString + 1) = '0' AND i < 30) THEN
 					
 					IF (posZ > (2900-ValueZ)) THEN  // !!!!!!
 						dirZ := FALSE;
@@ -150,7 +150,7 @@ PROGRAM _CYCLIC
 						newLineX := newLineX -1;
 					END_IF
 					
-				ELSIF (posZ = (2900-ValueZ) AND newLineX <= (newLineHelper) AND i < 30) THEN
+				ELSIF (posZ = (2900-ValueZ) AND newLineX <= (newLineHelper) AND i < 40) THEN
 					dirY := TRUE;
 					stepY := NOT stepY;
 					IF (stepY = FALSE) THEN
