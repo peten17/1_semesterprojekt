@@ -1,0 +1,6 @@
+VAR
+	timer : TON;
+	i : UDINT;
+	tempX : UDINT;
+	activator : BOOL;
+END_VAR
