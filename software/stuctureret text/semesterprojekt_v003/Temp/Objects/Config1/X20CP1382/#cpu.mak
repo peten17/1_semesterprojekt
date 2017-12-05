@@ -23,6 +23,8 @@ $(AS_CPU_PATH)/emergencyS.br \
 $(AS_CPU_PATH)/TCP.br \
 $(AS_CPU_PATH)/Visu_R.br \
 vcPostBuild_Visu_R \
+$(AS_CPU_PATH)/Visu_1.br \
+vcPostBuild_Visu_1 \
 $(AS_CPU_PATH)/iomap.br \
 $(AS_CPU_PATH)/Role.br \
 $(AS_CPU_PATH)/User.br \
@@ -41,6 +43,7 @@ $(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/Transfer.lst: \
 	$(AS_CPU_PATH)/emergencyS.br \
 	$(AS_CPU_PATH)/TCP.br \
 	$(AS_CPU_PATH)/Visu_R.br \
+	$(AS_CPU_PATH)/Visu_1.br \
 	$(AS_CPU_PATH)/iomap.br \
 	$(AS_CPU_PATH)/Role.br \
 	$(AS_CPU_PATH)/User.br \
@@ -54,6 +57,7 @@ include $(AS_CPU_PATH)/TCData/TCData.mak
 include $(AS_CPU_PATH)/User/User.mak
 include $(AS_CPU_PATH)/Role/Role.mak
 include $(AS_CPU_PATH)/iomap/iomap.mak
+include $(AS_CPU_PATH)/Visu_1/Visu_1.mak
 include $(AS_CPU_PATH)/Visu_R/Visu_R.mak
 include $(AS_CPU_PATH)/TCP/TCP.mak
 include $(AS_CPU_PATH)/emergencyS/emergencyS.mak

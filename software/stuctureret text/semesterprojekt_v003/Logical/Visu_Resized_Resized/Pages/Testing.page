@@ -119,7 +119,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_6]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="300" />
           <Property Name="Multiline" Value="Manual" />
@@ -131,7 +131,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="150" />
+          <Property Name="Top" Value="192" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_6]" />
           <Property Name="Width" Value="100" />
         </Control>
@@ -139,7 +139,7 @@
           <Property Name="AlignmentHorizontal" Value="Center" />
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="Left" Value="398" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -148,7 +148,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="150" />
+          <Property Name="Top" Value="192" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.dirX]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="30" />
@@ -158,7 +158,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="Font" Value="Source[local].Font[Arial12px]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="Left" Value="200" />
           <Property Name="SimulationIndex" Value="0" />
           <Property Name="SimulationValue" Value="" />
@@ -166,7 +166,7 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
           <Property Name="TextIndexOffset" Value="3" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="150" />
+          <Property Name="Top" Value="192" />
           <Property Name="Width" Value="100" />
         </Control>
         <Control ClassId="0x00001002" Name="Button_2">
@@ -177,7 +177,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_7]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="443" />
           <Property Name="Multiline" Value="Manual" />
@@ -189,7 +189,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="150" />
+          <Property Name="Top" Value="192" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_7]" />
           <Property Name="Width" Value="100" />
         </Control>
@@ -197,7 +197,7 @@
           <Property Name="AlignmentHorizontal" Value="Center" />
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="Left" Value="540" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -206,7 +206,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="150" />
+          <Property Name="Top" Value="192" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.enabX]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="30" />
@@ -219,7 +219,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_8]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="300" />
           <Property Name="Multiline" Value="Manual" />
@@ -231,7 +231,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="220" />
+          <Property Name="Top" Value="282" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_8]" />
           <Property Name="Width" Value="100" />
         </Control>
@@ -239,7 +239,7 @@
           <Property Name="AlignmentHorizontal" Value="Center" />
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="Left" Value="398" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -248,7 +248,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="220" />
+          <Property Name="Top" Value="282" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.dirY]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="30" />
@@ -258,7 +258,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="Font" Value="Source[local].Font[Arial12px]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="Left" Value="200" />
           <Property Name="SimulationIndex" Value="0" />
           <Property Name="SimulationValue" Value="" />
@@ -266,7 +266,7 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
           <Property Name="TextIndexOffset" Value="8" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="220" />
+          <Property Name="Top" Value="282" />
           <Property Name="Width" Value="100" />
         </Control>
         <Control ClassId="0x00001002" Name="Button_4">
@@ -277,7 +277,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_9]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="443" />
           <Property Name="Multiline" Value="Manual" />
@@ -289,7 +289,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="220" />
+          <Property Name="Top" Value="282" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_9]" />
           <Property Name="Width" Value="100" />
         </Control>
@@ -297,7 +297,7 @@
           <Property Name="AlignmentHorizontal" Value="Center" />
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="Left" Value="540" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -306,7 +306,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="220" />
+          <Property Name="Top" Value="282" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.enabY]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="30" />
@@ -319,7 +319,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_10]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="300" />
           <Property Name="Multiline" Value="Manual" />
@@ -331,7 +331,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="290" />
+          <Property Name="Top" Value="371" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_10]" />
           <Property Name="Width" Value="100" />
         </Control>
@@ -339,7 +339,7 @@
           <Property Name="AlignmentHorizontal" Value="Center" />
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="Left" Value="397" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -348,7 +348,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="290" />
+          <Property Name="Top" Value="371" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.dirZ]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="30" />
@@ -358,7 +358,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="Font" Value="Source[local].Font[Arial12px]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="Left" Value="200" />
           <Property Name="SimulationIndex" Value="0" />
           <Property Name="SimulationValue" Value="" />
@@ -366,7 +366,7 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
           <Property Name="TextIndexOffset" Value="13" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="290" />
+          <Property Name="Top" Value="371" />
           <Property Name="Width" Value="100" />
         </Control>
         <Control ClassId="0x00001002" Name="Button_6">
@@ -377,7 +377,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_11]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="443" />
           <Property Name="Multiline" Value="Manual" />
@@ -389,7 +389,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="290" />
+          <Property Name="Top" Value="371" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_11]" />
           <Property Name="Width" Value="100" />
         </Control>
@@ -397,7 +397,7 @@
           <Property Name="AlignmentHorizontal" Value="Center" />
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="Left" Value="540" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -406,7 +406,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="290" />
+          <Property Name="Top" Value="371" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.enabZ]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="30" />
@@ -418,7 +418,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_12]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="300" />
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]" />
@@ -429,7 +429,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="60" />
+          <Property Name="Top" Value="77" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_12]" />
           <Property Name="Width" Value="100" />
         </Control>
@@ -441,7 +441,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_14]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="587" />
           <Property Name="Multiline" Value="Manual" />
@@ -453,7 +453,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="150" />
+          <Property Name="Top" Value="192" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_14]" />
           <Property Name="Width" Value="100" />
         </Control>
@@ -465,7 +465,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_15]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="587" />
           <Property Name="Multiline" Value="Manual" />
@@ -477,7 +477,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="220" />
+          <Property Name="Top" Value="282" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_15]" />
           <Property Name="Width" Value="100" />
         </Control>
@@ -489,7 +489,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_16]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="587" />
           <Property Name="Multiline" Value="Manual" />
@@ -501,7 +501,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="290" />
+          <Property Name="Top" Value="371" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_16]" />
           <Property Name="Width" Value="100" />
         </Control>
@@ -512,7 +512,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_20]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="375" />
           <Property Name="Multiline" Value="Manual" />
@@ -524,7 +524,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="400" />
+          <Property Name="Top" Value="512" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_20]" />
           <Property Name="Width" Value="60" />
         </Control>
@@ -535,7 +535,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_22]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="375" />
           <Property Name="Multiline" Value="Manual" />
@@ -547,7 +547,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="500" />
+          <Property Name="Top" Value="640" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_22]" />
           <Property Name="Width" Value="60" />
         </Control>
@@ -558,7 +558,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_23]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="300" />
           <Property Name="Multiline" Value="Manual" />
@@ -570,7 +570,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="451" />
+          <Property Name="Top" Value="577" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_23]" />
           <Property Name="Width" Value="60" />
         </Control>
@@ -581,7 +581,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_24]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="450" />
           <Property Name="Multiline" Value="Manual" />
@@ -593,7 +593,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="450" />
+          <Property Name="Top" Value="576" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_24]" />
           <Property Name="Width" Value="60" />
         </Control>
@@ -604,7 +604,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_25]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="530" />
           <Property Name="Multiline" Value="Manual" />
@@ -616,7 +616,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="400" />
+          <Property Name="Top" Value="512" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_25]" />
           <Property Name="Width" Value="60" />
         </Control>
@@ -627,7 +627,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_26]" />
-          <Property Name="Height" Value="60" />
+          <Property Name="Height" Value="77" />
           <Property Name="KeyMatrixOffset" Value="None" />
           <Property Name="Left" Value="530" />
           <Property Name="Multiline" Value="Manual" />
@@ -639,7 +639,7 @@
           <Property Name="TextIndexDatapoint" Value="None" />
           <Property Name="TextSimulationValue" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="500" />
+          <Property Name="Top" Value="640" />
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_26]" />
           <Property Name="Width" Value="60" />
         </Control>
@@ -648,7 +648,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="Font" Value="Source[local].Font[Arial10pxBold]" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="671" />
           <Property Name="SimulationIndex" Value="0" />
           <Property Name="SimulationValue" Value="" />
@@ -656,13 +656,13 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
           <Property Name="TextIndexOffset" Value="30" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="402" />
+          <Property Name="Top" Value="515" />
           <Property Name="Width" Value="80" />
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_7">
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="751" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -671,7 +671,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="402" />
+          <Property Name="Top" Value="515" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.posX]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="80" />
@@ -681,7 +681,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="Font" Value="Source[local].Font[Arial10pxBold]" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="671" />
           <Property Name="SimulationIndex" Value="0" />
           <Property Name="SimulationValue" Value="" />
@@ -689,13 +689,13 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
           <Property Name="TextIndexOffset" Value="31" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="442" />
+          <Property Name="Top" Value="566" />
           <Property Name="Width" Value="80" />
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_8">
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="751" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -704,7 +704,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="442" />
+          <Property Name="Top" Value="566" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.posY]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="80" />
@@ -714,7 +714,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="Font" Value="Source[local].Font[Arial10pxBold]" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="671" />
           <Property Name="SimulationIndex" Value="0" />
           <Property Name="SimulationValue" Value="" />
@@ -722,13 +722,13 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
           <Property Name="TextIndexOffset" Value="32" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="482" />
+          <Property Name="Top" Value="617" />
           <Property Name="Width" Value="80" />
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_9">
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="751" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -737,7 +737,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="482" />
+          <Property Name="Top" Value="617" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.posZ]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="80" />
