@@ -10,6 +10,7 @@ public class PartImage {
     PartImage() {
         
     }
+    
     public String messagePart(int x1,int y1, int x2,int y2, byte pictureArray[][]) {
         
         for(int y = y1; y < y2; y++) {
