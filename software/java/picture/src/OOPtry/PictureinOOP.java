@@ -85,7 +85,7 @@ public class PictureinOOP {
         }
         
         // Setup roboClient
-        String hostName = "192.168.0.103";
+        String hostName = "localhost";
         int port = 12345;
         RobotClient roboC = new  RobotClient(hostName, port);
 

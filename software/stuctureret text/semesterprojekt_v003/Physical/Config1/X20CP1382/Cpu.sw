@@ -2,7 +2,7 @@
 <?AutomationStudio Version=4.3.3.196?>
 <SwConfiguration CpuAddress="SL1" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
-    <Task Name="Program" Source="Program.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Draw" Source="Draw.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="reset" Source="reset.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2" />

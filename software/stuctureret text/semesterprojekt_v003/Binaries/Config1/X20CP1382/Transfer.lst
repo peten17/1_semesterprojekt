@@ -6,7 +6,7 @@
   <Operation Delete="TCP.br"/>
   <Operation Delete="emergencyS.br"/>
   <Operation Delete="reset.br"/>
-  <Operation Delete="Program.br"/>
+  <Operation Delete="Draw.br"/>
   <Operation Delete="Visu_1.br"/>
   <Operation Delete="Visu_R.br"/>
   <Operation Delete="vccbar.br"/>
@@ -102,7 +102,7 @@
   <Operation Download="vccbar.br" Memory="UserROM"/>
   <Operation Download="Visu_R.br" Memory="UserROM"/>
   <Operation Download="Visu_1.br" Memory="UserROM"/>
-  <Operation Download="Program.br" Memory="UserROM"/>
+  <Operation Download="Draw.br" Memory="UserROM"/>
   <Operation Download="reset.br" Memory="UserROM"/>
   <Operation Download="emergencyS.br" Memory="UserROM"/>
   <Operation Download="TCP.br" Memory="UserROM"/>
