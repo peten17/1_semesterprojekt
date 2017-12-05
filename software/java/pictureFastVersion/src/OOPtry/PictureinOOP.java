@@ -17,7 +17,7 @@ public class PictureinOOP {
             Scanner sc = new Scanner(System.in);
 
             BufferedImage cImage = null; //Forskel på declaration og initialization
-            String fileName = "max.png"; 
+            String fileName = "test.png"; 
             try {
                 cImage = ImageIO.read(new File(fileName)); // placeringen af filen er relativ til java filen. https://docs.oracle.com/javase/7/docs/api/javax/imageio/ImageIO.html#read(java.io.File)
             } catch (IOException | IllegalArgumentException e) { // | er en bitwis OR operator. hvis enten det på højre eller venstre side af en bitvis OR operator er 1, så giver det 1. https://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html
