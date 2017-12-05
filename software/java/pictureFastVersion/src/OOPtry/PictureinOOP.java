@@ -17,16 +17,16 @@ public class PictureinOOP {
             Scanner sc = new Scanner(System.in);
 
             BufferedImage cImage = null; //Forskel på declaration og initialization
-            String fileName = "test.png"; 
+            String fileName = "Star.png"; 
             try {
                 cImage = ImageIO.read(new File(fileName)); // placeringen af filen er relativ til java filen. https://docs.oracle.com/javase/7/docs/api/javax/imageio/ImageIO.html#read(java.io.File)
             } catch (IOException | IllegalArgumentException e) { // | er en bitwis OR operator. hvis enten det på højre eller venstre side af en bitvis OR operator er 1, så giver det 1. https://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html
-
+             
             }
             
             //Multiarray initializing and creating.
             byte[][] pictureArray = new byte[cImage.getWidth()][];
-
+            
             //Image initializing
             int h = cImage.getHeight();
             int w = cImage.getWidth();
@@ -38,9 +38,10 @@ public class PictureinOOP {
             // Setup roboClient
             String hostName = "192.168.0.103";
             int port = 12345;
-            RobotClient roboC = new  RobotClient(hostName, port);
+            RobotClient roboC = new RobotClient(hostName, port);
             
             Message code = new Message();
+            
             String message = code.convertToMessage(pictureArray, cImage);
             //Draw full image 
             photo.drawImage(pictureArray);
