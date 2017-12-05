@@ -9,11 +9,11 @@
       Source="Program"
       Language="IEC">
       <InternalFile
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\Program\Main.st.var" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Temp\Objects\Config1\X20CP1382\Program\Main.st.var" />
       <File
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Types.typ" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\Program\Types.typ" />
       <File
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Variables.var" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\Program\Variables.var" />
     </Task>
     <Task
       Name="reset"
@@ -21,11 +21,11 @@
       Source="reset"
       Language="IEC">
       <InternalFile
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\reset\Main.st.var" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Temp\Objects\Config1\X20CP1382\reset\Main.st.var" />
       <File
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Types.typ" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\reset\Types.typ" />
       <File
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Variables.var" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\reset\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -40,11 +40,23 @@
       Source="emergencyStop"
       Language="IEC">
       <InternalFile
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Temp\Objects\Config1\X20CP1382\emergencyS\Main.st.var" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Temp\Objects\Config1\X20CP1382\emergencyS\Main.st.var" />
       <File
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Types.typ" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\emergencyStop\Types.typ" />
       <File
-        Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Variables.var" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\emergencyStop\Variables.var" />
+    </Task>
+    <Task
+      Name="TCP"
+      Disable="false"
+      Source="TCP"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Temp\Objects\Config1\X20CP1382\TCP\Main.st.var" />
+      <File
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\TCP\Types.typ" />
+      <File
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjekt_v002\Logical\TCP\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

@@ -57,12 +57,12 @@ LIB_LOCAL_OBJ_Visu_R=$(TEMP_PATH_Visu_R)/localobj.vca
 # Hardware sources
 PANEL_HW_OBJECT_Visu_R=$(TEMP_PATH_ROOT_Visu_R)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Visu_R/dis.Hardware.vco
 PANEL_HW_VCI_Visu_R=$(TEMP_PATH_ROOT_Visu_R)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Visu_R/dis.Hardware.vci
-PANEL_HW_SOURCE_Visu_R=C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterProjektTest/Physical/Config1/Hardware.hw 
+PANEL_HW_SOURCE_Visu_R=C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterProjekt_v002/Physical/Config1/Hardware.hw 
 DIS_OBJECTS_Visu_R=$(PANEL_HW_OBJECT_Visu_R) $(KEYMAP_OBJECTS_Visu_R)
 
 # KeyMapping flags
 $(TEMP_PATH_Visu_R)/dis.PS2-Keyboard.vco: $(AS_PROJECT_PATH)/Physical/Config1/X20CP1382/VC/PS2-Keyboard.dis $(PANEL_HW_SOURCE_Visu_R)
-	$(VCHWPP) -f '$(PANEL_HW_SOURCE_Visu_R)' -o '$(subst .vco,.vci,$(TEMP_PATH_Visu_R)/dis.PS2-Keyboard.vco)' -n Visu_Resized -d Visu_R -pal '$(PALFILE_Visu_R)' -c '$(AS_CONFIGURATION)' -p '$(AS_PLC)' -ptemp '$(AS_TEMP_PLC)' -B 'I4.33' -L '' -hw '$(CPUHWC)' -warninglevel 2 -so $(VC_STATIC_OPTIONS_Visu_R) -sos $(VC_STATIC_OPTIONS_Shared) -keyboard '$(AS_PROJECT_PATH)/Physical/Config1/X20CP1382/VC/PS2-Keyboard.dis' -fp '$(AS_VC_PATH)/Firmware/V4.33.0/SG4' -prj '$(AS_PROJECT_PATH)' -apj 'semesterProjektTest' -sfas -vcob '$(VCOBJECT_Visu_R)'
+	$(VCHWPP) -f '$(PANEL_HW_SOURCE_Visu_R)' -o '$(subst .vco,.vci,$(TEMP_PATH_Visu_R)/dis.PS2-Keyboard.vco)' -n Visu_Resized -d Visu_R -pal '$(PALFILE_Visu_R)' -c '$(AS_CONFIGURATION)' -p '$(AS_PLC)' -ptemp '$(AS_TEMP_PLC)' -B 'I4.33' -L '' -hw '$(CPUHWC)' -warninglevel 2 -so $(VC_STATIC_OPTIONS_Visu_R) -sos $(VC_STATIC_OPTIONS_Shared) -keyboard '$(AS_PROJECT_PATH)/Physical/Config1/X20CP1382/VC/PS2-Keyboard.dis' -fp '$(AS_VC_PATH)/Firmware/V4.33.0/SG4' -prj '$(AS_PROJECT_PATH)' -apj 'semesterProjekt_v002' -sfas -vcob '$(VCOBJECT_Visu_R)'
 	$(VCC) -f '$(subst .vco,.vci,$@)' -o '$@' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -k '$(VCVK_SOURCES_Visu_R)' $(VCCFLAGS_Visu_R) -p Visu_R -sfas
 
 KEYMAP_SOURCES_Visu_R=$(AS_PROJECT_PATH)/Physical/Config1/X20CP1382/VC/PS2-Keyboard.dis 
@@ -226,7 +226,7 @@ VCR_SOURCE_Visu_R=$(SRC_PATH_Visu_R)/package.vcp
 
 #Panel Hardware
 $(PANEL_HW_VCI_Visu_R): $(PANEL_HW_SOURCE_Visu_R) $(VC_LIBRARY_LIST_Visu_R) $(KEYMAP_SOURCES_Visu_R)
-	$(VCHWPP) -f '$<' -o '$@' -n Visu_Resized -d Visu_R -pal '$(PALFILE_Visu_R)' -c '$(AS_CONFIGURATION)' -p '$(AS_PLC)' -ptemp '$(AS_TEMP_PLC)' -B 'I4.33' -L '' -verbose 'False' -profile 'False' -hw '$(CPUHWC)' -warninglevel 2 -so $(VC_STATIC_OPTIONS_Visu_R) -sos $(VC_STATIC_OPTIONS_Shared) -fp '$(AS_VC_PATH)/Firmware/V4.33.0/SG4' -sfas -prj '$(AS_PROJECT_PATH)' -apj 'semesterProjektTest' -vcob '$(VCOBJECT_Visu_R)'
+	$(VCHWPP) -f '$<' -o '$@' -n Visu_Resized -d Visu_R -pal '$(PALFILE_Visu_R)' -c '$(AS_CONFIGURATION)' -p '$(AS_PLC)' -ptemp '$(AS_TEMP_PLC)' -B 'I4.33' -L '' -verbose 'False' -profile 'False' -hw '$(CPUHWC)' -warninglevel 2 -so $(VC_STATIC_OPTIONS_Visu_R) -sos $(VC_STATIC_OPTIONS_Shared) -fp '$(AS_VC_PATH)/Firmware/V4.33.0/SG4' -sfas -prj '$(AS_PROJECT_PATH)' -apj 'semesterProjekt_v002' -vcob '$(VCOBJECT_Visu_R)'
 
 $(PANEL_HW_OBJECT_Visu_R): $(PANEL_HW_VCI_Visu_R) $(PALFILE_Visu_R) $(VC_LIBRARY_LIST_Visu_R)
 	$(VCC) -f '$(subst .vco,.vci,$@)' -o '$@' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -k '$(VCVK_SOURCES_Visu_R)' $(VCCFLAGS_Visu_R) -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
@@ -297,27 +297,27 @@ $(VCVK_OBJECTS_Visu_R): $(VC_LANGUAGES_Visu_R)
 TPR_OBJECTS_Visu_R = $(addprefix $(TEMP_PATH_Visu_R)/tpr., $(notdir $(TPR_SOURCES_Visu_R:.tpr=.vco)))
 
 $(TEMP_PATH_Visu_R)/tpr.NumPad.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/TouchPads/NumPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjekt_v002/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visu_R)/tpr.AlphaPadQVGA.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/TouchPads/AlphaPadQVGA.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjekt_v002/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visu_R)/tpr.AlphaPad.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/TouchPads/AlphaPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjekt_v002/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visu_R)/tpr.NavigationPad_ver.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/TouchPads/NavigationPad_ver.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjekt_v002/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visu_R)/tpr.NavigationPad_hor.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/TouchPads/NavigationPad_hor.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjekt_v002/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visu_R)/tpr.EditPad.vco: $(AS_PROJECT_PATH)/Logical/Visu_Resized/TouchPads/EditPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjektTest/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_R)' $(VCCFLAGS_Visu_R) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterProjekt_v002/Logical/Visu_Resized' -p Visu_R -so $(VC_STATIC_OPTIONS_Visu_R) -vcr 4330 -sfas
 
 
 #Touch Pads END
