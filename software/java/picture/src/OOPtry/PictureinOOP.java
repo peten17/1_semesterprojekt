@@ -45,7 +45,7 @@ public class PictureinOOP {
         photo.assempleImage(pictureArray, cImage);
                 
         //Amount of pixels
-        System.out.println("Limit: " + 165*165 + ". Amount of pixels: " + cImage.getWidth()*cImage.getHeight() + "." );
+        System.out.println("Limit: " + 257*257 + ". Amount of pixels: " + cImage.getWidth()*cImage.getHeight() + "." );
         
         //Full or partly drawn?
         String fullorPart = "";
