@@ -1,7 +1,7 @@
 
 PROGRAM _INIT
 	
-	placeInString := 1; 
+	placeInString := 0; 
 	i := 0;
 	sharpen := 1;
 	activator := FALSE;	
@@ -24,6 +24,9 @@ PROGRAM _CYCLIC
 		END_IF
 		
 		IF (i = 30) THEN
+			IF placement = 20016 OR placement = 20017 THEN
+				newLineHelper := newLineHelper - 16 ;
+			END_IF
 			placeInString := placeInString + 1;
 			i := 0;
 		END_IF	
@@ -96,6 +99,7 @@ PROGRAM _CYCLIC
 				ELSE
 					IF dirX THEN
 						stepX := NOT stepX;
+						i := i + 1;
 						IF (stepX = FALSE) THEN
 							posX := posX + 1;
 							newLineX := newLineX +1;
@@ -105,7 +109,7 @@ PROGRAM _CYCLIC
 					ELSE
 						dirX := TRUE;
 					END_IF 	
-					i := i + 1;
+					
 				END_IF	
 			
 			//dont draw
@@ -122,6 +126,7 @@ PROGRAM _CYCLIC
 				ELSE
 					IF dirX THEN
 						stepX := NOT stepX;
+						i := i + 1;
 						IF (stepX = FALSE) THEN
 							posX := posX +1;
 							newLineX := newLineX +1;
@@ -129,7 +134,7 @@ PROGRAM _CYCLIC
 					ELSE
 						dirX := TRUE;
 					END_IF
-					i := i + 1;
+					
 				END_IF		
 					
 //			ELSIF (i = 3) THEN
@@ -158,7 +163,7 @@ PROGRAM _CYCLIC
 						dirZ := FALSE;
 					END_IF
 					
-				ELSIF (posZ > (2900-ValueZ)) AND (newLineX >= (newLineHelper)) THEN//!!!!
+				ELSIF (posZ <= (2900-ValueZ)) AND (newLineX >= (newLineHelper)) THEN//!!!!
 					IF dirX = FALSE THEN
 						stepX := NOT stepX;
 						IF (stepX = FALSE) THEN
@@ -169,23 +174,21 @@ PROGRAM _CYCLIC
 						dirX := FALSE;
 					END_IF
 					
-				ELSIF ((posZ = (2900-ValueZ)) AND (newLineX <= newLineHelper) AND (i <= 30)(* OR ( posZ = 0)*)) THEN
+				ELSIF ((posZ <= (2900-ValueZ)) AND (newLineX <= newLineHelper) AND (i < 30)(* OR ( posZ = 0)*)) THEN
 					IF dirY THEN
-					stepY := NOT stepY;
-					IF (stepY = FALSE) THEN
-						posX := posX - 1;
-						newLineX := newLineX -1;
-					END_IF
+						stepY := NOT stepY;
+						i := i +1;
+						IF (stepY = FALSE) THEN
+							posX := posX - 1;
+							newLineX := newLineX -1;
+						END_IF
 					ELSE
 						dirY := TRUE;
 					END_IF
-					i := i +1;
-				END_IF
-				
-				IF i = 20 THEN
-					newLineHelper := newLineHelper - 12 ;
 					
 				END_IF
+				
+				
 			
 			ELSIF placement = 20785 OR placement = 20784 THEN
 			

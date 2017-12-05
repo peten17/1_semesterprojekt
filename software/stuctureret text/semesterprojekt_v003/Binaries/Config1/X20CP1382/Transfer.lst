@@ -7,8 +7,10 @@
   <Operation Delete="emergencyS.br"/>
   <Operation Delete="reset.br"/>
   <Operation Delete="Program.br"/>
+  <Operation Delete="Visu_1.br"/>
   <Operation Delete="Visu_R.br"/>
   <Operation Delete="vccbar.br"/>
+  <Operation Delete="AsMbTCP.br"/>
   <Operation Delete="vccshape.br"/>
   <Operation Delete="vcbclass.br"/>
   <Operation Delete="vctcal.br"/>
@@ -30,6 +32,9 @@
   <Operation Delete="vcrt.br"/>
   <Operation Delete="AsTCP.br"/>
   <Operation Delete="asieccon.br"/>
+  <Operation Delete="Visu_103.br"/>
+  <Operation Delete="Visu_102.br"/>
+  <Operation Delete="Visu_101.br"/>
   <Operation Delete="vcshared.br"/>
   <Operation Delete="arialbd.br"/>
   <Operation Delete="arial.br"/>
@@ -69,6 +74,9 @@
   <Operation Download="arial.br" Memory="UserROM"/>
   <Operation Download="arialbd.br" Memory="UserROM"/>
   <Operation Download="vcshared.br" Memory="UserROM"/>
+  <Operation Download="Visu_101.br" Memory="UserROM"/>
+  <Operation Download="Visu_102.br" Memory="UserROM"/>
+  <Operation Download="Visu_103.br" Memory="UserROM"/>
   <Operation Download="asieccon.br" Memory="UserROM"/>
   <Operation Download="AsTCP.br" Memory="UserROM"/>
   <Operation Download="vcrt.br" Memory="UserROM"/>
@@ -90,8 +98,10 @@
   <Operation Download="vctcal.br" Memory="UserROM"/>
   <Operation Download="vcbclass.br" Memory="UserROM"/>
   <Operation Download="vccshape.br" Memory="UserROM"/>
+  <Operation Download="AsMbTCP.br" Memory="UserROM"/>
   <Operation Download="vccbar.br" Memory="UserROM"/>
   <Operation Download="Visu_R.br" Memory="UserROM"/>
+  <Operation Download="Visu_1.br" Memory="UserROM"/>
   <Operation Download="Program.br" Memory="UserROM"/>
   <Operation Download="reset.br" Memory="UserROM"/>
   <Operation Download="emergencyS.br" Memory="UserROM"/>

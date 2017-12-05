@@ -16,7 +16,8 @@
   <TaskClass Name="Cyclic#7" />
   <TaskClass Name="Cyclic#8" />
   <VcDataObjects>
-    <VcDataObject Name="Visu_R" Source="Visu_Resized_Resized.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
+    <VcDataObject Name="Visu_R" Source="Visu_Resized.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
+    <VcDataObject Name="Visu_1" Source="Visu_Resized_Resized.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
   </VcDataObjects>
   <Binaries>
     <BinaryObject Name="udbdef" Source="" Memory="UserROM" Language="Binary" />

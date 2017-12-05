@@ -62,7 +62,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="Font" Value="Source[local].Font[Arial10pxBold]" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="200" />
           <Property Name="SimulationIndex" Value="0" />
           <Property Name="SimulationValue" Value="" />
@@ -70,13 +70,13 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
           <Property Name="TextIndexOffset" Value="0" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="100" />
+          <Property Name="Top" Value="128" />
           <Property Name="Width" Value="80" />
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_1">
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="280" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -85,7 +85,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="100" />
+          <Property Name="Top" Value="128" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.posX]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="80" />
@@ -95,7 +95,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="Font" Value="Source[local].Font[Arial10pxBold]" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="200" />
           <Property Name="SimulationIndex" Value="0" />
           <Property Name="SimulationValue" Value="" />
@@ -103,13 +103,13 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
           <Property Name="TextIndexOffset" Value="1" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="140" />
+          <Property Name="Top" Value="179" />
           <Property Name="Width" Value="80" />
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_4">
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="280" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -118,7 +118,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="140" />
+          <Property Name="Top" Value="179" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.posY]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="80" />
@@ -128,7 +128,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="Font" Value="Source[local].Font[Arial10pxBold]" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="200" />
           <Property Name="SimulationIndex" Value="0" />
           <Property Name="SimulationValue" Value="" />
@@ -136,13 +136,13 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
           <Property Name="TextIndexOffset" Value="2" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="180" />
+          <Property Name="Top" Value="230" />
           <Property Name="Width" Value="80" />
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_2">
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="280" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -151,7 +151,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="180" />
+          <Property Name="Top" Value="230" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.posZ]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="80" />
@@ -161,7 +161,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="Font" Value="Source[local].Font[Arial10pxBold]" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="400" />
           <Property Name="SimulationIndex" Value="0" />
           <Property Name="SimulationValue" Value="" />
@@ -169,13 +169,13 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup" />
           <Property Name="TextIndexOffset" Value="4" />
           <Property Name="TextSource" Value="SingleText" />
-          <Property Name="Top" Value="100" />
+          <Property Name="Top" Value="128" />
           <Property Name="Width" Value="152" />
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_3">
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="562" />
           <Property Name="MaxDatapoint" Value="None" />
           <Property Name="MaxValue" Value="None" />
@@ -184,7 +184,7 @@
           <Property Name="SimulationValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]" />
           <Property Name="TeachDatapoint" Value="None" />
-          <Property Name="Top" Value="101" />
+          <Property Name="Top" Value="129" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.posX]" />
           <Property Name="ValueMode" Value="Standard" />
           <Property Name="Width" Value="80" />
@@ -195,7 +195,7 @@
           <Property Name="ControlID" Value="0" />
           <Property Name="Description" Value="" />
           <Property Name="EndValue" Value="100" />
-          <Property Name="Height" Value="30" />
+          <Property Name="Height" Value="38" />
           <Property Name="Left" Value="6" />
           <Property Name="Range" Value="4" />
           <Property Name="Range[0].Color" Value="148" />
@@ -209,7 +209,7 @@
           <Property Name="SimulationValue" Value="50" />
           <Property Name="StartValue" Value="0" />
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BarGraph]" />
-          <Property Name="Top" Value="342" />
+          <Property Name="Top" Value="438" />
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.percentage]" />
           <Property Name="Width" Value="108" />
         </Control>
