@@ -55,7 +55,7 @@ public class PictureinOOP {
         boolean picturePart = false;
         
         while(true) {
-            if(cImage.getHeight()*cImage.getWidth() < 165*165) {
+            if(cImage.getHeight()*cImage.getWidth() < 257*257) {
                 System.out.println("Full picture or a specific part? Answer FP or SP");
                 fullorPart = sc.nextLine();
                 
