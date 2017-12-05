@@ -1,0 +1,4 @@
+VAR
+	emergencyStop : BOOL;
+	reset_quit : BOOL;
+END_VAR

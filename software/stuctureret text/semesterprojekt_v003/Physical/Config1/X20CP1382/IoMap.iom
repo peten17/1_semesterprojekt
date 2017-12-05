@@ -1,0 +1,14 @@
+VAR_CONFIG
+	::dirX AT %QX."X3".DigitalOutput01;
+	::enabX AT %QX."X3".DigitalOutput02;
+	::enabY AT %QX."X3".DigitalOutput04;
+	::dirZ AT %QX."X3".DigitalOutput05;
+	::stepX AT %QX."X3".DigitalOutput10;
+	::dirY AT %QX."X3".DigitalOutput03;
+	::enabZ AT %QX."X3".DigitalOutput06;
+	::stepY AT %QX."X3".DigitalOutput11;
+	::stepZ AT %QX."X3".DigitalOutput12;
+	::switch_X AT %IX."X2".DigitalInput01;
+	::switch_Z AT %IX."X2".DigitalInput02;
+	::switch_Y AT %IX."X2".DigitalInput03;
+END_VAR

@@ -37,7 +37,7 @@ public class Scale {
     // Full scaled picture
     
     public void amountOfScaling(byte pictureArray[][]) {
-        int limit = 165*165;  
+        int limit = 257*257;  
         int n = 1000;
         while(true) {
                 long divided = this.pAmount*1/n;

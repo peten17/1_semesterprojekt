@@ -36,13 +36,13 @@
       <Column Index="4" Width="0" Position="4" />
       <Column Index="5" Width="0" Position="5" />
       <Column Index="6" Width="0" Position="6" />
-      <Column Index="7" Width="216" Position="7" />
+      <Column Index="7" Width="134" Position="7" />
       <Column Index="8" Width="0" Position="8" />
       <Column Index="9" Width="134" Position="9" />
-      <Column Index="10" Width="0" Position="10" />
-      <Column Index="11" Width="0" Position="11" />
-      <Column Index="12" Width="0" Position="12" />
-      <Column Index="13" Width="0" Position="13" />
+      <Column Index="10" Width="88" Position="10" />
+      <Column Index="11" Width="98" Position="11" />
+      <Column Index="12" Width="116" Position="12" />
+      <Column Index="13" Width="97" Position="13" />
       <Column Index="14" Width="184" Position="14" />
       <Column Index="15" Width="0" Position="15" />
       <Column Index="16" Width="0" Position="16" />
@@ -53,10 +53,10 @@
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
-  <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Main.st" CaretLine="163" CaretColumn="6" FirstVisibleLine="154">
+  <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Main.st" CaretLine="141" CaretColumn="2" FirstVisibleLine="25">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Main.st" CaretLine="141" CaretColumn="2" FirstVisibleLine="117">
+  <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Main.st" CaretLine="160" CaretColumn="31" FirstVisibleLine="139">
     <Bookmarks />
   </TextEdit>
   <TreeView ID="SwConfiguration-ProjectTree" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
@@ -119,7 +119,7 @@
   <TextEdit ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Main.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
-  <TreeView ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Global.var" EditColumn="1" TopRow="5" HorizontalScrollOffset="0" SortedColumn="0">
+  <TreeView ID="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Global.var" EditColumn="0" TopRow="5" HorizontalScrollOffset="0" SortedColumn="0">
     <Columns>
       <Column Index="0" Width="200" Position="0" />
       <Column Index="1" Width="100" Position="1" />
@@ -135,7 +135,7 @@
     </Columns>
     <ExpandedNodes />
     <SelectedNodes>
-      <SelectedNode Row="6" />
+      <SelectedNode Row="34" />
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
