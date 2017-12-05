@@ -4,16 +4,16 @@
   <TaskClass
     Name="Cyclic#1">
     <Task
-      Name="Program"
+      Name="Draw"
       Disable="false"
-      Source="Program"
+      Source="Draw"
       Language="IEC">
       <InternalFile
-        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Temp\Objects\Config1\X20CP1382\Program\Main.st.var" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Temp\Objects\Config1\X20CP1382\Draw\Main.st.var" />
       <File
-        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Program\Types.typ" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Draw\Types.typ" />
       <File
-        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Program\Variables.var" />
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Draw\Variables.var" />
     </Task>
     <Task
       Name="reset"

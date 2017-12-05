@@ -1,4 +1,4 @@
-Program	"$(AS_CPU_PATH)/Program/Main.st.o" "$(AS_CPU_PATH)/Program/_bur_pvdef.st.o"  -o "$(AS_CPU_PATH)/Program/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs_brelf -nostdlib
+Draw	"$(AS_CPU_PATH)/Draw/Main.st.o" "$(AS_CPU_PATH)/Draw/_bur_pvdef.st.o"  -o "$(AS_CPU_PATH)/Draw/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs_brelf -nostdlib
 reset	"$(AS_CPU_PATH)/reset/Main.st.o" "$(AS_CPU_PATH)/reset/_bur_pvdef.st.o"  -o "$(AS_CPU_PATH)/reset/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs_brelf -nostdlib
 emergencyS	"$(AS_CPU_PATH)/emergencyS/Main.st.o" "$(AS_CPU_PATH)/emergencyS/_bur_pvdef.st.o"  -o "$(AS_CPU_PATH)/emergencyS/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs_brelf -nostdlib
 TCP	"$(AS_CPU_PATH)/TCP/Main.st.o" "$(AS_CPU_PATH)/TCP/_bur_pvdef.st.o"  -o "$(AS_CPU_PATH)/TCP/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs_brelf -nostdlib
