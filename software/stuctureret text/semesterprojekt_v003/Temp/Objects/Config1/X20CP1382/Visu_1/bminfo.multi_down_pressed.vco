@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="multi_down_pressed" ClsId="0x306" Version="1" TargetIndex="44" Type="GFX" RefString="Source[local].Bitmap[multi_down_pressed]">
+        <UInt16 Name="Width">32</UInt16>
+        <UInt16 Name="Height">41</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">1</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">46</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">Lv//////////////////////////////////////Zi5skff39/f39/f39/f39/f39/f39/f39/f39/f39/cIbP/39/f39/f39/f39/f39/f39/f39/f39/f39/f39//3/5GRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGR//X/kZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZH/9f/////////////////////////////////////////1//////////////////////////////////////////X/////////////////////////////////////////9f/////////////////////////////////////////1//////////////////////////////////////////X//////////2ZmZmZmZmZmZmZmZmZmZv//////////9f//////////Zjv6+vr6+vr6+vr6+jtm///////////1//////////8I+g8PDw8PDw8PDw8P+gj///////////X///////////9m+w8PDw8PDw8PD/tm////////////9f////////////9m/A8PDw8PDw/8Zv/////////////1/////////////wgHDw8PDw8PDwcI//////////////X//////////////wg7Dw8PDw87CP//////////////9f///////////////wj5Dw8P+Qj////////////////1/////////////////2b8D/xm//////////////////X/////////////////CAf8Bwj/////////////////9f//////////Zjs7Ozs7+vz6Ozs7OzsH///////////1//////////9m+Q8PDw8PDw8PDw8P+wf///////////X///////////8H/A8PDw8PDw8PD/w7////////////9f///////////wgHDw8PDw8PDw8POwj////////////1/////////////wg7Dw8PDw8PD/pm//////////////X//////////////2b6Dw8PDw/7B///////////////9f///////////////2b7Dw8P/Af////////////////1/////////////////wcPDw87//////////////////X/////////////////CAcP+gj/////////////////9f//////////////////CAdm///////////////////1////////////////////CP////////////////////X/////////////////////////////////////////9f/////////////////////////////////////////1//////////////////////////////////////////X/CAgICAgICAgICAgICAgICAgICAgICAgICAgICAj/9QhmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZgj1CAcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHCPX/Bzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Owf/AGZmBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHZvb1Rwj39/f39/f39/f39/f39/f39/f39/f39/f39/f29Z0uCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD1Lg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

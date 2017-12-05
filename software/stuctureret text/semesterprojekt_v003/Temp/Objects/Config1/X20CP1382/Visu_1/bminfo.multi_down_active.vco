@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="multi_down_active" ClsId="0x306" Version="1" TargetIndex="43" Type="GFX" RefString="Source[local].Bitmap[multi_down_active]">
+        <UInt16 Name="Width">32</UInt16>
+        <UInt16 Name="Height">41</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">1</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">46</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">Lgj///////////////////////////////////8IBy5sO/n5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+TtmbAj7/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Gb3//z8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8ZvX//Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/PxmAP/7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+2YA//v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7CAD/+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/sIAP/7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/8A//v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7/wD/+/v7+/v7+zs7Ozs7Ozs7Ozs7Ozs7O/v7+/v7+/v/AP/7+/v7+/v7Owj///////////////8H+/v7+/v7+/8A//v7+/v7+/v6//f29vb29vb29vb2kTv7+/v7+/v7/wD/+/v7+/v7+/s7kfb29vb29vb29vcH+/v7+/v7+/v/AP/7+/v7+/v7+/s79/b29vb29vb2B/n7+/v7+/v7+/8A//v7+/v7+/v7+/kH9/b29vb29gj6+/v7+/v7+/v7/wD/+/v7+/v7+/v7+/oI9/b29vb/O/v7+/v7+/v7+/v/AP/7+/v7+/v7+/v7+zuR9/b2kQf7+/v7+/v7+/v7+/8A//v7+/v7+/v7+/v7+zv39vcH+/v7+/v7+/v7+/v7/wD/+/v7+/v7+/v7+/v7+Qf3Zvn7+/v7+/v7+/v7+/v/AP/7+/v7+/v7OwgICAgI//eRCAgICAgH+/v7+/v7+/8A//v7+/v7+/s7kfb29vb29vb29vb2kQf7+/v7+/v7/wD/+/v7+/v7+/sH9/b29vb29vb29vdm+/v7+/v7+/v/AP/7+/v7+/v7+/sH9vb29vb29vb2CPn7+/v7+/v7+/8A//v7+/v7+/v7+/pm9vb29vb29v87+/v7+/v7+/v7/wD/+/v7+/v7+/v7+zv/9vb29vaRB/v7+/v7+/v7+/v/AP/7+/v7+/v7+/v7+weR9vb292b7+/v7+/v7+/v7+/8A//v7+/v7+/v7+/v7+wf39vcI+/v7+/v7+/v7+/v7/wD/+/v7+/v7+/v7+/v7+Wb2//r7+/v7+/v7+/v7+/v/AP/7+/v7+/v7+/v7+/v7O2Y7+/v7+/v7+/v7+/v7+/8A//v7+/v7+/v7+/v7+/v7+vv7+/v7+/v7+/v7+/v7/wD/+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v/AP/7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/8AZvv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7ZgBm+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+flmAGY7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O2YACDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7CAAIBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwf/AAdmCAgICAgICAgICAgICAgICAgICAgICAgICAgICLy8Rwj39/f39/f39/f39/f39/f39/f39/f39/f39/f2vHIuCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2Lg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

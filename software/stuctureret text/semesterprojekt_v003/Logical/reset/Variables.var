@@ -1,0 +1,9 @@
+VAR
+	count : USINT;
+	resetX : USINT;
+	swCount : UINT;
+	resetY : USINT;
+	resetZ : USINT;
+	timer : TON;
+	New_Variable : USINT;
+END_VAR

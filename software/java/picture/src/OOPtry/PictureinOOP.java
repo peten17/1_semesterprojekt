@@ -55,7 +55,7 @@ public class PictureinOOP {
         boolean picturePart = false;
         
         while(true) {
-            if(cImage.getHeight()*cImage.getWidth() < 165*165) {
+            if(cImage.getHeight()*cImage.getWidth() < 257*257) {
                 System.out.println("Full picture or a specific part? Answer FP or SP");
                 fullorPart = sc.nextLine();
                 
@@ -85,7 +85,7 @@ public class PictureinOOP {
         }
         
         // Setup roboClient
-        String hostName = "10.126.91.148";
+        String hostName = "192.168.0.103";
         int port = 12345;
         RobotClient roboC = new  RobotClient(hostName, port);
 
