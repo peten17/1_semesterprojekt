@@ -4413,7 +4413,7 @@ general purpose rectifier, 1 A</description>
 <parts>
 <part name="PLC-SWITCH" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="SWITCH3+" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
-<part name="PLC-SHARPENER-GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="PLC-24V" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -4469,8 +4469,8 @@ general purpose rectifier, 1 A</description>
 <instance part="SWITCH3+" gate="-1" x="-5.08" y="124.46" rot="R90"/>
 <instance part="SWITCH3+" gate="-2" x="0" y="124.46" rot="R90"/>
 <instance part="SWITCH3+" gate="-3" x="5.08" y="124.46" rot="R90"/>
-<instance part="PLC-SHARPENER-GND" gate="-1" x="-27.94" y="-40.64" rot="MR0"/>
-<instance part="PLC-SHARPENER-GND" gate="-2" x="-27.94" y="-43.18" rot="MR0"/>
+<instance part="PLC-24V" gate="-1" x="-27.94" y="-40.64" rot="MR0"/>
+<instance part="PLC-24V" gate="-2" x="-27.94" y="-43.18" rot="MR0"/>
 <instance part="GND10" gate="1" x="-17.78" y="-45.72"/>
 <instance part="GND7" gate="1" x="25.4" y="27.94"/>
 <instance part="GND8" gate="1" x="33.02" y="27.94"/>
@@ -4540,7 +4540,7 @@ general purpose rectifier, 1 A</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="PLC-SHARPENER-GND" gate="-2" pin="S"/>
+<pinref part="PLC-24V" gate="-2" pin="S"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="-17.78" y1="-43.18" x2="-25.4" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
@@ -4594,7 +4594,7 @@ general purpose rectifier, 1 A</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="PLC-SHARPENER-GND" gate="-1" pin="S"/>
+<pinref part="PLC-24V" gate="-1" pin="S"/>
 <wire x1="-25.4" y1="-40.64" x2="10.16" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="24V-&gt;6V" gate="1" pin="IN"/>
 </segment>

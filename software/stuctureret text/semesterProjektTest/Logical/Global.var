@@ -5,15 +5,16 @@ VAR
 	enabX : BOOL;
 	enabY : BOOL;
 	enabZ : BOOL;
-	input : STRING[80];
-	posX : UINT;
-	posY : UINT;
-	posZ : UINT;
+	drawFunction : BOOL;
+	input : STRING[30000];
+	posX : UDINT;
+	posY : UDINT;
+	posZ : UDINT;
 	reset : BOOL;
 	stepX : BOOL;
 	stepY : BOOL;
 	stepZ : BOOL;
-	switch : BOOL;
+	switch_X : BOOL;
 	t : USINT;
 	quit : BOOL;
 	sharpen : UINT;
@@ -25,4 +26,14 @@ VAR
 	y_move_left : BOOL;
 	x_move_right : BOOL;
 	x_move_left : BOOL;
+	sharpenderNeed : BOOL;
+	switch_Z : BOOL;
+	switch_Y : BOOL;
+	percentage : REAL; (*%*)
+	newLineX : UDINT;
+	ValueZ : UINT;
+	penLength : REAL;
+	placeInString : UINT;
+	placement : STRING[5];
+	newLineHelper : UDINT;
 END_VAR

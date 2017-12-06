@@ -5,7 +5,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Package.pkg"
     LogicalPath=""
     Type="Package"
-    LastWriteTime="131556573654556426" />
+    LastWriteTime="131568496757256645" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -16,7 +16,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="131556596025891320"
+    LastWriteTime="131565053580133463"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\Package.pkg"
@@ -147,7 +147,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Main.st"
     LogicalPath="Program.Main.st"
     Type="File"
-    LastWriteTime="131559969571500478"
+    LastWriteTime="131568586417088557"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Types.typ"
@@ -159,7 +159,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Variables.var"
     LogicalPath="Program.Variables.var"
     Type="File"
-    LastWriteTime="131550467441693317"
+    LastWriteTime="131562738777297541"
     Private="true" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\IEC.prg"
@@ -170,7 +170,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Main.st"
     LogicalPath="reset.Main.st"
     Type="File"
-    LastWriteTime="131559977225058427"
+    LastWriteTime="131565057048689294"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Types.typ"
@@ -182,7 +182,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\reset\Variables.var"
     LogicalPath="reset.Variables.var"
     Type="File"
-    LastWriteTime="131556560765776853"
+    LastWriteTime="131562736199078792"
     Private="true" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\IEC.prg"
@@ -193,7 +193,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Main.st"
     LogicalPath="emergencyStop.Main.st"
     Type="File"
-    LastWriteTime="131557429333984037"
+    LastWriteTime="131562741856966591"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\emergencyStop\Types.typ"
@@ -227,24 +227,24 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="131559975243931108"
+    LastWriteTime="131569505767048613"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.hwl"
     LogicalPath="Config1.Hardware.hwl"
     Type="File"
-    LastWriteTime="131540937341595875"
+    LastWriteTime="131569505828178586"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Cpu.pkg"
     LogicalPath="Config1.X20CP1382"
     Type="Cpu"
-    LastWriteTime="131550525330935853" />
+    LastWriteTime="131568576884596767" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Cpu.sw"
     LogicalPath="Config1.X20CP1382.Cpu.sw"
     Type="File"
-    LastWriteTime="131556573655559891"
+    LastWriteTime="131568496763731616"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Cpu.per"
@@ -256,7 +256,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\IoMap.iom"
     LogicalPath="Config1.X20CP1382.IoMap.iom"
     Type="File"
-    LastWriteTime="131559975679391935"
+    LastWriteTime="131565100800509270"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\PvMap.vvm"
@@ -371,7 +371,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="131540937341615925"
+    LastWriteTime="131569505830568996"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
