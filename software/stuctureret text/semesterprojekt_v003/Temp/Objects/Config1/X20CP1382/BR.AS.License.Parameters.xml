@@ -5,10 +5,14 @@
     <ConnectionParameters>/RT=1000 /AM=*</ConnectionParameters>
   </Connection>
   <AsProject>
+<<<<<<< HEAD
     <ApjFullFileName>C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret\ text\semesterprojekt_v003\semesterprojekt.apj</ApjFullFileName>
+=======
+    <ApjFullFileName>C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\semesterprojekt.apj</ApjFullFileName>
+>>>>>>> d5b8d54a60252f4b00e3bf32a6dc7298fa0b9dc5
     <ProjectName>semesterprojekt</ProjectName>
     <ActiveConfigurationName>Config1</ActiveConfigurationName>
-    <LicenseDataFolder>C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Temp\Objects\Config1\X20CP1382</LicenseDataFolder>
+    <LicenseDataFolder>C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Temp\Objects\Config1\X20CP1382</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>

@@ -4,11 +4,11 @@ package OOPtry;
 
 
 public class PartImage {
-    private String message = "";
+    private String message;
     private char upOrDown;        
             
     PartImage() {
-        
+        message = "";
     }
     
     public String messagePart(int x1,int y1, int x2,int y2, byte pictureArray[][]) {

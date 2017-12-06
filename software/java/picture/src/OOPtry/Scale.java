@@ -87,8 +87,9 @@ public class Scale {
                             } else {
                                upOrDown = '1';
                             }
+                            message = message + upOrDown;
                         }
-                        message = message + upOrDown;
+                        
                         if(x < image.getWidth()-2) {
                             message = message + 'R' ;
                         }
