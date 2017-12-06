@@ -13,10 +13,13 @@ public class Message {
     public String convertToMessage(byte pictureArray[][], BufferedImage image) {
         for(int y = 0; y < image.getHeight(); y++) {
             for(int x = 0; x < image.getWidth(); x++) {        
-                if(pictureArray[y][x] == 0) {
-                   upOrDown = '0';
-                } else {
-                   upOrDown = '1';
+                if(x < image.getHeight() && y < image.getWidth()) {
+                    
+                    if(pictureArray[y][x] == 0) {
+                       upOrDown = '0';
+                    } else {
+                       upOrDown = '1';
+                    }
                 }
                 message = message + upOrDown;
                 if(x < image.getWidth()-1) {

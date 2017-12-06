@@ -105,11 +105,14 @@ public class PictureinOOP {
             if(roboC.isConnected()){
                 roboC.write(message);
                 System.out.println("Message send");
-              
-                System.out.println("Disconnect?");
-                String disconnectOrNot = sc.nextLine();
-                if (disconnectOrNot.compareTo("YES") == 0 ) {
-                    roboC.disconnect();
+                
+                while(true) {
+                    System.out.println("Disconnect?");
+                    String disconnectOrNot = sc.nextLine();
+                    if (disconnectOrNot.compareTo("YES") == 0 ) {
+                        roboC.disconnect();
+                        break;
+                    }
                 }
             }
 
@@ -144,11 +147,14 @@ public class PictureinOOP {
             if(roboC.isConnected()){
                 roboC.write(partMessage);
                 System.out.println("Message send");
-              
-                System.out.println("Disconnect?");
-                String disconnectOrNot = sc.nextLine();
-                if (disconnectOrNot.compareTo("YES") == 0 ) {
-                   roboC.disconnect();
+                
+                while(true) {
+                    System.out.println("Disconnect?");
+                    String disconnectOrNot = sc.nextLine();
+                    if (disconnectOrNot.compareTo("YES") == 0 ) {
+                       roboC.disconnect();
+                       break;
+                    }
                 }
             }
 
@@ -178,12 +184,15 @@ public class PictureinOOP {
                 roboC.write(scaledMessage);
                 System.out.println("Message send");
             }
-            System.out.println("Disconnect?");
-            String disconnectOrNot = sc.nextLine();
-            if (disconnectOrNot.compareTo("YES") == 0 ) {
-                roboC.disconnect();
+        
+            while(true) {
+                System.out.println("Disconnect?");
+                String disconnectOrNot = sc.nextLine();
+                    if (disconnectOrNot.compareTo("YES") == 0 ) {
+                        roboC.disconnect();
+                        break;
+                    }
             }
-          
           
             
         }else if(partlyScaleNeeded) {
@@ -218,12 +227,15 @@ public class PictureinOOP {
                 roboC.write(scaledMessagePart);
                 System.out.println("Message send");
             }
-            System.out.println("Disconnect?");
-            String disconnectOrNot = sc.nextLine();
-            if (disconnectOrNot.compareTo("YES") == 0 ) {
-                roboC.disconnect();
+            
+            while(true) {
+                System.out.println("Disconnect?");
+                String disconnectOrNot = sc.nextLine();
+                if (disconnectOrNot.compareTo("YES") == 0 ) {
+                    roboC.disconnect();
+                    break;
+                }
             }
-          
           
             
         }
