@@ -239,7 +239,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\reset\Main.st"
     LogicalPath="reset.Main.st"
     Type="File"
-    LastWriteTime="131569503082194386"
+    LastWriteTime="131570339576976229"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\reset\Types.typ"
@@ -331,7 +331,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\X20CP1382\Cpu.pkg"
     LogicalPath="Config1.X20CP1382"
     Type="Cpu"
-    LastWriteTime="131570248631349658" />
+    LastWriteTime="131570258815032234" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\X20CP1382\Cpu.sw"
     LogicalPath="Config1.X20CP1382.Cpu.sw"
