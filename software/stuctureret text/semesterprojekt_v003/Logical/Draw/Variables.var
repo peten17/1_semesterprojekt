@@ -1,4 +1,5 @@
 VAR
+	sharpenderLen : UINT;
 	timer : TON;
 	i : UDINT;
 	tempX : UDINT;

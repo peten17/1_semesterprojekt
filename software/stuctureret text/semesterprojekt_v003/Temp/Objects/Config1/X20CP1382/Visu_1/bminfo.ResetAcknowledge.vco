@@ -4,15 +4,15 @@
   <Folder Name="Bitmaps">
     <Folder Name="POBJ">
       <Object Name="ResetAcknowledge" ClsId="0x306" Version="1" TargetIndex="19" Type="GFX" RefString="Source[local].Bitmap[ResetAcknowledge]">
-        <UInt16 Name="Width">17</UInt16>
-        <UInt16 Name="Height">19</UInt16>
+        <UInt16 Name="Width">18</UInt16>
+        <UInt16 Name="Height">14</UInt16>
         <UInt32 Name="BitsPerPixel">8</UInt32>
         <Byte Name="Transparency">0</Byte>
         <Byte Name="TargetFormat">1</Byte>
         <UInt16 Name="Reserved">0</UInt16>
         <Int32 Name="TransparentColor">0</Int32>
         <Int32 Name="FillAreas">0</Int32>
-        <Binary Name="BitmapData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAAU1NTU1NTU1NTU1NTU1NTAAAuLi6dLi4uLi4uLi5HnS4AAC4uLgAuLi4uLi4uTZH2LgAALi4uAC4uLi4uLigI9QcuAAAuLi4ALi4uLi4uBwBmLi4AAC4uLgAuLsLCLi68/yguLgAALi4uAC4ueACdRwBHLi4uAAAuLi4ALi4unQCRvC4uLi4AAC5TLgAuUy4uAAAHLi4uLgAALvUuAC71Li4AAC4uLi4uAAAueJ0AnXguLgB4Li4uLi4AAC4unQCdLi4unS4uLi4uLgAALi4uAC4uLi4uLi4uLi4uAAAuLi4ALi4uLi4uLi4uLi4AAC4uLgDCwsIuLi4uLi4uLgAALi4ueHh4eC4uLi4uLi4uAAB4eHh4eHh4eHh4eHh4eHgAAAAAAAAAAAAAAAAAAAAAAAA=</Binary>
+        <Binary Name="BitmapData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAAAFNTU1NTU1NTU1NTU1NNeFMAAC4uLp1TLi4uLi4uLk2Rl1MAAC4uLsJTLi4uLi4uTZH2R1MAAC4uLsJTLlN4Uy5NkfdHLlMAAC4uLsJTLnjCnU1y9k0uLlMAAC4uLsJTLi54wrz3ci4uLlMAAC54LsJTeFMueACXTS4uLlMAAC54nfXCeFMueMJTLi4uLlMAAC4ueMKdUy4uU1MuLi4uLlMAAC4uLsJ4Li4uLi4uLi4uLlMAAC4uLsLCwsJ4Li4uLi4uLlMAAFNTU3h4eHhTU1NTU1NTU1MAAMLCwsLCwsLCwsLCwsLCwsIA</Binary>
       </Object>
     </Folder>
   </Folder>

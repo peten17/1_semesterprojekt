@@ -5,10 +5,10 @@
     <Folder Name="AlphaPadQVGA" TargetIndex="Source[local].TouchPad[AlphaPadQVGA]">
       <Folder Name="Controls">
         <Object Name="TouchPadEdit" ClsId="0x100E" Version="1" Type="CTRL" RefString="Source[local].TouchPad[AlphaPadQVGA].Control[TouchPadEdit]">
-          <UInt32 Name="Left">10</UInt32>
-          <UInt32 Name="Top">12</UInt32>
-          <UInt32 Name="Right">289</UInt32>
-          <UInt32 Name="Bottom">49</UInt32>
+          <UInt32 Name="Left">11</UInt32>
+          <UInt32 Name="Top">9</UInt32>
+          <UInt32 Name="Right">309</UInt32>
+          <UInt32 Name="Bottom">36</UInt32>
           <Reference Name="Border" Type="BRD">Source[local].Border[Flat_grey]</Reference>
           <Reference Name="Font" Type="FNT">Source[local].Font[Arial9px]</Reference>
           <UInt32 Name="ForeColor">0</UInt32>
@@ -26,16 +26,16 @@
         <Object Name="AlphaPadQVGA" ClsId="0x1801" Version="1" Type="OVL" RefString="Source[local].TouchPad[AlphaPadQVGA]">
           <UInt32 Name="Top">0</UInt32>
           <UInt32 Name="Left">0</UInt32>
-          <UInt32 Name="Width">300</UInt32>
-          <UInt32 Name="Height">282</UInt32>
+          <UInt32 Name="Width">320</UInt32>
+          <UInt32 Name="Height">212</UInt32>
           <Group Name="Grid Control">
-            <UInt32 Name="Left">10</UInt32>
-            <UInt32 Name="Top">63</UInt32>
-            <UInt32 Name="Right">289</UInt32>
-            <UInt32 Name="Bottom">267</UInt32>
-            <UInt16 Name="ColumnWidth">20</UInt16>
+            <UInt32 Name="Left">11</UInt32>
+            <UInt32 Name="Top">47</UInt32>
+            <UInt32 Name="Right">309</UInt32>
+            <UInt32 Name="Bottom">200</UInt32>
+            <UInt16 Name="ColumnWidth">21</UInt16>
             <UInt16 Name="Columns">14</UInt16>
-            <UInt16 Name="RowHeight">51</UInt16>
+            <UInt16 Name="RowHeight">38</UInt16>
             <UInt16 Name="Rows">4</UInt16>
           </Group>
           <UInt32 Name="KeyLevel">6</UInt32>

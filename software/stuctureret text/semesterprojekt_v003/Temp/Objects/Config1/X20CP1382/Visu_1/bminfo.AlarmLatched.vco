@@ -4,15 +4,15 @@
   <Folder Name="Bitmaps">
     <Folder Name="POBJ">
       <Object Name="AlarmLatched" ClsId="0x306" Version="1" TargetIndex="15" Type="GFX" RefString="Source[local].Bitmap[AlarmLatched]">
-        <UInt16 Name="Width">15</UInt16>
-        <UInt16 Name="Height">19</UInt16>
+        <UInt16 Name="Width">16</UInt16>
+        <UInt16 Name="Height">14</UInt16>
         <UInt32 Name="BitsPerPixel">8</UInt32>
         <Byte Name="Transparency">1</Byte>
         <Byte Name="TargetFormat">1</Byte>
         <UInt16 Name="Reserved">0</UInt16>
         <Int32 Name="TransparentColor">15</Int32>
         <Int32 Name="FillAreas">0</Int32>
-        <Binary Name="BitmapData" Encoding="Base64">Dw8PDw8AAAAAAA8PDw8PDw8PvLwDAwADA7y8Dw8PDw+R0tLExADExNLSkQ8PD2bZxMTExNnExMTE2WYPDwDExMTExMTExMTFxAAPDwDExMTExMTExAMAxAAP9gPExMTgxMTExeDSxAP2AMTExMQA2cTF2dnFxMQAAAMDxMTZAAPS4MXEAwMAAPX1xMTE9QD1A8TE9fUAAMXFxMTExQDFxMTExcUAAMTExMTExAPExMTExMQA/9LExMTExMTExMTExNL/DwDExMTExMTExMTExAAPDwDExMTExMTExMTExAAPD/rgxMTExODExMTE4PoPDw9m2dnExADExNnZZg8PDw8PkZHS0gDS0pGRDw8PDw8PDw8AAAAAAA8PDw8P</Binary>
+        <Binary Name="BitmapData" Encoding="Base64">Dw8PDw/3AAAAAJEPDw8PDw8PO7W1A8XZ2cUDtZH6Dw8PO7UDxcTE0tLExMUDtTsPD/XFxMTExMTExMTFxcX1DwfZxMTEA8XExMQD2dnF2Qf1xcTExNnZxcQD2dnFxMX1ANLSxMTS4NnS2dLFxNLSAADZ2cTExAPg4APExMXZ2QAAxMTExMTEAwPExMTExMUAZtnExMTExMTExMTExMXZZg/1xcTExMTExMTExMQD9Q8PO+DFxMTE0tLExMTFtTsPDw87tbUDxdnZxQO1tTsPDw8PD/o7teD19eC1O/oPDw8=</Binary>
       </Object>
     </Folder>
   </Folder>

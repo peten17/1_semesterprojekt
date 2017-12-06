@@ -35,7 +35,7 @@ PROGRAM _CYCLIC
 				//					test.IN := reciveData[i];
 				//					input := CONCAT(input, test.Q);
 				//				END_FOR	
-				state := 30;
+			//	state := 30;
 				
 			END_IF	
 

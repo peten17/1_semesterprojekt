@@ -5,10 +5,10 @@
     <Folder Name="NumPad" TargetIndex="Source[local].TouchPad[NumPad]">
       <Folder Name="Controls">
         <Object Name="TouchPadEdit" ClsId="0x100E" Version="1" Type="CTRL" RefString="Source[local].TouchPad[NumPad].Control[TouchPadEdit]">
-          <UInt32 Name="Left">10</UInt32>
-          <UInt32 Name="Top">14</UInt32>
-          <UInt32 Name="Right">170</UInt32>
-          <UInt32 Name="Bottom">51</UInt32>
+          <UInt32 Name="Left">11</UInt32>
+          <UInt32 Name="Top">10</UInt32>
+          <UInt32 Name="Right">182</UInt32>
+          <UInt32 Name="Bottom">37</UInt32>
           <Reference Name="Border" Type="BRD">Source[local].Border[Flat_grey]</Reference>
           <Reference Name="Font" Type="FNT">Source[local].Font[Arial9px]</Reference>
           <UInt32 Name="ForeColor">0</UInt32>
@@ -26,16 +26,16 @@
         <Object Name="NumPad" ClsId="0x1801" Version="1" Type="OVL" RefString="Source[local].TouchPad[NumPad]">
           <UInt32 Name="Top">0</UInt32>
           <UInt32 Name="Left">0</UInt32>
-          <UInt32 Name="Width">180</UInt32>
-          <UInt32 Name="Height">282</UInt32>
+          <UInt32 Name="Width">192</UInt32>
+          <UInt32 Name="Height">212</UInt32>
           <Group Name="Grid Control">
-            <UInt32 Name="Left">10</UInt32>
-            <UInt32 Name="Top">63</UInt32>
-            <UInt32 Name="Right">169</UInt32>
-            <UInt32 Name="Bottom">267</UInt32>
-            <UInt16 Name="ColumnWidth">40</UInt16>
+            <UInt32 Name="Left">11</UInt32>
+            <UInt32 Name="Top">47</UInt32>
+            <UInt32 Name="Right">181</UInt32>
+            <UInt32 Name="Bottom">200</UInt32>
+            <UInt16 Name="ColumnWidth">43</UInt16>
             <UInt16 Name="Columns">4</UInt16>
-            <UInt16 Name="RowHeight">51</UInt16>
+            <UInt16 Name="RowHeight">38</UInt16>
             <UInt16 Name="Rows">4</UInt16>
           </Group>
           <UInt32 Name="KeyLevel">1</UInt32>
