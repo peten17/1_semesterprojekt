@@ -43,11 +43,12 @@ public class Scale {
                 long divided = this.pAmount*1/n;
                 this.spAmount = this.pAmount-divided; 
                 
-                if (this.spAmount < limit) {
+                if (this.spAmount < limit || n == 2) {
                     this.n = n;
+                    System.out.println("It is alright O-O" + n);
                     break;
                 } else {
-                    if (n > 1) {
+                    if (n > 2) {
                         n--;
                     }
                 }
@@ -80,10 +81,12 @@ public class Scale {
             if(y%n != 0) {
                 for(int x = 0; x < image.getWidth(); x++) {        
                     if(x%n != 0) {
-                        if(pictureArray[y][x] == 0) {
-                           upOrDown = '0';
-                        } else {
-                           upOrDown = '1';
+                        if(x < image.getHeight() && y < image.getWidth()) {
+                            if(pictureArray[y][x] == 0) {
+                               upOrDown = '0';
+                            } else {
+                               upOrDown = '1';
+                            }
                         }
                         message = message + upOrDown;
                         if(x < image.getWidth()-2) {
