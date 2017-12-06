@@ -4453,6 +4453,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="24V"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="24V"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="24V"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="0"/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4543,6 +4546,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="P+4" gate="VCC" x="111.76" y="-17.78" rot="R90"/>
 <instance part="P+5" gate="VCC" x="111.76" y="20.32" rot="R90"/>
 <instance part="P+6" gate="VCC" x="111.76" y="53.34" rot="R90"/>
+<instance part="R13" gate="G$1" x="71.12" y="-30.48"/>
+<instance part="GND12" gate="1" x="63.5" y="-30.48" rot="R270"/>
+<instance part="GND17" gate="1" x="78.74" y="-30.48" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4618,6 +4624,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="81.28" y1="-81.28" x2="73.66" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-81.28" x2="73.66" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$10" class="0">
