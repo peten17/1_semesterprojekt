@@ -33,6 +33,18 @@ PROGRAM _CYCLIC
 			IF placement = 20016 OR placement = 20017 THEN
 				newLineHelper := newLineHelper - 17 ;
 				posX := posX + 17;
+			ELSIF placement = 21041 OR placement = 21040 THEN
+				FOR check := placeInString TO finder BY check +1 DO
+					tempPlace := input[check];
+					IF tempPlace = 21041 THEN
+						finder := TRUE;
+					ELSIF tempPlace = 20016 OR tempPlace = 20017 THEN
+						placeInString := check -1;
+						newLineHelper := newLineHelper + 17;
+						posX := posX - 17;
+						finder := TRUE;
+					END_IF
+				END_FOR	
 			END_IF
 			placeInString := placeInString + 1;
 			i := 0;

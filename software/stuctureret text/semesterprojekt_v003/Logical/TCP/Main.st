@@ -26,16 +26,16 @@ PROGRAM _CYCLIC
 		20:
 			tcp3.enable := TRUE;
 			tcp3.ident := tcp2.identclnt;
-			tcp3.pData := ADR(input);
-			tcp3.datamax := SIZEOF (input);
+			tcp3.pData := ADR(reciveData);
+			tcp3.datamax := SIZEOF (reciveData);
 			tcp3();
 			IF tcp3.status = 0 THEN
-//				sendData := reciveData;
+				input := reciveData;
 				//				FOR i := 0 TO i = 2000 BY i + 1 DO
 				//					test.IN := reciveData[i];
 				//					input := CONCAT(input, test.Q);
 				//				END_FOR	
-			//	state := 30;
+				//state := 30;
 				
 			END_IF	
 
