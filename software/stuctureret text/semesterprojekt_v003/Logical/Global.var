@@ -33,7 +33,7 @@ VAR
 	newLineX : UDINT;
 	ValueZ : UINT;
 	penLength : REAL;
-	placeInString : UINT;
+	placeInString : UDINT;
 	placement : UINT;
 	newLineHelper : UDINT;
 END_VAR
