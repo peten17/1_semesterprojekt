@@ -55,14 +55,14 @@ PROGRAM _CYCLIC
 					tempX := tempX -1;
 				END_IF
 			
-			ELSIF (tempX = 0 AND posZ <= 1400 + sharpenderLen AND activator = FALSE) THEN //!!!!!
+			ELSIF (tempX = 0 AND posZ <= 1500 + sharpenderLen AND activator = FALSE) THEN //!!!!!
 				dirZ := TRUE;
 				stepZ := NOT stepZ;
 				IF (stepZ = FALSE) THEN
 					posZ := posZ +1;
 				END_IF
 				
-			ELSIF (tempX = 0 AND posZ >= 1400 + sharpenderLen AND activator = FALSE) THEN //!!!!!!
+			ELSIF (tempX = 0 AND posZ >= 1500 + sharpenderLen AND activator = FALSE) THEN //!!!!!!
 				timer.IN := TRUE;
 				timer.PT := T#10000ms;
 				IF timer.Q THEN
