@@ -2,7 +2,7 @@
 <Parameters>
   <Connection>
     <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
-    <ConnectionParameters>/AM=* /DAIP=192.168.0.103 /REPO=11159 /ANSL=1</ConnectionParameters>
+    <ConnectionParameters>/AM=* /DAIP=192.168.0.103 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
   </Connection>
   <AsProject>
     <ApjFullFileName>C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\semesterprojekt.apj</ApjFullFileName>

@@ -216,7 +216,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Draw\Main.st"
     LogicalPath="Draw.Main.st"
     Type="File"
-    LastWriteTime="131569420185480204"
+    LastWriteTime="131569769296798536"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Draw\Types.typ"
@@ -228,7 +228,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Draw\Variables.var"
     LogicalPath="Draw.Variables.var"
     Type="File"
-    LastWriteTime="131564280760000000"
+    LastWriteTime="131569677781712076"
     Private="true" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\reset\IEC.prg"
@@ -285,7 +285,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\Main.st"
     LogicalPath="TCP.Main.st"
     Type="File"
-    LastWriteTime="131568780417948213"
+    LastWriteTime="131569763714347959"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\Types.typ"
@@ -480,7 +480,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="131569614277892594"
+    LastWriteTime="131569769299346846"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Libraries\AsBrStr\SG4\AsBrStr.h"

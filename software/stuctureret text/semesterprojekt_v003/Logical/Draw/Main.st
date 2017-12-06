@@ -14,10 +14,16 @@ END_PROGRAM
 
 PROGRAM _CYCLIC
 	ValueZ := REAL_TO_INT(penLength**1.5);
-	
+	sharpenderLen := REAL_TO_INT(45000/penLength);
 	
 	IF (reset = FALSE AND testEnab = FALSE AND penLength > 5 ) THEN
 //		percentage:= (UINT_TO_REAL(placeInString)/LEN(input))*100;
+		
+		IF switch_X = FALSE OR switch_Y = FALSE OR switch_Z = FALSE THEN
+			enabX := TRUE;
+			enabY := TRUE;
+			enabZ := TRUE;
+		END_IF	
 		
 		IF (enabX = FALSE) THEN
 			status:= 2;
@@ -25,7 +31,8 @@ PROGRAM _CYCLIC
 		
 		IF (i = 30) THEN
 			IF placement = 20016 OR placement = 20017 THEN
-				newLineHelper := newLineHelper - 16 ;
+				newLineHelper := newLineHelper - 17 ;
+				posX := posX + 17;
 			END_IF
 			placeInString := placeInString + 1;
 			i := 0;
@@ -33,29 +40,29 @@ PROGRAM _CYCLIC
 		placement := input[placeInString];
 		
 		// here the robot will move to the shapener, sharpen the pencil and move back to were it came from
-		IF (sharpen = 1200 AND sharpenderNeed) THEN //!!!!!
-			IF (posZ > 300 AND tempX > 0 AND activator = FALSE) THEN  // !!!!!!
-				dirZ := TRUE;
+		IF (sharpen >= 30000) THEN //!!!!!
+			IF (posZ >= 300 AND tempX > 0 AND activator = FALSE) THEN  // !!!!!!
+				dirZ := FALSE;
 				stepZ := NOT stepZ;
 				IF (stepZ = FALSE) THEN
 					posZ := posZ -1;
 				END_IF
 				
-			ELSIF (tempX > 0 AND posZ = 300 AND activator = FALSE)THEN //!!!!!
+			ELSIF (tempX > 0 AND posZ <= 300 AND activator = FALSE)THEN //!!!!!
 				dirX := FALSE;
 				stepX := NOT stepX;
 				IF (stepX = FALSE) THEN
 					tempX := tempX -1;
 				END_IF
 			
-			ELSIF (tempX = 0 AND posZ < 1200 AND activator = FALSE) THEN //!!!!!
-				dirZ := FALSE;
+			ELSIF (tempX = 0 AND posZ <= 1400 + sharpenderLen AND activator = FALSE) THEN //!!!!!
+				dirZ := TRUE;
 				stepZ := NOT stepZ;
 				IF (stepZ = FALSE) THEN
 					posZ := posZ +1;
 				END_IF
 				
-			ELSIF (tempX = 0 AND posZ = 1200 AND activator = FALSE) THEN //!!!!!!
+			ELSIF (tempX = 0 AND posZ >= 1400 + sharpenderLen AND activator = FALSE) THEN //!!!!!!
 				timer.IN := TRUE;
 				timer.PT := T#10000ms;
 				IF timer.Q THEN
@@ -63,7 +70,7 @@ PROGRAM _CYCLIC
 				END_IF	
 				
 			ELSIF  (tempX = 0 AND posZ > 300 AND activator = TRUE) THEN//!!!!!
-				dirZ := TRUE;
+				dirZ := FALSE;
 				stepZ := NOT stepZ;
 				IF (stepZ = FALSE) THEN
 					posZ := posZ - 1;
@@ -79,6 +86,7 @@ PROGRAM _CYCLIC
 			ELSIF (tempX = posX  AND posZ = 300 AND activator = TRUE) THEN //!!!!!!
 				sharpen := 0;
 				activator := FALSE;
+				timer.IN := FALSE;
 				
 			END_IF
 			
@@ -199,6 +207,7 @@ PROGRAM _CYCLIC
 		END_IF
 	
 	END_IF 
+	timer();
 END_PROGRAM
 
 PROGRAM _EXIT
