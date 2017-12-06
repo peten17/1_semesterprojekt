@@ -57,7 +57,7 @@ LIB_LOCAL_OBJ_Visu_1=$(TEMP_PATH_Visu_1)/localobj.vca
 # Hardware sources
 PANEL_HW_OBJECT_Visu_1=$(TEMP_PATH_ROOT_Visu_1)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Visu_1/dis.Hardware.vco
 PANEL_HW_VCI_Visu_1=$(TEMP_PATH_ROOT_Visu_1)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Visu_1/dis.Hardware.vci
-PANEL_HW_SOURCE_Visu_1=C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterprojekt_v003/Physical/Config1/Hardware.hw 
+PANEL_HW_SOURCE_Visu_1=C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterprojekt_v003/Physical/Config1/Hardware.hw 
 DIS_OBJECTS_Visu_1=$(PANEL_HW_OBJECT_Visu_1) $(KEYMAP_OBJECTS_Visu_1)
 
 # KeyMapping flags
@@ -297,27 +297,27 @@ $(VCVK_OBJECTS_Visu_1): $(VC_LANGUAGES_Visu_1)
 TPR_OBJECTS_Visu_1 = $(addprefix $(TEMP_PATH_Visu_1)/tpr., $(notdir $(TPR_SOURCES_Visu_1:.tpr=.vco)))
 
 $(TEMP_PATH_Visu_1)/tpr.NumPad.vco: $(AS_PROJECT_PATH)/Logical/Visu_4/TouchPads/NumPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visu_1)/tpr.AlphaPadQVGA.vco: $(AS_PROJECT_PATH)/Logical/Visu_4/TouchPads/AlphaPadQVGA.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visu_1)/tpr.AlphaPad.vco: $(AS_PROJECT_PATH)/Logical/Visu_4/TouchPads/AlphaPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visu_1)/tpr.NavigationPad_ver.vco: $(AS_PROJECT_PATH)/Logical/Visu_4/TouchPads/NavigationPad_ver.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visu_1)/tpr.NavigationPad_hor.vco: $(AS_PROJECT_PATH)/Logical/Visu_4/TouchPads/NavigationPad_hor.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
 
 
 $(TEMP_PATH_Visu_1)/tpr.EditPad.vco: $(AS_PROJECT_PATH)/Logical/Visu_4/TouchPads/EditPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Visu_1)' $(VCCFLAGS_Visu_1) -prj 'C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/Visu_4' -p Visu_1 -so $(VC_STATIC_OPTIONS_Visu_1) -vcr 4330 -sfas
 
 
 #Touch Pads END

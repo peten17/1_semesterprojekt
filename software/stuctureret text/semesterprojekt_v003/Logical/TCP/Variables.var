@@ -1,4 +1,5 @@
 VAR
+	reciveData : ARRAY[0..199999] OF BOOL;
 	tcp2 : TcpServer;
 	tcp1 : TcpOpen;
 	state : UINT;

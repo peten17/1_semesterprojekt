@@ -1894,7 +1894,7 @@
             <UInt32 Name="Right">897</UInt32>
             <UInt32 Name="Bottom">520</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.posZ]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.sharpen]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>

@@ -4,10 +4,10 @@ import java.awt.image.BufferedImage;
 
 public class Message {
     private char upOrDown;
-    private String message = "";
+    private String message;
     
     Message() {
-        
+        message = "";
     }
     
     public String convertToMessage(byte pictureArray[][], BufferedImage image) {
@@ -20,8 +20,9 @@ public class Message {
                     } else {
                        upOrDown = '1';
                     }
+                    message = message + upOrDown;
                 }
-                message = message + upOrDown;
+                
                 if(x < image.getWidth()-1) {
                     message = message + 'R' ;
                 }

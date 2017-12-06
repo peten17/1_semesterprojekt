@@ -5,10 +5,10 @@
     <ConnectionParameters>/AM=* /DAIP=192.168.0.103 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
   </Connection>
   <AsProject>
-    <ApjFullFileName>C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\semesterprojekt.apj</ApjFullFileName>
+    <ApjFullFileName>C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\semesterprojekt.apj</ApjFullFileName>
     <ProjectName>semesterprojekt</ProjectName>
     <ActiveConfigurationName>Config1</ActiveConfigurationName>
-    <LicenseDataFolder>C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Temp\Objects\Config1\X20CP1382</LicenseDataFolder>
+    <LicenseDataFolder>C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Temp\Objects\Config1\X20CP1382</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>
