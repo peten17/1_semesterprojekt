@@ -23,11 +23,10 @@
       <Parameter ID="InternetAddress" Value="192.168.0.103" />
       <Parameter ID="SubnetMask" Value="255.255.255.0" />
       <Group ID="Vnc1" />
-      <Parameter ID="VncVcObjectName1" Value="Visu_R" />
-      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
+      <Parameter ID="VncVcObjectName1" Value="Visu_1" />
+      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard2.dis" />
       <Parameter ID="VncRefreshRate1" Value="100" />
       <Group ID="Vnc2" />
-      <Parameter ID="VncVcObjectName2" Value="Visu_1" />
       <Parameter ID="VncKeyMappingFile2" Value="VC\PS2-Keyboard1.dis" />
       <Parameter ID="VncPortNumber2" Value="5901" />
       <Parameter ID="VncRefreshRate2" Value="100" />

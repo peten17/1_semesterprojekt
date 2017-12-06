@@ -8,16 +8,16 @@
         <Object Name="EditPad" ClsId="0x1801" Version="1" Type="OVL" RefString="Source[local].TouchPad[EditPad]">
           <UInt32 Name="Top">0</UInt32>
           <UInt32 Name="Left">0</UInt32>
-          <UInt32 Name="Width">530</UInt32>
-          <UInt32 Name="Height">242</UInt32>
+          <UInt32 Name="Width">566</UInt32>
+          <UInt32 Name="Height">182</UInt32>
           <Group Name="Grid Control">
-            <UInt32 Name="Left">11</UInt32>
-            <UInt32 Name="Top">14</UInt32>
-            <UInt32 Name="Right">520</UInt32>
-            <UInt32 Name="Bottom">231</UInt32>
-            <UInt16 Name="ColumnWidth">17</UInt16>
+            <UInt32 Name="Left">12</UInt32>
+            <UInt32 Name="Top">10</UInt32>
+            <UInt32 Name="Right">555</UInt32>
+            <UInt32 Name="Bottom">173</UInt32>
+            <UInt16 Name="ColumnWidth">18</UInt16>
             <UInt16 Name="Columns">30</UInt16>
-            <UInt16 Name="RowHeight">44</UInt16>
+            <UInt16 Name="RowHeight">33</UInt16>
             <UInt16 Name="Rows">5</UInt16>
           </Group>
           <UInt32 Name="KeyLevel">2</UInt32>

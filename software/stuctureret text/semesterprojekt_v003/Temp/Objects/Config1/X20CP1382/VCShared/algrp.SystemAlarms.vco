@@ -52,7 +52,7 @@
             <UInt16 Name="Register">97</UInt16>
             <UInt32 Name="AlarmID">65535</UInt32>
             <UInt16 Name="Option">168</UInt16>
-            <UInt16 Name="Register">127</UInt16>
+            <UInt16 Name="Register">122</UInt16>
           </Object>
         </Folder>
       </Folder>

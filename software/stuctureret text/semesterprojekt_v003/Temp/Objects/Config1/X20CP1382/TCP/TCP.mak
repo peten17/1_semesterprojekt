@@ -1,5 +1,5 @@
-UnmarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/TCP
-MarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterprojekt_v003/Logical/TCP
+UnmarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/TCP
+MarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterprojekt_v003/Logical/TCP
 
 $(AS_CPU_PATH)/TCP.br: \
 	$(AS_PROJECT_CPU_PATH)/Cpu.per \

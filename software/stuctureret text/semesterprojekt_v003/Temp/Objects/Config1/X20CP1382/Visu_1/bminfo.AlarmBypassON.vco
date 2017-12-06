@@ -4,15 +4,15 @@
   <Folder Name="Bitmaps">
     <Folder Name="POBJ">
       <Object Name="AlarmBypassON" ClsId="0x306" Version="1" TargetIndex="13" Type="GFX" RefString="Source[local].Bitmap[AlarmBypassON]">
-        <UInt16 Name="Width">15</UInt16>
-        <UInt16 Name="Height">19</UInt16>
+        <UInt16 Name="Width">16</UInt16>
+        <UInt16 Name="Height">14</UInt16>
         <UInt32 Name="BitsPerPixel">8</UInt32>
         <Byte Name="Transparency">1</Byte>
         <Byte Name="TargetFormat">1</Byte>
         <UInt16 Name="Reserved">0</UInt16>
         <Int32 Name="TransparentColor">15</Int32>
         <Int32 Name="FillAreas">0</Int32>
-        <Binary Name="BitmapData" Encoding="Base64">Dw8PDw8AAAAAAA8PDw8PDw8PvLxXV1dXV7y8Dw8PDw+Re3szMzMzM3t7kQ8PD2afMzN7e3t7ezMzn2YPDwAzM1cAw8PDAFczMwAPDwAzMwAAMzMzAAAzMwAP9gQzwwAEMzMzBADDMwT2ADMzAACfn5+fnwAAMzMAADMzAPa89rz2vPYAMzMAADMzADsIO/87CDsAMzMAADMzAAdmB/UHZgcAMzMAADMzAGZmZgBmZmYAMzMA/3szAGZmZgBmZmYAM3v/DwAzw5H/kQCR/5HDMwAPDwAzMwAAAAAAAAAzMwAPD/rDM1dXV1dXV1czw/oPDw9mn58zMzMzM5+fZg8PDw8PkZF7e3t7e5GRDw8PDw8PDw8AAAAAAA8PDw8P</Binary>
+        <Binary Name="BitmapData" Encoding="Base64">Dw8PDw/3AAAAAJEPDw8PDw8PO5iYBFdXV1cEmJH6Dw8PO5hXV1dXV1dXV1dXmDsPD/VXM1fDw8PDw8NXM1f1DwefM1fDwwQzMwTDw1dXnwf1VzPDAJ97e3t7nwDDM1f1ADMzw/b29vb29va8wzNXAAAzM8MIZgf//wdm/8MzVwAAMzPD/2Zm9/dmZpHDM1cAZp8zw5FmZvb2ZmaRw1efZg/1V1eYvLz19by8mFdX9Q8PO8NXV1dXV1dXV1dXmDsPDw87mJgEV1dXVwSYmDsPDw8PD/o7mMPDw8P3O/oPDw8=</Binary>
       </Object>
     </Folder>
   </Folder>

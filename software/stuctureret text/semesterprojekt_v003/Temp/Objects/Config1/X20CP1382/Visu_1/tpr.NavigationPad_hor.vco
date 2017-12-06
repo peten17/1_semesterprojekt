@@ -8,16 +8,16 @@
         <Object Name="NavigationPad_hor" ClsId="0x1801" Version="1" Type="OVL" RefString="Source[local].TouchPad[NavigationPad_hor]">
           <UInt32 Name="Top">0</UInt32>
           <UInt32 Name="Left">0</UInt32>
-          <UInt32 Name="Width">180</UInt32>
-          <UInt32 Name="Height">77</UInt32>
+          <UInt32 Name="Width">192</UInt32>
+          <UInt32 Name="Height">58</UInt32>
           <Group Name="Grid Control">
-            <UInt32 Name="Left">10</UInt32>
-            <UInt32 Name="Top">13</UInt32>
-            <UInt32 Name="Right">169</UInt32>
-            <UInt32 Name="Bottom">63</UInt32>
-            <UInt16 Name="ColumnWidth">40</UInt16>
+            <UInt32 Name="Left">11</UInt32>
+            <UInt32 Name="Top">10</UInt32>
+            <UInt32 Name="Right">181</UInt32>
+            <UInt32 Name="Bottom">47</UInt32>
+            <UInt16 Name="ColumnWidth">43</UInt16>
             <UInt16 Name="Columns">4</UInt16>
-            <UInt16 Name="RowHeight">51</UInt16>
+            <UInt16 Name="RowHeight">38</UInt16>
             <UInt16 Name="Rows">1</UInt16>
           </Group>
           <UInt32 Name="KeyLevel">1</UInt32>

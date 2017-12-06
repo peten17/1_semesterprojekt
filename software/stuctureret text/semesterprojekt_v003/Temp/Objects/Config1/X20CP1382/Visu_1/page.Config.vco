@@ -6,10 +6,10 @@
       <Folder Name="Controls">
         <Folder Name="POBJ">
           <Object Name="Button_1" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[Config].Layer[Default].Control[Button_1]">
-            <UInt32 Name="Left">130</UInt32>
-            <UInt32 Name="Top">947</UInt32>
-            <UInt32 Name="Right">259</UInt32>
-            <UInt32 Name="Bottom">997</UInt32>
+            <UInt32 Name="Left">139</UInt32>
+            <UInt32 Name="Top">710</UInt32>
+            <UInt32 Name="Right">277</UInt32>
+            <UInt32 Name="Bottom">747</UInt32>
             <UInt16 Name="KeyMatrixOffset">65535</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
             <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_17]</Reference>

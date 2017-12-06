@@ -1,5 +1,5 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Draw 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=1030 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
                                    input                         UINT[0..1999999]    0 "                                                               *"    0    6 2000000    0    0    0         
                                 input[0]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
@@ -1031,5 +1031,5 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index
                             input[29831]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
                             input[29832]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
                             input[29833]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
-                                 sharpen                                     UINT    0 "                                                           19576"    0    6    1   10    0    0         
-                           placeInString                                     UINT    0 "                                                            4429"    0    6    1   10    0    0         
+                                 sharpen                                     UINT    0 "                                                           28756"    0    6    1   10    0    0         
+                           placeInString                                     UINT    0 "                                                            8007"    0    6    1   10    0    0         
