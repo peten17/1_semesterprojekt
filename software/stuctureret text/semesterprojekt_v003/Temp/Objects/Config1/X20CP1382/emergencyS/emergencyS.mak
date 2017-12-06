@@ -1,5 +1,5 @@
-UnmarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/emergencyStop
-MarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterprojekt_v003/Logical/emergencyStop
+UnmarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Logical/emergencyStop
+MarkedObjectFolder := C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret\ text/semesterprojekt_v003/Logical/emergencyStop
 
 $(AS_CPU_PATH)/emergencyS.br: \
 	$(AS_PROJECT_CPU_PATH)/Cpu.per \

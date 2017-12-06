@@ -6,9 +6,9 @@
       <Object Name="VNCServer" ClsId="0x20E" Version="1" Type="KS" RefString="Source[local].KeySource[VNCServer]">
         <Int32 Name="">0</Int32>
         <Reference Name="KSTID" Type="KSTable">Source[local].KSTable[PS2-Keyboard]</Reference>
-        <UInt16 Name="ResolutionX">1280</UInt16>
-        <UInt16 Name="ResolutionY">1024</UInt16>
-        <UInt16 Name="Port">5901</UInt16>
+        <UInt16 Name="ResolutionX">1366</UInt16>
+        <UInt16 Name="ResolutionY">768</UInt16>
+        <UInt16 Name="Port">5900</UInt16>
         <UInt16 Name="RefreshRate">100</UInt16>
         <UInt16 Name="MaxClients">1</UInt16>
         <Byte Name="AuthenticationDisable">1</Byte>
@@ -1568,10 +1568,10 @@
   <Folder Name="Drivers">
     <Folder Name="POBJ">
       <Object Name="DisplaySW" ClsId="0x206" Version="1" Type="DRV" RefString="Source[local].Driver[DisplaySW]">
-        <UInt16 Name="ResolutionX">1280</UInt16>
-        <UInt16 Name="ResolutionY">1024</UInt16>
-        <UInt16 Name="StrideX">1280</UInt16>
-        <UInt16 Name="StrideY">1024</UInt16>
+        <UInt16 Name="ResolutionX">1366</UInt16>
+        <UInt16 Name="ResolutionY">768</UInt16>
+        <UInt16 Name="StrideX">1366</UInt16>
+        <UInt16 Name="StrideY">768</UInt16>
         <UInt32 Name="Rotation">0</UInt32>
         <Byte Name="BitPerPixel">8</Byte>
         <Byte Name="RefreshRate">60</Byte>

@@ -9,7 +9,6 @@
     <Object Type="Program" Language="IEC">reset</Object>
     <Object Type="Program" Language="IEC">emergencyStop</Object>
     <Object Type="Program" Language="IEC">TCP</Object>
-    <Object Type="DataObject" Language="Vc" Description="1280x800">Visu_Resized</Object>
-    <Object Type="DataObject" Language="Vc" Description="1280x1024">Visu_Resized_Resized</Object>
+    <Object Type="DataObject" Language="Vc" Description="1366x768">Visu_4</Object>
   </Objects>
 </Package>

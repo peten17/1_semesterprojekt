@@ -64,7 +64,7 @@ PROGRAM _CYCLIC
 				
 			ELSIF (tempX = 0 AND posZ >= 1500 + sharpenderLen AND activator = FALSE) THEN //!!!!!!
 				timer.IN := TRUE;
-				timer.PT := T#10000ms;
+				timer.PT := T#6000ms;
 				IF timer.Q THEN
 					activator := TRUE;
 				END_IF	
