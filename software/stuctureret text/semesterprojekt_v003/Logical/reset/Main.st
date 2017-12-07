@@ -1,24 +1,20 @@
 
 PROGRAM _INIT
-	reset := TRUE;//!!!!!!!!
+	reset := TRUE;//
 	resetX := 0;
 	resetY := 0;
 	resetZ := 0;
 
 	quit := FALSE;
 	status := 1;
-	testEnab := TRUE;//!!!!!!
-	posX := 0;
-	posY := 0;
-	posZ := 0;
-
+	testEnab := TRUE;//
 END_PROGRAM
 
 PROGRAM _CYCLIC
 
-// resets x-, y- and z-axis.
+// 
 	IF (reset = TRUE AND testEnab = FALSE) THEN
-		IF switch_X = TRUE AND resetX = 0  THEN
+		IF switch_X = TRUE AND resetX = 0  THEN // Resets the x-axis 
 			enabX:= FALSE;
 			dirX:= FALSE;
 			stepX := NOT stepX;
@@ -28,7 +24,7 @@ PROGRAM _CYCLIC
 			stepX := NOT stepX;
 		END_IF	
 		
-		IF switch_Y = TRUE AND resetY = 0 THEN
+		IF switch_Y = TRUE AND resetY = 0 THEN // Resets the y-axis
 			enabY:= FALSE;
 			dirY:= FALSE;
 			stepY := NOT stepY;
@@ -38,7 +34,7 @@ PROGRAM _CYCLIC
 			stepY := NOT stepY;
 		END_IF
 		
-		IF switch_Z = TRUE AND resetZ = 0 THEN
+		IF switch_Z = TRUE AND resetZ = 0 THEN // Resets the z-axis
 			enabZ:= FALSE;
 			dirZ:= FALSE;
 			stepZ := NOT stepZ;
@@ -47,6 +43,7 @@ PROGRAM _CYCLIC
 			dirZ:= TRUE;
 			stepZ := NOT stepZ;			
 		END_IF
+		
 // sets the position of the variables posX, posY and posZ
 		timer.IN := TRUE;
 		timer.PT := T#100ms;
