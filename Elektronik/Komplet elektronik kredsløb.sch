@@ -5261,9 +5261,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="PLC-X2" gate="A" pin="3"/>
 <wire x1="-7.62" y1="106.68" x2="-27.94" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="Z" gate="-2" pin="S"/>
-<wire x1="-27.94" y1="106.68" x2="-27.94" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="78.74" x2="-43.18" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
