@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="AlarmInactive" ClsId="0x306" Version="1" TargetIndex="14" Type="GFX" RefString="Source[local].Bitmap[AlarmInactive]">
+        <UInt16 Name="Width">18</UInt16>
+        <UInt16 Name="Height">14</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">1</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">15</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">Dw8PDw8P9wAAAACRDw8PDw8PDw8P+pH3ZjsHBztm9//6Dw8PDw87kQc7+jsICDv6OweROw8PDw/1O/n5+Qj392b5+fkHvA8PDwf3O/n5+Qj392b5+fk79wcPD/U7+fn5+Qj392b5+fn5B7wPD/U7+fn5+Qj392b5+fn5O/UPD/U7+fn5+QeR/wf5+fn5O/UPD/U7+fn5+fk7O/n5+fn5O/UPD2aRO/n5+fkHB/n5+fk7kWYPDw/1B/n5+QeRkQf5+fkHvA8PDw879wf5+TsICDv5+Qf3Ow8PDw8PO5GRBzsHBztmkf87Dw8PDw8PD/o7kby8vLyRO/oPDw8P</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>
