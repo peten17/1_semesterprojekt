@@ -348,14 +348,20 @@
     LogicalPath="Config1.X20CP1382"
     Type="Cpu"
 <<<<<<< HEAD
+<<<<<<< HEAD
     LastWriteTime="131571223146865821" />
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> aa98d7d619b4585123ace105cda5f271e845819e
     LastWriteTime="131570258815032234" />
 =======
     LastWriteTime="131569390261564398" />
 >>>>>>> d5b8d54a60252f4b00e3bf32a6dc7298fa0b9dc5
+<<<<<<< HEAD
 >>>>>>> 9748b289d36d633712abd2e5c056197ce3574285
+=======
+>>>>>>> aa98d7d619b4585123ace105cda5f271e845819e
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\X20CP1382\Cpu.sw"
     LogicalPath="Config1.X20CP1382.Cpu.sw"

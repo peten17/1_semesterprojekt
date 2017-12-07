@@ -16,15 +16,11 @@ public class Message {
                 if(x < image.getHeight() && y < image.getWidth()) {
                     
                     if(pictureArray[y][x] == 0) {
-                       upOrDown = '0';
+                       upOrDown = 'U';
                     } else {
-                       upOrDown = '1';
+                       upOrDown = 'D';
                     }
                     message = message + upOrDown;
-                }
-                
-                if(x < image.getWidth()-1) {
-                    message = message + 'R' ;
                 }
             }
             message = message + 'N';
