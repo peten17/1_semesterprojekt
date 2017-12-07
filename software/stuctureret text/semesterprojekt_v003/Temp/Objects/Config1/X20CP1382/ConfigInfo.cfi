@@ -46,6 +46,13 @@
       <File
         Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\emergencyStop\Variables.var" />
     </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7">
     <Task
       Name="TCP"
       Disable="false"
@@ -57,14 +64,12 @@
         Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\Types.typ" />
       <File
         Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\Variables.var" />
+      <File
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\LocalFunctions.fun" />
+      <InternalFile
+        Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Temp\Objects\Config1\X20CP1382\TCP\addArray.st.var" />
     </Task>
   </TaskClass>
-  <TaskClass
-    Name="Cyclic#5" />
-  <TaskClass
-    Name="Cyclic#6" />
-  <TaskClass
-    Name="Cyclic#7" />
   <TaskClass
     Name="Cyclic#8" />
 </ConfigInfo>

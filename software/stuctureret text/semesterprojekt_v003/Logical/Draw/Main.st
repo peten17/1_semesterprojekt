@@ -19,7 +19,7 @@ PROGRAM _CYCLIC
 	IF (reset = FALSE AND testEnab = FALSE AND penLength > 5 ) THEN
 //		percentage:= (UINT_TO_REAL(placeInString)/LEN(input))*100;
 		
-		IF switch_X = FALSE OR switch_Y = FALSE OR switch_Z = FALSE THEN
+		IF switch_X = FALSE OR switch_Y = FALSE OR switch_Z = FALSE AND sharpen <= 30000 THEN
 			enabX := TRUE;
 			enabY := TRUE;
 			enabZ := TRUE;
