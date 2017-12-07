@@ -17,16 +17,15 @@ $(AS_CPU_PATH)/reset/a.out: \
 
 $(AS_CPU_PATH)/reset/Main.st.o: \
 	$(AS_PROJECT_PATH)/Logical/reset/Main.st \
-	$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun \
-	$(AS_PROJECT_PATH)/Logical/Global.var \
-	$(AS_PROJECT_PATH)/Logical/reset/Variables.var
+	FORCE 
 	@'$(AS_BIN_PATH)/BR.AS.IecCompiler.exe' '$(AS_PROJECT_PATH)/Logical/reset/Main.st' -o '$(AS_CPU_PATH)/reset/Main.st.o'  -O '$(AS_CPU_PATH)//reset/Main.st.o.opt' -secret '$(AS_PROJECT_PATH)_br.as.ieccompiler.exe'
 
 $(AS_CPU_PATH)/reset/_bur_pvdef.st.o: \
-	$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun \
-	$(AS_PROJECT_PATH)/Logical/Global.var \
-	$(AS_PROJECT_PATH)/Logical/reset/Variables.var
+	FORCE 
 	@'$(AS_BIN_PATH)/BR.AS.IecCompiler.exe' '$(AS_PATH)/AS/GnuInst/V4.1.2/i386-elf/include/bur/_bur_pvdef.st' -o '$(AS_CPU_PATH)/reset/_bur_pvdef.st.o'  -O '$(AS_CPU_PATH)//reset/_bur_pvdef.st.opt' -secret '$(AS_PROJECT_PATH)_br.as.ieccompiler.exe'
 
 -include $(AS_CPU_PATH)/Force.mak 
 
+
+
+FORCE:

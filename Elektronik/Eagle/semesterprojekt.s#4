@@ -247,12 +247,31 @@
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="VCC" urn="urn:adsk.eagle:symbol:26928/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -4330,9 +4349,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="SWITCH3+" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
-<part name="PLC-24V" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
-<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SWITCH-X" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -4351,9 +4368,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="2k"/>
-<part name="24V-&gt;6V" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1"/>
-<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SWITCH-GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
+<part name="SWITCH-Y" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
@@ -4371,24 +4386,41 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="DRIVER-X" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="DRIVER-Y" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="DRIVER-Z" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
-<part name="24V" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
-<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
+<part name="SWITCH-Z" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SIGNAL-PLC" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="24V-&gt;6V" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1"/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="T4" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
+<part name="T8" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
+<part name="T9" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3565" device="" package3d_urn="urn:adsk.eagle:package:29893/2" value="BC457"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
+<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="24V"/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="24V"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="24V"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1" value="5K"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="24V"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="SWITCH3+" gate="-1" x="-30.48" y="134.62" rot="R90"/>
-<instance part="SWITCH3+" gate="-2" x="-25.4" y="134.62" rot="R90"/>
-<instance part="SWITCH3+" gate="-3" x="-20.32" y="134.62" rot="R90"/>
-<instance part="PLC-24V" gate="-1" x="-27.94" y="-40.64" rot="MR0"/>
-<instance part="PLC-24V" gate="-2" x="-27.94" y="-43.18" rot="MR0"/>
-<instance part="GND10" gate="1" x="-17.78" y="-45.72"/>
+<instance part="SWITCH-X" gate="-1" x="-30.48" y="134.62" rot="R90"/>
+<instance part="SWITCH-X" gate="-2" x="-25.4" y="134.62" rot="R90"/>
+<instance part="SWITCH-X" gate="-3" x="-20.32" y="134.62" rot="R90"/>
 <instance part="GND7" gate="1" x="25.4" y="27.94"/>
 <instance part="GND8" gate="1" x="33.02" y="27.94"/>
 <instance part="GND9" gate="1" x="40.64" y="27.94"/>
@@ -4407,11 +4439,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R9" gate="G$1" x="86.36" y="58.42"/>
 <instance part="R10" gate="G$1" x="86.36" y="66.04"/>
 <instance part="R11" gate="G$1" x="86.36" y="73.66"/>
-<instance part="24V-&gt;6V" gate="1" x="17.78" y="-40.64"/>
-<instance part="GND11" gate="1" x="17.78" y="-53.34"/>
-<instance part="SWITCH-GND" gate="-1" x="0" y="134.62" rot="R90"/>
-<instance part="SWITCH-GND" gate="-2" x="5.08" y="134.62" rot="R90"/>
-<instance part="SWITCH-GND" gate="-3" x="10.16" y="134.62" rot="R90"/>
+<instance part="SWITCH-Y" gate="-1" x="0" y="134.62" rot="R90"/>
+<instance part="SWITCH-Y" gate="-2" x="5.08" y="134.62" rot="R90"/>
+<instance part="SWITCH-Y" gate="-3" x="10.16" y="134.62" rot="R90"/>
 <instance part="R14" gate="G$1" x="-22.86" y="58.42"/>
 <instance part="R15" gate="G$1" x="-22.86" y="50.8"/>
 <instance part="R16" gate="G$1" x="-22.86" y="43.18"/>
@@ -4430,9 +4460,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="PLC-X" gate="-1" x="-43.18" y="43.18" rot="R180"/>
 <instance part="PLC-X" gate="-2" x="-43.18" y="50.8" rot="R180"/>
 <instance part="PLC-X" gate="-3" x="-43.18" y="58.42" rot="R180"/>
-<instance part="PLC-Z" gate="-1" x="-45.72" y="-25.4" rot="R180"/>
-<instance part="PLC-Z" gate="-2" x="-45.72" y="-22.86" rot="R180"/>
-<instance part="PLC-Z" gate="-3" x="-45.72" y="-15.24" rot="R180"/>
+<instance part="PLC-Z" gate="-1" x="-45.72" y="-50.8" rot="R180"/>
+<instance part="PLC-Z" gate="-2" x="-45.72" y="-43.18" rot="R180"/>
+<instance part="PLC-Z" gate="-3" x="-45.72" y="-35.56" rot="R180"/>
 <instance part="DRIVER-X" gate="-1" x="119.38" y="73.66"/>
 <instance part="DRIVER-X" gate="-2" x="119.38" y="66.04"/>
 <instance part="DRIVER-X" gate="-3" x="119.38" y="58.42"/>
@@ -4442,25 +4472,40 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="DRIVER-Z" gate="-1" x="121.92" y="5.08"/>
 <instance part="DRIVER-Z" gate="-2" x="121.92" y="-2.54"/>
 <instance part="DRIVER-Z" gate="-3" x="121.92" y="-10.16"/>
-<instance part="24V" gate="-1" x="-63.5" y="119.38" rot="R180"/>
-<instance part="X2" gate="-1" x="30.48" y="134.62" rot="MR90"/>
-<instance part="X2" gate="-2" x="25.4" y="134.62" rot="MR90"/>
-<instance part="X2" gate="-3" x="20.32" y="134.62" rot="MR90"/>
+<instance part="SWITCH-Z" gate="-1" x="30.48" y="134.62" rot="MR90"/>
+<instance part="SWITCH-Z" gate="-2" x="25.4" y="134.62" rot="MR90"/>
+<instance part="SWITCH-Z" gate="-3" x="20.32" y="134.62" rot="MR90"/>
 <instance part="GND5" gate="1" x="30.48" y="124.46"/>
 <instance part="GND6" gate="1" x="10.16" y="124.46"/>
 <instance part="GND14" gate="1" x="-20.32" y="124.46"/>
 <instance part="SIGNAL-PLC" gate="-1" x="7.62" y="170.18" rot="R90"/>
-<instance part="SIGNAL-PLC" gate="-2" x="10.16" y="170.18" rot="R90"/>
+<instance part="24V-&gt;6V" gate="1" x="2.54" y="-78.74"/>
+<instance part="GND11" gate="1" x="2.54" y="-91.44"/>
+<instance part="T4" gate="G$1" x="40.64" y="-25.4"/>
+<instance part="T8" gate="G$1" x="25.4" y="-25.4"/>
+<instance part="T9" gate="G$1" x="10.16" y="-25.4"/>
+<instance part="GND1" gate="1" x="12.7" y="-33.02"/>
+<instance part="GND13" gate="1" x="27.94" y="-33.02"/>
+<instance part="GND15" gate="1" x="43.18" y="-33.02"/>
+<instance part="R1" gate="G$1" x="-22.86" y="-35.56"/>
+<instance part="R5" gate="G$1" x="-22.86" y="-43.18"/>
+<instance part="R12" gate="G$1" x="-22.86" y="-50.8"/>
+<instance part="X1" gate="-1" x="-132.08" y="-10.16" rot="MR0"/>
+<instance part="X1" gate="-2" x="-132.08" y="-12.7" rot="MR0"/>
+<instance part="GND16" gate="1" x="-111.76" y="-20.32"/>
+<instance part="P+1" gate="VCC" x="-60.96" y="121.92"/>
+<instance part="P+2" gate="VCC" x="-111.76" y="2.54"/>
+<instance part="P+3" gate="VCC" x="-48.26" y="-73.66"/>
+<instance part="R13" gate="G$1" x="48.26" y="-101.6" rot="R90"/>
+<instance part="R17" gate="G$1" x="48.26" y="-124.46" rot="R90"/>
+<instance part="GND10" gate="1" x="48.26" y="-132.08"/>
+<instance part="GND17" gate="1" x="78.74" y="-132.08"/>
+<instance part="P+4" gate="VCC" x="48.26" y="-86.36"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="PLC-24V" gate="-2" pin="S"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="-17.78" y1="-43.18" x2="-25.4" y2="-43.18" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <junction x="25.4" y="30.48"/>
@@ -4489,36 +4534,51 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="24V-&gt;6V" gate="1" pin="GND"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="17.78" y1="-48.26" x2="17.78" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SHARPENER" gate="-2" pin="S"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="114.3" y1="-22.86" x2="121.92" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SWITCH3+" gate="-3" pin="S"/>
+<pinref part="SWITCH-X" gate="-3" pin="S"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="-20.32" y1="132.08" x2="-20.32" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SWITCH-GND" gate="-3" pin="S"/>
+<pinref part="SWITCH-Y" gate="-3" pin="S"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="10.16" y1="132.08" x2="10.16" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-1" pin="S"/>
+<pinref part="SWITCH-Z" gate="-1" pin="S"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="30.48" y1="132.08" x2="30.48" y2="127" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="N$13" class="0">
 <segment>
-<pinref part="PLC-24V" gate="-1" pin="S"/>
-<wire x1="-25.4" y1="-40.64" x2="10.16" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="24V-&gt;6V" gate="1" pin="IN"/>
+<pinref part="24V-&gt;6V" gate="1" pin="GND"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="2.54" y1="-86.36" x2="2.54" y2="-88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="T9" gate="G$1" pin="E"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="T8" gate="G$1" pin="E"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="T4" gate="G$1" pin="E"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="-129.54" y1="-12.7" x2="-111.76" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="-12.7" x2="-111.76" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -4700,33 +4760,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="DRIVER-Z" gate="-3" pin="S"/>
 </segment>
 </net>
-<net name="N$33" class="0">
-<segment>
-<wire x1="-43.18" y1="-25.4" x2="68.58" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-25.4" x2="68.58" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="-10.16" x2="81.28" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="PLC-Z" gate="-1" pin="S"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="-2.54" x2="66.04" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-2.54" x2="66.04" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-22.86" x2="-43.18" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="PLC-Z" gate="-2" pin="S"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<wire x1="-43.18" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-15.24" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="5.08" x2="81.28" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="PLC-Z" gate="-3" pin="S"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -4762,37 +4795,21 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-40.64" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="SWITCH3+" gate="-1" pin="S"/>
-<wire x1="-30.48" y1="132.08" x2="-30.48" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="119.38" x2="-60.96" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="24V" gate="-1" pin="S"/>
-<pinref part="SWITCH-GND" gate="-1" pin="S"/>
-<wire x1="0" y1="132.08" x2="0" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="0" y1="119.38" x2="-30.48" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-3" pin="S"/>
-<wire x1="20.32" y1="132.08" x2="20.32" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="119.38" x2="0" y2="119.38" width="0.1524" layer="91"/>
-<junction x="-30.48" y="119.38"/>
-<junction x="0" y="119.38"/>
-</segment>
-</net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="SWITCH3+" gate="-2" pin="S"/>
+<pinref part="SWITCH-X" gate="-2" pin="S"/>
 <wire x1="-25.4" y1="132.08" x2="-25.4" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="129.54" x2="-22.86" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="129.54" x2="-22.86" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="154.94" x2="7.62" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="154.94" x2="7.62" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="129.54" x2="5.08" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="SWITCH-GND" gate="-2" pin="S"/>
+<pinref part="SWITCH-Y" gate="-2" pin="S"/>
 <wire x1="5.08" y1="129.54" x2="5.08" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="154.94" x2="27.94" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="154.94" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="129.54" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-2" pin="S"/>
+<pinref part="SWITCH-Z" gate="-2" pin="S"/>
 <wire x1="25.4" y1="129.54" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="154.94" x2="7.62" y2="167.64" width="0.1524" layer="91"/>
 <junction x="7.62" y="154.94"/>
@@ -4802,7 +4819,129 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="SHARPENER" gate="-1" pin="S"/>
-<wire x1="81.28" y1="-20.32" x2="121.92" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-20.32" x2="121.92" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="T4" gate="G$1" pin="C"/>
+<wire x1="81.28" y1="-10.16" x2="43.18" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-10.16" x2="43.18" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-2.54" x2="45.72" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="T8" gate="G$1" pin="C"/>
+<wire x1="45.72" y1="-7.62" x2="27.94" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-7.62" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="5.08" x2="40.64" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="5.08" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="T9" gate="G$1" pin="C"/>
+<wire x1="40.64" y1="-2.54" x2="12.7" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="PLC-Z" gate="-1" pin="S"/>
+<wire x1="-43.18" y1="-50.8" x2="-27.94" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="PLC-Z" gate="-2" pin="S"/>
+<wire x1="-43.18" y1="-43.18" x2="-27.94" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="PLC-Z" gate="-3" pin="S"/>
+<wire x1="-43.18" y1="-35.56" x2="-27.94" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="T4" gate="G$1" pin="B"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="-25.4" x2="38.1" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-50.8" x2="-17.78" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="T8" gate="G$1" pin="B"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="-25.4" x2="22.86" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-43.18" x2="-17.78" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="T9" gate="G$1" pin="B"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="-25.4" x2="7.62" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-35.56" x2="-17.78" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="SWITCH-X" gate="-1" pin="S"/>
+<wire x1="-30.48" y1="132.08" x2="-30.48" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="119.38" x2="-60.96" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SWITCH-Y" gate="-1" pin="S"/>
+<wire x1="0" y1="132.08" x2="0" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="0" y1="119.38" x2="-30.48" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SWITCH-Z" gate="-3" pin="S"/>
+<wire x1="20.32" y1="132.08" x2="20.32" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="119.38" x2="0" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-30.48" y="119.38"/>
+<junction x="0" y="119.38"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="-129.54" y1="-10.16" x2="-111.76" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="-10.16" x2="-111.76" y2="0" width="0.1524" layer="91"/>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="24V-&gt;6V" gate="1" pin="IN"/>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<wire x1="-5.08" y1="-78.74" x2="-48.26" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="-78.74" x2="-48.26" y2="-76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="-96.52" x2="48.26" y2="-88.9" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="24V-&gt;6V" gate="1" pin="OUT"/>
+<wire x1="10.16" y1="-78.74" x2="78.74" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-78.74" x2="78.74" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="-106.68" x2="48.26" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-114.3" x2="48.26" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-114.3" x2="68.58" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

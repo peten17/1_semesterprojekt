@@ -239,7 +239,11 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\reset\Main.st"
     LogicalPath="reset.Main.st"
     Type="File"
+<<<<<<< HEAD
+    LastWriteTime="131570339576976229"
+=======
     LastWriteTime="131567776560000000"
+>>>>>>> d5b8d54a60252f4b00e3bf32a6dc7298fa0b9dc5
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\reset\Types.typ"
@@ -331,7 +335,11 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\X20CP1382\Cpu.pkg"
     LogicalPath="Config1.X20CP1382"
     Type="Cpu"
+<<<<<<< HEAD
+    LastWriteTime="131570258815032234" />
+=======
     LastWriteTime="131569390261564398" />
+>>>>>>> d5b8d54a60252f4b00e3bf32a6dc7298fa0b9dc5
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\X20CP1382\Cpu.sw"
     LogicalPath="Config1.X20CP1382.Cpu.sw"
