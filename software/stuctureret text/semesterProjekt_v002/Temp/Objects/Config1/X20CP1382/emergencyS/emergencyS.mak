@@ -3,7 +3,6 @@ MarkedObjectFolder := C:/Users/gusta/Documents/GitHub/1_semesterprojekt/software
 
 $(AS_CPU_PATH)/emergencyS.br: \
 	$(AS_PROJECT_CPU_PATH)/Cpu.per \
-	FORCE \
 	$(AS_CPU_PATH)/emergencyS/emergencyS.ox
 	@'$(AS_BIN_PATH)/BR.AS.TaskBuilder.exe' '$(AS_CPU_PATH)/emergencyS/emergencyS.ox' -o '$(AS_CPU_PATH)/emergencyS.br' -v V1.00.0 -f '$(AS_CPU_PATH)/NT.ofs' -offsetLT '$(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/LT.ofs' -T SG4  -M IA32  -B I4.33 -extConstants -d 'runtime: V* - V*,asieccon: V* - V*' -r Cyclic4 -p 2 -s 'emergencyStop' -L 'AsIecCon: V*, AsMbTCP: V*, astime: V*, operator: V*, runtime: V*, standard: V*' -P '$(AS_PROJECT_PATH)' -secret '$(AS_PROJECT_PATH)_br.as.taskbuilder.exe'
 

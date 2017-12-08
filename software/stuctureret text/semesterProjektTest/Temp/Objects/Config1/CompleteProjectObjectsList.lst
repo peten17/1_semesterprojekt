@@ -147,7 +147,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Main.st"
     LogicalPath="Program.Main.st"
     Type="File"
-    LastWriteTime="131568576615686200"
+    LastWriteTime="131568586417088557"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Program\Types.typ"
@@ -227,19 +227,19 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="131568501966212536"
+    LastWriteTime="131569505767048613"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.hwl"
     LogicalPath="Config1.Hardware.hwl"
     Type="File"
-    LastWriteTime="131568502168896179"
+    LastWriteTime="131569505828178586"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Cpu.pkg"
     LogicalPath="Config1.X20CP1382"
     Type="Cpu"
-    LastWriteTime="131568572465479637" />
+    LastWriteTime="131568576884596767" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\X20CP1382\Cpu.sw"
     LogicalPath="Config1.X20CP1382.Cpu.sw"
@@ -371,7 +371,7 @@
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="131568576614943318"
+    LastWriteTime="131569505830568996"
     Private="false" />
   <Object
     Path="C:\Users\peter\OneDrive\Dokumenter\GitHub\1_semesterprojekt\software\stuctureret text\semesterProjektTest\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"

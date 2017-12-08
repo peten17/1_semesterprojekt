@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="down_active" ClsId="0x306" Version="1" TargetIndex="39" Type="GFX" RefString="Source[local].Bitmap[down_active]">
+        <UInt16 Name="Width">34</UInt16>
+        <UInt16 Name="Height">31</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">1</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">46</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">Lgj//////////////////////////////////////2ZBLmw7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/s7ZkH/+/z8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8+Qj2//v8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/PkIAP/5+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v6CAD/+fv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+v8A//n7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/qRAP/5+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v6kQD/+fv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+pEA//n7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/qRAP/5+/v7+/v7+fo7Ozs7Ozs7Ozs7Ozs7+vn7+/v7+/v6kQD/+fv7+/v7+/oH/////////////////wf6+/v7+/v7+pEA//n7+/v7+/v5B5H39/f39/f39/f395EH+fv7+/v7+/qRAP/5+/v7+/v7+/oHkfb29vb29vb29pEH+vv7+/v7+/v6kQD/+fv7+/v7+/v7+mb39vb29vb29vdm+vv7+/v7+/v7+pEA//n7+/v7+/v7+/s7Zvf29vb29vcIO/v7+/v7+/v7+/qRAP/5+/v7+/v7+/v7+zsI9/b29vf/O/v7+/v7+/v7+/v6kQD/+fv7+/v7+/v7+/v5O5H29vaRO/n7+/v7+/v7+/v7+pEA//n7+/v7+/v7+/v7+/kHkfb3B/n7+/v7+/v7+/v7+/qRAP/5+/v7+/v7+/v7+/v7+QeRB/n7+/v7+/v7+/v7+/v6kQD/+fv7+/v7+/v7+/v7+/v5B/n7+/v7+/v7+/v7+/v7+pEA//n7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/qRAP/5+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v6kQD/+fv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+pEA//n7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/qRAGb5+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v6CABm+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6OwgACDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Owf/AAgHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwdmkQAHZv////////////////////////////////////+Rkbz2KDu89fX19fX19fX19fX19fX19fX19fX19fX19fX19fX2Uw==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

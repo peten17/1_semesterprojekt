@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="right_pressed" ClsId="0x306" Version="1" TargetIndex="34" Type="GFX" RefString="Source[local].Bitmap[right_pressed]">
+        <UInt16 Name="Width">34</UInt16>
+        <UInt16 Name="Height">31</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">1</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">46</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">Lgj//////////////////////////////////////whBLmyR9/f39/f39/f39/f39/f39/f39/f39/f39/f39/eRZkH/kff39/f39/f39/f39/f39/f39/f39/f39/f39/f3kZH3/5GRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGR9f//////////////////////////////////////////kfX//////////////////////////////////////////5H1//////////////////////////////////////////+R9f////////////////8ICP//////////////////////kfX///////////////8IZgcI/////////////////////5H1////////////////CAf7B2b///////////////////+R9f///////////////wgHDw/6Zgj/////////////////kfX///////////////8IBw8PD/sHZgj//////////////5H1////////////////CAcPDw8P/DsHCP////////////+R9f///////////////wgHDw8PDw8P+wdmCP//////////kfX///////////////8IBw8PDw8PDw/8O2b//////////5H1////////////////CAcPDw8PDw8P/Dtm//////////+R9f///////////////wgHDw8PDw8P+ztmCP//////////kfX///////////////8IBw8PDw8P+gcI/////////////5H1////////////////CAcPDw/8B2YI//////////////+R9f///////////////wgHD/z6Bwj/////////////////kfX///////////////8IB/w7Zv///////////////////5H1////////////////CGYHCP////////////////////+R9f////////////////8ICP//////////////////////kfX//////////////////////////////////////////5H1//////////////////////////////////////////+R9f//////////////////////////////////////////kfUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICP/1CGZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmb/9QgHOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsHkQBBBwgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkfb2KPu89fX19fX19fX19fX19fX19fX19fX19fX19fX19fX2Uw==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

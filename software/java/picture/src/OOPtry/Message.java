@@ -4,23 +4,23 @@ import java.awt.image.BufferedImage;
 
 public class Message {
     private char upOrDown;
-    private String message = "";
+    private String message;
     
     Message() {
-        
+        message = "";
     }
     
     public String convertToMessage(byte pictureArray[][], BufferedImage image) {
         for(int y = 0; y < image.getHeight(); y++) {
             for(int x = 0; x < image.getWidth(); x++) {        
-                if(pictureArray[y][x] == 0) {
-                   upOrDown = '0';
-                } else {
-                   upOrDown = '1';
-                }
-                message = message + upOrDown;
-                if(x < image.getWidth()-1) {
-                    message = message + 'R' ;
+                if(x < image.getHeight() && y < image.getWidth()) {
+                    
+                    if(pictureArray[y][x] == 0) {
+                       upOrDown = 'U';
+                    } else {
+                       upOrDown = 'D';
+                    }
+                    message = message + upOrDown;
                 }
             }
             message = message + 'N';

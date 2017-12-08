@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6766,10 +6766,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$22" class="0">
 <segment>
 <pinref part="PLC-X3" gate="A" pin="9"/>
-<wire x1="-10.16" y1="38.1" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="38.1" x2="-20.32" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="38.1" x2="-27.94" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="38.1" x2="-27.94" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="119.38" x2="-5.08" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="119.38" x2="-5.08" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -6851,8 +6851,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="86.36" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="27.94" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="86.36" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="43.18" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -6915,7 +6915,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="63.5" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
-<junction x="83.82" y="22.86"/>
 </segment>
 </net>
 <net name="N$42" class="0">

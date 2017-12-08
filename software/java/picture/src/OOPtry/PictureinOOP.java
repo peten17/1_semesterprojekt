@@ -45,7 +45,7 @@ public class PictureinOOP {
         photo.assempleImage(pictureArray, cImage);
                 
         //Amount of pixels
-        System.out.println("Limit: " + 165*165 + ". Amount of pixels: " + cImage.getWidth()*cImage.getHeight() + "." );
+        System.out.println("Limit: " + 257*257 + ". Amount of pixels: " + cImage.getWidth()*cImage.getHeight() + "." );
         
         //Full or partly drawn?
         String fullorPart = "";
@@ -55,7 +55,7 @@ public class PictureinOOP {
         boolean picturePart = false;
         
         while(true) {
-            if(cImage.getHeight()*cImage.getWidth() < 165*165) {
+            if(cImage.getHeight()*cImage.getWidth() < 257*257) {
                 System.out.println("Full picture or a specific part? Answer FP or SP");
                 fullorPart = sc.nextLine();
                 
@@ -85,7 +85,7 @@ public class PictureinOOP {
         }
         
         // Setup roboClient
-        String hostName = "10.126.91.148";
+        String hostName = "localhost";
         int port = 12345;
         RobotClient roboC = new  RobotClient(hostName, port);
 
@@ -105,11 +105,14 @@ public class PictureinOOP {
             if(roboC.isConnected()){
                 roboC.write(message);
                 System.out.println("Message send");
-              
-                System.out.println("Disconnect?");
-                String disconnectOrNot = sc.nextLine();
-                if (disconnectOrNot.compareTo("YES") == 0 ) {
-                    roboC.disconnect();
+                
+                while(true) {
+                    System.out.println("Disconnect?");
+                    String disconnectOrNot = sc.nextLine();
+                    if (disconnectOrNot.compareTo("YES") == 0 ) {
+                        roboC.disconnect();
+                        break;
+                    }
                 }
             }
 
@@ -144,11 +147,14 @@ public class PictureinOOP {
             if(roboC.isConnected()){
                 roboC.write(partMessage);
                 System.out.println("Message send");
-              
-                System.out.println("Disconnect?");
-                String disconnectOrNot = sc.nextLine();
-                if (disconnectOrNot.compareTo("YES") == 0 ) {
-                   roboC.disconnect();
+                
+                while(true) {
+                    System.out.println("Disconnect?");
+                    String disconnectOrNot = sc.nextLine();
+                    if (disconnectOrNot.compareTo("YES") == 0 ) {
+                       roboC.disconnect();
+                       break;
+                    }
                 }
             }
 
@@ -178,12 +184,15 @@ public class PictureinOOP {
                 roboC.write(scaledMessage);
                 System.out.println("Message send");
             }
-            System.out.println("Disconnect?");
-            String disconnectOrNot = sc.nextLine();
-            if (disconnectOrNot.compareTo("YES") == 0 ) {
-                roboC.disconnect();
+        
+            while(true) {
+                System.out.println("Disconnect?");
+                String disconnectOrNot = sc.nextLine();
+                    if (disconnectOrNot.compareTo("YES") == 0 ) {
+                        roboC.disconnect();
+                        break;
+                    }
             }
-          
           
             
         }else if(partlyScaleNeeded) {
@@ -218,12 +227,15 @@ public class PictureinOOP {
                 roboC.write(scaledMessagePart);
                 System.out.println("Message send");
             }
-            System.out.println("Disconnect?");
-            String disconnectOrNot = sc.nextLine();
-            if (disconnectOrNot.compareTo("YES") == 0 ) {
-                roboC.disconnect();
+            
+            while(true) {
+                System.out.println("Disconnect?");
+                String disconnectOrNot = sc.nextLine();
+                if (disconnectOrNot.compareTo("YES") == 0 ) {
+                    roboC.disconnect();
+                    break;
+                }
             }
-          
           
             
         }

@@ -1,0 +1,39 @@
+VAR
+	dirX : BOOL;
+	dirY : BOOL;
+	dirZ : BOOL;
+	enabX : BOOL;
+	enabY : BOOL;
+	enabZ : BOOL;
+	drawFunction : BOOL;
+	input : ARRAY[0..65000] OF USINT;
+	posX : UDINT;
+	posY : UDINT;
+	posZ : UDINT;
+	reset : BOOL;
+	stepX : BOOL;
+	stepY : BOOL;
+	stepZ : BOOL;
+	switch_X : BOOL;
+	t : USINT;
+	quit : BOOL;
+	sharpen : UINT;
+	status : USINT;
+	testEnab : BOOL;
+	z_move_down : BOOL;
+	z_move_up : BOOL;
+	y_move_right : BOOL;
+	y_move_left : BOOL;
+	x_move_right : BOOL;
+	x_move_left : BOOL;
+	sharpenderNeed : BOOL;
+	switch_Z : BOOL;
+	switch_Y : BOOL;
+	percentage : REAL; (*%*)
+	newLineX : UDINT;
+	ValueZ : UINT;
+	penLength : REAL;
+	placeInArray : UDINT;
+	placement : UINT;
+	newLineHelper : UDINT;
+END_VAR

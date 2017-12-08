@@ -1,0 +1,12 @@
+VAR
+	pakgede : USINT;
+	reciveData : ARRAY[0..40000] OF UINT;
+	tcp2 : TcpServer;
+	tcp1 : TcpOpen;
+	state : UINT;
+	tcp3 : TcpRecv;
+	tcp4 : TcpSend;
+	tcp5 : TcpClose;
+	addAr : UDINT;
+	teller : UDINT;
+END_VAR

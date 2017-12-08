@@ -1,0 +1,6 @@
+VAR
+	resetX : USINT;
+	resetY : USINT;
+	resetZ : USINT;
+	timer : TON;
+END_VAR

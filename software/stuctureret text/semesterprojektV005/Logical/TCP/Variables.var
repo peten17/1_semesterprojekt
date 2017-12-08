@@ -1,0 +1,9 @@
+VAR
+	reciveData : ARRAY[0..199999] OF BOOL;
+	tcp2 : TcpServer;
+	tcp1 : TcpOpen;
+	state : UINT;
+	tcp3 : TcpRecv;
+	tcp4 : TcpSend;
+	tcp5 : TcpClose;
+END_VAR

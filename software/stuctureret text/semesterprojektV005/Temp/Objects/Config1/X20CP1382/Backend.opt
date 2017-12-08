@@ -1,0 +1,4 @@
+Draw	"$(AS_CPU_PATH)/Draw/a.out" -o "$(AS_CPU_PATH)/Draw/Draw.ox" -T SG4 -r Cyclic1   -G V4.1.2  -B I4.33
+reset	"$(AS_CPU_PATH)/reset/a.out" -o "$(AS_CPU_PATH)/reset/reset.ox" -T SG4 -r Cyclic1   -G V4.1.2  -B I4.33
+emergencyS	"$(AS_CPU_PATH)/emergencyS/a.out" -o "$(AS_CPU_PATH)/emergencyS/emergencyS.ox" -T SG4 -r Cyclic4   -G V4.1.2  -B I4.33
+TCP	"$(AS_CPU_PATH)/TCP/a.out" -o "$(AS_CPU_PATH)/TCP/TCP.ox" -T SG4 -r Cyclic4   -G V4.1.2  -B I4.33
