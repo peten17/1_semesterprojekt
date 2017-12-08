@@ -17,6 +17,7 @@ PROGRAM _CYCLIC
 		IF switch_X = TRUE AND resetX = 0  THEN // Resets the x-axis 
 			enabX:= FALSE;
 			dirX:= FALSE;
+			
 			stepX := NOT stepX;
 		ELSIF switch_X = FALSE THEN	
 			resetX := 1;
