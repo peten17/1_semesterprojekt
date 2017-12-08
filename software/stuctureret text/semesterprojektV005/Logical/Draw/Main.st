@@ -1,7 +1,7 @@
 
 PROGRAM _INIT
 	
-	placeInString := 0; 
+	placeInArray := 0; 
 	i := 0;
 	sharpen := 1;
 	activator := FALSE;	
@@ -34,22 +34,22 @@ PROGRAM _CYCLIC
 				newLineHelper := newLineHelper - 17 ;
 				posX := posX + 17;
 			ELSIF placement = 21041 OR placement = 21040 THEN
-				FOR check := placeInString TO finder BY check +1 DO
+				FOR check := placeInArray TO finder BY check +1 DO
 					tempPlace := input[check];
 					IF tempPlace = 21041 THEN
 						finder := TRUE;
 					ELSIF tempPlace = 20016 OR tempPlace = 20017 THEN
-						placeInString := check -1;
+						placeInArray := check -1;
 						newLineHelper := newLineHelper + 17;
 						posX := posX - 17;
 						finder := TRUE;
 					END_IF
 				END_FOR	
 			END_IF
-			placeInString := placeInString + 1;
+			placeInArray := placeInArray + 1;
 			i := 0;
 		END_IF	
-		placement := input[placeInString];
+		placement := input[placeInArray];
 		
 		// here the robot will move to the shapener, sharpen the pencil and move back to were it came from
 		IF (sharpen >= 30000) THEN //!!!!!
@@ -156,20 +156,6 @@ PROGRAM _CYCLIC
 					END_IF
 					
 				END_IF		
-					
-//			ELSIF (i = 3) THEN
-//				
-//					
-//					placeInString := placeInString + 1;
-//					i := 0;
-//					
-//				ELSE
-//					placeInString := placeInString + 1;	
-			
-				
-		
-//			ELSIF (placement = '1' OR placement = '0') THEN
-//				placeInString := placeInString + 1;	
 			
 			
 			ELSIF (placement = 20016 OR placement = 20017) THEN
@@ -223,7 +209,7 @@ PROGRAM _CYCLIC
 END_PROGRAM
 
 PROGRAM _EXIT
-	(* Insert code here *)
+
 	 
 END_PROGRAM
 
