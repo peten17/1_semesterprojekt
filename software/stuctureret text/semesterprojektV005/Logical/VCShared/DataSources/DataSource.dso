@@ -27,7 +27,7 @@
     </DataPoint>
     <DataPoint Name="percentage">
       <Property Name="ConnectedBySharedResource" Value="False"/>
-      <Property Name="ConnectingVisus" Value="Visu_4"/>
+      <Property Name="ConnectingVisus" Value=""/>
       <Property Name="Description" Value=""/>
       <Property Name="PLCType" Value="REAL"/>
       <Property Name="UpdateTime" Value="Default"/>
