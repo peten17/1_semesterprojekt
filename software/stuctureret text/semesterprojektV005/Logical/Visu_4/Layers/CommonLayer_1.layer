@@ -21,7 +21,6 @@
       <Text ID="95113" Value="Reset: "/>
       <Text ID="95114" Value="Stop:"/>
       <Text ID="95181" Value="Pen length "/>
-      <Text ID="95232" Value="%"/>
     </TextLayer>
     <TextLayer LanguageId="da">
       <Text ID="94979" Value="Nødstop"/>
@@ -35,7 +34,6 @@
       <Text ID="95113" Value="Nulstil: "/>
       <Text ID="95114" Value="Stop: "/>
       <Text ID="95181" Value="Text_5"/>
-      <Text ID="95232" Value="%"/>
     </TextLayer>
     <IndexMap>
       <Index ID="94979" Value="0"/>
@@ -49,7 +47,6 @@
       <Index ID="95113" Value="14"/>
       <Index ID="95114" Value="15"/>
       <Index ID="95181" Value="16"/>
-      <Index ID="95232" Value="17"/>
     </IndexMap>
   </TextGroup>
   <Controls>
@@ -288,7 +285,7 @@
       <Property Name="Width" Value="21"/>
     </Control>
     <Control ClassId="0x00001001" Name="Shape_4">
-      <Property Name="BackColor" Value="48"/>
+      <Property Name="BackColor" Value="47"/>
       <Property Name="ColorMap" Value="Source[local].ColorMap[status]"/>
       <Property Name="ColorMapIndexOffset" Value="0"/>
       <Property Name="ControlID" Value="0"/>
@@ -352,68 +349,6 @@
       <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.penLength]"/>
       <Property Name="ValueMode" Value="Standard"/>
       <Property Name="Width" Value="68"/>
-    </Control>
-    <Control ClassId="0x00001006" Name="BarGraph_1">
-      <Property Name="BackColor" Value="252"/>
-      <Property Name="Border" Value="Source[local].Border[Etched]"/>
-      <Property Name="ControlID" Value="0"/>
-      <Property Name="Description" Value=""/>
-      <Property Name="EndValue" Value="100"/>
-      <Property Name="Height" Value="28"/>
-      <Property Name="Left" Value="7"/>
-      <Property Name="Range" Value="4"/>
-      <Property Name="Range[0].Color" Value="148"/>
-      <Property Name="Range[0].Start" Value="0"/>
-      <Property Name="Range[1].Color" Value="179"/>
-      <Property Name="Range[1].Start" Value="25"/>
-      <Property Name="Range[2].Color" Value="222"/>
-      <Property Name="Range[2].Start" Value="50"/>
-      <Property Name="Range[3].Color" Value="229"/>
-      <Property Name="Range[3].Start" Value="75"/>
-      <Property Name="SimulationValue" Value="50"/>
-      <Property Name="StartValue" Value="0"/>
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BarGraph]"/>
-      <Property Name="Top" Value="329"/>
-      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.percentage]"/>
-      <Property Name="Width" Value="115"/>
-    </Control>
-    <Control ClassId="0x00001007" Name="Numeric_2">
-      <Property Name="ControlID" Value="0"/>
-      <Property Name="Description" Value=""/>
-      <Property Name="Height" Value="31"/>
-      <Property Name="Left" Value="11"/>
-      <Property Name="MaxDatapoint" Value="None"/>
-      <Property Name="MaxValue" Value="None"/>
-      <Property Name="MinDatapoint" Value="None"/>
-      <Property Name="MinValue" Value="None"/>
-      <Property Name="SimulationValue" Value="0"/>
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
-      <Property Name="TeachDatapoint" Value="None"/>
-      <Property Name="Top" Value="358"/>
-      <Property Name="UnitText" Value="Abbreviation"/>
-      <Property Name="UnitTextAlignment" Value="Left"/>
-      <Property Name="UnitTextPosition" Value="Right"/>
-      <Property Name="UnitTextWidth" Value="1"/>
-      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.percentage]"/>
-      <Property Name="ValueMode" Value="Standard"/>
-      <Property Name="Width" Value="55"/>
-    </Control>
-    <Control ClassId="0x00001004" Name="Text_6">
-      <Property Name="AlignmentHorizontal" Value="Center"/>
-      <Property Name="AlignmentVertical" Value="Center"/>
-      <Property Name="ControlID" Value="0"/>
-      <Property Name="Description" Value=""/>
-      <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
-      <Property Name="Height" Value="28"/>
-      <Property Name="Left" Value="67"/>
-      <Property Name="SimulationIndex" Value="0"/>
-      <Property Name="SimulationValue" Value=""/>
-      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
-      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
-      <Property Name="TextIndexOffset" Value="17"/>
-      <Property Name="TextSource" Value="SingleText"/>
-      <Property Name="Top" Value="359"/>
-      <Property Name="Width" Value="31"/>
     </Control>
   </Controls>
   <KeyMapping>
