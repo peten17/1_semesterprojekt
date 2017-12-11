@@ -15,15 +15,12 @@ public class PartImage {
         
         for(int y = y1; y < y2; y++) {
             for(int x = x1; x < x2; x++) {
-                if (pictureArray[y][x] == 1) {
-                   upOrDown = '1';
+                if (pictureArray[y][x] == 0) {
+                   upOrDown = 'U';
                 } else {
-                   upOrDown = '0';
+                   upOrDown = 'D';
                 }
                 message = message + upOrDown;
-                if(x < x2-1) {
-                    message = message + 'R' ;
-                }
             }   
             message = message + 'N';
         }

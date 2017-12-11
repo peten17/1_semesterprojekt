@@ -1,0 +1,10 @@
+VAR
+	check : UDINT;
+	sharpenderLen : UINT;
+	timer : TON;
+	i : UDINT;
+	tempX : UDINT;
+	activator : BOOL;
+	finder : BOOL;
+	tempPlace : UINT;
+END_VAR

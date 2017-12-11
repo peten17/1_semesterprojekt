@@ -1,7 +1,7 @@
 
 PROGRAM _INIT
 	state := 1;
-	 
+	pakgede := 0;
 END_PROGRAM
 
 PROGRAM _CYCLIC
@@ -26,17 +26,20 @@ PROGRAM _CYCLIC
 		20:
 			tcp3.enable := TRUE;
 			tcp3.ident := tcp2.identclnt;
-			tcp3.pData := ADR(reciveData);
-			tcp3.datamax := SIZEOF (reciveData);
+			tcp3.pData := ADR(input(*reciveData*));
+			tcp3.datamax := SIZEOF (input(*reciveData*));
 			tcp3();
 			IF tcp3.status = 0 THEN
-				input := reciveData;
-				//				FOR i := 0 TO i = 2000 BY i + 1 DO
-				//					test.IN := reciveData[i];
-				//					input := CONCAT(input, test.Q);
-				//				END_FOR	
-				//state := 30;
+				//				teller := 0;
+//				pakgede := pakgede +1;
+//				WHILE reciveData[teller] = NOT 0 DO
+//					input[addAr] := reciveData[teller];
+//					addAr := addAr + 1;
+//					teller := teller +1;
+//				END_WHILE
 				
+					state := 30;
+
 			END_IF	
 
 		30:
@@ -46,8 +49,12 @@ PROGRAM _CYCLIC
 			tcp4.datalen := brsstrlen(ADR(input));
 			tcp4();
 			IF tcp4.status = 0 THEN
-				state := 40;
-			END_IF	
+//				IF pakgede = 2 THEN
+					state := 40;
+//				ELSE 
+//					state := 20;
+//				END_IF	
+				END_IF	
 			
 		40:
 			tcp5.enable := TRUE;

@@ -1,38 +1,40 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Draw 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=2 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=6 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                                   check                                    UDINT    0 "                                                               0"    0    7    1   10    1    0         
-                               tempPlace                                     UINT    0 "                                                               0"    0    6    1   10    1    0         
-                           newLineHelper                                    UDINT    0 "                                                      2294967295"    0    7    1   10    0    0         
+                                   check                                    UDINT    0 "                                                               *"    0    7    1   10    1    0         
+                                       i                                    UDINT    0 "                                                               *"    0    7    1   10    1    0         
+                               tempPlace                                     UINT    0 "                                                               *"    0    6    1   10    1    0         
+                           newLineHelper                                    UDINT    0 "                                                               *"    0    7    1   10    0    0         
+                                   enabY                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         
                                    input                         UINT[0..1999999]    0 "                                                               *"    0    6 2000000    0    0    1         
-                                input[0]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                                input[1]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                                input[2]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                                input[3]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                                input[4]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                                input[5]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                                input[6]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                                input[7]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                                input[8]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                                input[9]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[10]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[11]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[12]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[13]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[14]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[15]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[16]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[17]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[18]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[19]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[20]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[21]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[22]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[23]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[24]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[25]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[26]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
-                               input[27]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
+                                input[0]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                input[1]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                input[2]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                input[3]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                input[4]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                input[5]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                input[6]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                input[7]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                input[8]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                input[9]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[10]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[11]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[12]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[13]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[14]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[15]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[16]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[17]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[18]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[19]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[20]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[21]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[22]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[23]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[24]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[25]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[26]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                               input[27]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
                                input[28]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
                                input[29]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
                                input[30]                                     UINT    0 "                                                               *"    1    6    1   10    0    0         

@@ -1,0 +1,12 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=3 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           newLineHelper                                    UDINT    0 "                                                      2294966335"    0    7    1   10    0    0         
+                                newLineX                                    UDINT    0 "                                                      2294968240"    0    7    1   10    0    0         
+                                   input                         UINT[0..1999999]    0 "                                                               *"    0    6 2000000    0    0    1         
+                                input[0]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
+                              input[398]                                     UINT    0 "                                                           21040"    1    6    1   10    0    0         
+                           placeInString                                     UINT    0 "                                                           13627"    0    6    1   10    0    0         
+                               placement                                     UINT    0 "                                                           21041"    0    6    1   10    0    0         
+                                    dirZ                                     BOOL    3 "                                                            TRUE"    0    1    1    2    0    0         
+                                    posZ                                    UDINT    0 "                                                            2762"    0    7    1   10    0    0         
