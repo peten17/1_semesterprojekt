@@ -37,49 +37,11 @@
       <Property Name="Width" Value="1366"/>
       <Property Name="Z-Order" Value="1"/>
       <TextGroup>
-        <TextLayer LanguageId="en">
-          <Text ID="95279" Value="Text_1"/>
-        </TextLayer>
-        <TextLayer LanguageId="da">
-          <Text ID="95279" Value="Text_1"/>
-        </TextLayer>
-        <IndexMap>
-          <Index ID="95279" Value="0"/>
-        </IndexMap>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="da"/>
+        <IndexMap/>
       </TextGroup>
-      <Controls>
-        <Control ClassId="0x00001007" Name="Numeric_1">
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="Height" Value="22"/>
-          <Property Name="Left" Value="590"/>
-          <Property Name="MaxDatapoint" Value="None"/>
-          <Property Name="MaxValue" Value="None"/>
-          <Property Name="MinDatapoint" Value="None"/>
-          <Property Name="MinValue" Value="None"/>
-          <Property Name="SimulationValue" Value="0"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
-          <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="196"/>
-          <Property Name="ValueDatapoint" Value="None"/>
-          <Property Name="ValueMode" Value="Standard"/>
-          <Property Name="Width" Value="32"/>
-        </Control>
-        <Control ClassId="0x00001004" Name="Text_1">
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="Height" Value="22"/>
-          <Property Name="Left" Value="237"/>
-          <Property Name="SimulationIndex" Value="0"/>
-          <Property Name="SimulationValue" Value=""/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
-          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
-          <Property Name="TextIndexOffset" Value="0"/>
-          <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="94"/>
-          <Property Name="Width" Value="100"/>
-        </Control>
-      </Controls>
+      <Controls/>
       <KeyMapping/>
     </Layer>
   </Layers>
@@ -93,7 +55,5 @@
   </MovementOrder>
   <TabSequence>
     <TabSeqItem Index="0" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_1]"/>
-    <TabSeqItem Index="1" Value="Source[local].Layer[CommonLayer_1].Control[Numeric_2]"/>
-    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
   </TabSequence>
 </Page>
