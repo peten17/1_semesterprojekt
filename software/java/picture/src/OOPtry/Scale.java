@@ -129,7 +129,7 @@ public class Scale {
             if(y%n != 0) { 
                 for(int x = x1; x < x2; x++) {
                     if(x%n != 0) { 
-                        if(pictureArray[x][y] == 0) {
+                        if(pictureArray[y][x] == 0) {
                             System.out.print("0 ");
                         } else {
                             System.out.print("1 ");

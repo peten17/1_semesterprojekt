@@ -69,7 +69,7 @@ public class PictureinOOP {
                     System.out.print("Wrong answer, please try again: ");
                 }
             } else {
-                System.out.println("1Full picture or a specific part? Answer FP or SP");
+                System.out.println("Full picture or a specific part? Answer FP or SP");
                 fullorPart = sc.nextLine();
          
                 if (fullorPart.compareTo("FP") == 0) { // compare giver 0 hvis de to Strings er ens. https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
@@ -85,7 +85,7 @@ public class PictureinOOP {
         }
         
         // Setup roboClient
-        String hostName = "localhost";
+        String hostName = "192.168.0.103";
         int port = 12345;
         RobotClient roboC = new  RobotClient(hostName, port);
 
@@ -122,7 +122,7 @@ public class PictureinOOP {
 
         } else if(picturePart) {
             System.out.println("Specific part? Alright, please type in two x-values and y-values");
-            System.out.println("values for " + "x, has to value within: " + cImage.getWidth() + "and y, within: " + cImage.getHeight());
+            System.out.println("values for " + "x, has to value within: " + cImage.getWidth() + " and y, within: " + cImage.getHeight());
             System.out.println("x1 has to be smaller than x2 and so goes for y1 and y2");
 
             System.out.println("x1: ");
