@@ -33,7 +33,7 @@ public class PartImage {
    public void drawImage(int x1,int y1, int x2,int y2,byte pictureArray[][]) {
         for(int y = y1; y < y2; y++) {
             for(int x = x1; x < x2; x++) {
-                if(pictureArray[x][y] == 0) {
+                if(pictureArray[y][x] == 0) {
                     System.out.print("0 ");
                 } else {
                     System.out.print("1 ");
