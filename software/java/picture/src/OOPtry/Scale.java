@@ -8,14 +8,15 @@ public class Scale {
     private int iWidth;            
     private long pAmount;
     private long spAmount;
-    private int n = 1000;
+    private int n;
     
     
     private char upOrDown;
-    private String message = "";
+    private String message;
     
     
     Scale(BufferedImage image) {
+        message = "";
         this.iHeight = image.getHeight();
         this.iWidth = image.getWidth();
         this.pAmount = this.iHeight*this.iWidth;
@@ -45,7 +46,6 @@ public class Scale {
                 
                 if (this.spAmount < limit || n == 2) {
                     this.n = n;
-                    System.out.println("It is alright O-O" + n);
                     break;
                 } else {
                     if (n > 2) {
@@ -83,15 +83,11 @@ public class Scale {
                     if(x%n != 0) {
                         if(x < image.getHeight() && y < image.getWidth()) {
                             if(pictureArray[y][x] == 0) {
-                               upOrDown = '0';
+                               upOrDown = 'U';
                             } else {
-                               upOrDown = '1';
+                               upOrDown = 'D';
                             }
                             message = message + upOrDown;
-                        }
-                        
-                        if(x < image.getWidth()-2) {
-                            message = message + 'R' ;
                         }
                     }
                 }
@@ -112,15 +108,12 @@ public class Scale {
             if(y%n != 0) {
                 for(int x = x1; x < x2; x++) { 
                     if(x%n != 0) { 
-                        if (pictureArray[y][x] == 1) {
-                           upOrDown = '1';
+                        if (pictureArray[y][x] == 0) {
+                           upOrDown = 'U';
                         } else {
-                           upOrDown = '0';
+                           upOrDown = 'D';
                         }
                         message = message + upOrDown;
-                        if(x < x2-2) {
-                            message = message + 'R' ;
-                        }
                     }
                 }   
                 message = message + 'N';
@@ -136,7 +129,7 @@ public class Scale {
             if(y%n != 0) { 
                 for(int x = x1; x < x2; x++) {
                     if(x%n != 0) { 
-                        if(pictureArray[x][y] == 0) {
+                        if(pictureArray[y][x] == 0) {
                             System.out.print("0 ");
                         } else {
                             System.out.print("1 ");

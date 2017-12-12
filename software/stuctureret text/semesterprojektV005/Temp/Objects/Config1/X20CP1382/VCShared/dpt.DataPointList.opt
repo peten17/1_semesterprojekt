@@ -1,0 +1,12 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/Users/peter/OneDrive/Dokumenter/GitHub/1_semesterprojekt/software/stuctureret text/semesterprojekt_v003/Physical/Config1/X20CP1382/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="Draw" Source="Draw.prg" />
+      <Task Name="reset" Source="reset.prg" />
+      <Task Name="emergencyS" Source="emergencyStop.prg" />
+      <Task Name="TCP" Source="TCP.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

@@ -6,7 +6,7 @@ VAR
 	enabY : BOOL;
 	enabZ : BOOL;
 	drawFunction : BOOL;
-	input : ARRAY[0..1999999] OF UINT;
+	input : ARRAY[0..1999999] OF USINT;
 	posX : UDINT;
 	posY : UDINT;
 	posZ : UDINT;

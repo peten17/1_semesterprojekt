@@ -19,5 +19,6 @@
     <DefaultTargetMemory Tasks="UserROM" />
     <Transfer AdditionalUserDir="" AddToUserPart="false" AllowInitialTransfer="false" AllowPartitioning="false" CreatePIPEntryForOldTargets="true" ExecuteInitExitProgram="true" ForceInitialTransfer="false" IdentificationTypeValue="" IgnoreVersion="true" KeepNonVolatileMemory="false" PreserveVariableValues="false" ProjectConsistent="false" RebootDuringTransfer="true" TargetIdentificationType="Always" UserFilesIgnoreDifference="false" />
     <Vc FirmwareVersion="V4.33.0" />
+    <OnlineConfiguration Name="ARsim_TCPIP" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=1" ConnectionParameters="/RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1" Description="" />
   </Configuration>
 </Cpu>

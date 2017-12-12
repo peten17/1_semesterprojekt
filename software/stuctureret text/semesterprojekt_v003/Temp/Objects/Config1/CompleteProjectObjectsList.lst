@@ -16,7 +16,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="131570263334084562"
+    LastWriteTime="131571306411450668"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Libraries\Package.pkg"
@@ -216,7 +216,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Draw\Main.st"
     LogicalPath="Draw.Main.st"
     Type="File"
-    LastWriteTime="131570298471673792"
+    LastWriteTime="131571116666396397"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Draw\Types.typ"
@@ -239,7 +239,11 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\reset\Main.st"
     LogicalPath="reset.Main.st"
     Type="File"
+<<<<<<< HEAD
+    LastWriteTime="131570339576976229"
+=======
     LastWriteTime="131567776560000000"
+>>>>>>> d5b8d54a60252f4b00e3bf32a6dc7298fa0b9dc5
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\reset\Types.typ"
@@ -280,12 +284,12 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\IEC.prg"
     LogicalPath="TCP"
     Type="Program"
-    LastWriteTime="131568735860000000" />
+    LastWriteTime="131571090286710942" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\Main.st"
     LogicalPath="TCP.Main.st"
     Type="File"
-    LastWriteTime="131569763714347959"
+    LastWriteTime="131571233435891624"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\Types.typ"
@@ -297,8 +301,20 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\Variables.var"
     LogicalPath="TCP.Variables.var"
     Type="File"
-    LastWriteTime="131568742160000000"
+    LastWriteTime="131571194137602632"
     Private="true" />
+  <Object
+    Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\LocalFunctions.fun"
+    LogicalPath="TCP.LocalFunctions.fun"
+    Type="File"
+    LastWriteTime="131571090286229658"
+    Private="true" />
+  <Object
+    Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\TCP\addArray.st"
+    LogicalPath="TCP.addArray.st"
+    Type="File"
+    LastWriteTime="131571193582953016"
+    Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Visu_4\Vc.dob"
     LogicalPath="Visu_4"
@@ -319,24 +335,38 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="131570260510351230"
+    LastWriteTime="131571304924872832"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\Hardware.hwl"
     LogicalPath="Config1.Hardware.hwl"
     Type="File"
-    LastWriteTime="131569614273714967"
+    LastWriteTime="131571077532618539"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\X20CP1382\Cpu.pkg"
     LogicalPath="Config1.X20CP1382"
     Type="Cpu"
+<<<<<<< HEAD
+<<<<<<< HEAD
+    LastWriteTime="131571223146865821" />
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> aa98d7d619b4585123ace105cda5f271e845819e
+    LastWriteTime="131570258815032234" />
+=======
     LastWriteTime="131569390261564398" />
+>>>>>>> d5b8d54a60252f4b00e3bf32a6dc7298fa0b9dc5
+<<<<<<< HEAD
+>>>>>>> 9748b289d36d633712abd2e5c056197ce3574285
+=======
+>>>>>>> aa98d7d619b4585123ace105cda5f271e845819e
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\X20CP1382\Cpu.sw"
     LogicalPath="Config1.X20CP1382.Cpu.sw"
     Type="File"
-    LastWriteTime="131570260510361259"
+    LastWriteTime="131571077533857072"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\X20CP1382\Cpu.per"
@@ -475,7 +505,7 @@
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="131570298474204711"
+    LastWriteTime="131571306618099032"
     Private="false" />
   <Object
     Path="C:\Users\gusta\Documents\GitHub\1_semesterprojekt\software\stuctureret text\semesterprojekt_v003\Logical\Libraries\AsBrStr\SG4\AsBrStr.h"

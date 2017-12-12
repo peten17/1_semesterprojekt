@@ -8,8 +8,8 @@
   <Operation Delete="reset.br"/>
   <Operation Delete="Draw.br"/>
   <Operation Delete="Visu_1.br"/>
-  <Operation Delete="vccbar.br"/>
   <Operation Delete="AsMbTCP.br"/>
+  <Operation Delete="vccbar.br"/>
   <Operation Delete="vccshape.br"/>
   <Operation Delete="vcbclass.br"/>
   <Operation Delete="vctcal.br"/>
@@ -43,21 +43,21 @@
   <Operation Delete="dataobj.br"/>
   <Operation Delete="vcnet.br"/>
   <Operation Delete="ashw.br"/>
-  <Operation Download="asfw.br" Memory="SystemROM"/>
   <Operation Download="ashwd.br" Memory="SystemROM"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
   <Operation Download="arconfig.br" Memory="SystemROM"/>
   <Operation Download="sysconf.br" Memory="SystemROM"/>
   <Operation Restart="warm"/>
   <Operation Download="udbdef.br" Memory="UserROM"/>
   <Operation Download="TCData.br" Memory="SystemROM"/>
-  <Operation Download="Role.br" Memory="UserROM"/>
-  <Operation Download="User.br" Memory="UserROM"/>
-  <Operation Download="iomap.br" Memory="UserROM"/>
   <Operation Download="ashwac.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
   <Operation Download="standard.br" Memory="UserROM"/>
-  <Operation Download="vcresman.br" Memory="UserROM"/>
   <Operation Download="runtime.br" Memory="UserROM"/>
   <Operation Download="AsBrStr.br" Memory="UserROM"/>
+  <Operation Download="vcresman.br" Memory="UserROM"/>
   <Operation Download="ashw.br" Memory="UserROM"/>
   <Operation Download="vcnet.br" Memory="UserROM"/>
   <Operation Download="dataobj.br" Memory="UserROM"/>
@@ -91,8 +91,8 @@
   <Operation Download="vctcal.br" Memory="UserROM"/>
   <Operation Download="vcbclass.br" Memory="UserROM"/>
   <Operation Download="vccshape.br" Memory="UserROM"/>
-  <Operation Download="AsMbTCP.br" Memory="UserROM"/>
   <Operation Download="vccbar.br" Memory="UserROM"/>
+  <Operation Download="AsMbTCP.br" Memory="UserROM"/>
   <Operation Download="Visu_1.br" Memory="UserROM"/>
   <Operation Download="Draw.br" Memory="UserROM"/>
   <Operation Download="reset.br" Memory="UserROM"/>

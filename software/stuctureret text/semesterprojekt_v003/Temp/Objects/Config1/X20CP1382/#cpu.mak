@@ -46,7 +46,7 @@ $(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/Transfer.lst: \
 	$(AS_CPU_PATH)/User.br \
 	$(AS_CPU_PATH)/TCData.br \
 	$(AS_PROJECT_CPU_PATH)/Cpu.sw
-	@'$(AS_BIN_PATH)/BR.AS.FinalizeBuild.exe' '$(AS_PROJECT_PATH)/semesterprojekt.apj' -t '$(AS_TEMP_PATH)' -o '$(AS_BINARIES_PATH)' -c '$(AS_CONFIGURATION)' -i 'C:/BrAutomation/AS43' -S 'X20CP1382'   -A 'X20CP1382' -pil   -swFiles '$(AS_PROJECT_PATH)/Physical/Config1/X20CP1382/Cpu.sw' -Z 'Acp10Arnc0: 3.16.2, mapp: 1.60.0, UnitSystem: n.d, TextSystem: n.d, Connectivity: n.d, AAS: n.d' -C '/RT=1000 /AM=*' -D '/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0' -M IA32 -T SG4
+	@'$(AS_BIN_PATH)/BR.AS.FinalizeBuild.exe' '$(AS_PROJECT_PATH)/semesterprojekt.apj' -t '$(AS_TEMP_PATH)' -o '$(AS_BINARIES_PATH)' -c '$(AS_CONFIGURATION)' -i 'C:/BrAutomation/AS43' -S 'X20CP1382'   -A 'X20CP1382' -pil   -swFiles '$(AS_PROJECT_PATH)/Physical/Config1/X20CP1382/Cpu.sw' -Z 'Acp10Arnc0: 3.16.2, mapp: 1.60.0, UnitSystem: n.d, TextSystem: n.d, Connectivity: n.d, AAS: n.d' -C '/RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1' -D '/IF=tcpip /LOPO=11159 /SA=1' -M IA32 -T SG4
 
 #nothing to do (just call module make files)
 
