@@ -62,7 +62,7 @@ public class Scale {
                 for(int x = 0; x < this.iWidth; x++) {
 
                     if(x%n != 0) {
-                        if(pictureArray[x][y] == 0) {
+                        if(pictureArray[y][x] == 0) {
                             System.out.print("0 ");
                         } else {
                             System.out.print("1 ");

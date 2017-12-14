@@ -17,16 +17,16 @@ public class PictureinOOP {
         Scanner sc = new Scanner(System.in);
             
         String fileName;
-        BufferedImage cImage = null; //Forskel på declaration og initialization
+        BufferedImage cImage = null; 
         
         while(true){
-            System.out.println("Write picture file name:"); //Star.png
+            System.out.println("Write picture file name:"); 
             fileName = sc.nextLine();
             
             try {
-                cImage = ImageIO.read(new File(fileName)); // placeringen af filen er relativ til java filen. https://docs.oracle.com/javase/7/docs/api/javax/imageio/ImageIO.html#read(java.io.File)
+                cImage = ImageIO.read(new File(fileName)); // Placeringen af filen er relativ til java filen.
                 break;
-            } catch (IOException | IllegalArgumentException e) { // | er en bitwis OR operator. hvis enten det på højre eller venstre side af en bitvis OR operator er 1, så giver det 1. https://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html
+            } catch (IOException | IllegalArgumentException e) { 
 
             }
         }
@@ -59,7 +59,7 @@ public class PictureinOOP {
                 System.out.println("Full picture or a specific part? Answer FP or SP");
                 fullorPart = sc.nextLine();
                 
-                if (fullorPart.compareTo("FP") == 0) { // compare giver 0 hvis de to Strings er ens. https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+                if (fullorPart.compareTo("FP") == 0) { // compare giver 0 hvis de to Strings er ens.
                     fullPicture = true;
                     break;
                 } else if(fullorPart.compareTo("SP") == 0) {
@@ -72,7 +72,7 @@ public class PictureinOOP {
                 System.out.println("Full picture or a specific part? Answer FP or SP");
                 fullorPart = sc.nextLine();
          
-                if (fullorPart.compareTo("FP") == 0) { // compare giver 0 hvis de to Strings er ens. https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+                if (fullorPart.compareTo("FP") == 0) { // compare giver 0 hvis de to Strings er ens.
                     fullScaleNeeded = true;
                     break;
                 } else if(fullorPart.compareTo("SP") == 0) {
@@ -167,16 +167,16 @@ public class PictureinOOP {
             scaledImage.amountOfScaling(pictureArray);
             
             int n = scaledImage.getValueN();
-//            long scaledPixelAmount = scaledImage.getValueSPAmount();
+
             scaledImage.drawImage(pictureArray, n);
             String scaledMessage = scaledImage.convertToMessage(pictureArray, cImage, n);
             System.out.println(scaledMessage);
-//            System.out.println("Scaled message, length: " + scaledMessage.length());
-//            System.out.println("n has the value: " + n);
-//            System.out.println("The scaled pictures amount of pixels: " + scaledPixelAmount);
-//            System.out.println("The original pictures amount of pixels: " + scaledImage.getValuePAmount());
+
             
-            //Write scaled message
+            
+            
+            
+           
 
             //Connect and send to PLC
             roboC.connect();
